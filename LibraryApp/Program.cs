@@ -1,17 +1,45 @@
-var builder = WebApplication.CreateBuilder(args);
+using Microsoft.EntityFrameworkCore;
+using Serilog;
 
-// Add services to the container.
+namespace LibraryApp
+{
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddControllers();
+            builder.Services.AddSerilog(
+                    config =>
+                        config
+                            .MinimumLevel.Information()
+                            .WriteTo.Console()
+                            .WriteTo.File("log.txt"));
 
-var app = builder.Build();
+            builder.Services.AddControllers();
+            builder.Services.AddEndpointsApiExplorer();
+            builder.Services.AddSwaggerGen();
 
-// Configure the HTTP request pipeline.
 
-app.UseHttpsRedirection();
+            var app = builder.Build();
 
-app.UseAuthorization();
+            if (app.Environment.IsDevelopment())
+            {
+                app.UseSwagger();
+                app.UseSwaggerUI();
+            }
 
-app.MapControllers();
+            app.UseCors(o => o.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin());
 
-app.Run();
+            app.UseHttpsRedirection();
+
+            app.UseAuthorization();
+
+            app.MapControllers();
+
+            app.Run();
+        }
+
+
+    }
+}
