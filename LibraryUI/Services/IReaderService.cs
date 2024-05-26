@@ -8,11 +8,13 @@ namespace LibraryApp.UI.Services
 
         Task<Readers> GetReadersAsync(Guid id);
 
-        Task UpdateReadersAsync(Readers readers);
+        Task UpdateReadersAsync(Guid id,Readers readers);
 
         Task DeleteReadersAsync(Guid id);
 
         Task<IEnumerable<Readers>> GetReadersAsync();
+
+        Task<IEnumerable<Loaning>> GetLoaningBooksOfReaderc(Guid readerId);
 
     }
 }

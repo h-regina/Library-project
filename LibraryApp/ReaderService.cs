@@ -22,10 +22,10 @@ namespace LibraryApp
 
                 _logger.LogInformation("Reader added: @{ReaderId}", readers.ReaderId);
             }
-            catch (Exception ex)
+            catch
             {
                 _logger.LogError("An error occurred while adding reader");
-                throw ex;
+                throw;
             }
            
         }
@@ -40,10 +40,10 @@ namespace LibraryApp
 
                 _logger.LogInformation("Reader removed: @{ReaderId}", reader);
             }
-            catch (Exception ex)
+            catch
             {
                 _logger.LogError("An error occurred while removing reader");
-                throw ex;
+                throw;
             }
         }
 
@@ -55,10 +55,10 @@ namespace LibraryApp
                 _logger.LogInformation("Reader retrieved: {@Readers}", reader);
                 return reader;
             }
-            catch(Exception ex)
+            catch
             {
                 _logger.LogError("An error occurred while querying the readers");
-                throw ex;
+                throw;
             }
         }
 
@@ -72,7 +72,7 @@ namespace LibraryApp
            return await _context.Loanings.Where(id => id.ReaderId == ReaderId).ToListAsync();
         }
 
-        public async Task Update(Readers newReader)
+        public async Task Update(Guid id, Readers newReader)
         {
            try
             {
@@ -83,10 +83,10 @@ namespace LibraryApp
 
                 await _context.SaveChangesAsync();
             }
-            catch( Exception ex )
+            catch
             {
                 _logger.LogError("An error occurred while updating reader");
-                throw ex;
+                throw;
             }
         }
     }

@@ -24,10 +24,10 @@ namespace LibraryApp
 
                 _logger.LogInformation("Book added: @{InventoryNumber}", books.InventoryNumber);
             }
-            catch (Exception ex)
+            catch
             {
                 _logger.LogError("An error occurred while adding book");
-                throw ex;
+                throw;
             }
         }
 
@@ -41,10 +41,10 @@ namespace LibraryApp
 
                 _logger.LogInformation("Book removed: @{InventoryNumber}", book);
             }
-            catch (Exception ex)
+            catch
             {
                 _logger.LogError("An error occurred while removing book");
-                throw ex;
+                throw;
             }
         }
 
@@ -56,10 +56,10 @@ namespace LibraryApp
                 _logger.LogInformation("Books retrieved: {@Books}", book);
                 return book;
             }
-            catch (Exception ex)
+            catch
             {
                 _logger.LogError("An error occurred while querying the books");
-                throw ex;
+                throw;
             }
         }
 
@@ -68,7 +68,7 @@ namespace LibraryApp
            return await _context.Books.ToListAsync();
         }
 
-        public async Task Update(Books newBooks)
+        public async Task Update(Guid id,Books newBooks)
         {
             try
             {
@@ -80,10 +80,10 @@ namespace LibraryApp
 
                 await _context.SaveChangesAsync();
             }
-            catch (Exception ex)
+            catch
             {
                 _logger.LogError("An error occurred while updating book");
-                throw ex;
+                throw ;
             }
         }
     }

@@ -8,7 +8,7 @@ namespace LibraryApp
 
         Task <Books> Get(Guid id);
 
-        Task Update(Books books);
+        Task Update(Guid id,Books books);
 
         Task Delete(Guid id);
 

@@ -34,8 +34,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSZWFkZXJzRm9ybS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/C\#/LibraryApp/LibraryUI/Pages/AddBook.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkQm9vay5yYXpvcg==
+[D:/C\#/LibraryApp/LibraryUI/Pages/BookAdd.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9va0FkZC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/C\#/LibraryApp/LibraryUI/Pages/Counter.razor]

@@ -8,7 +8,7 @@ namespace LibraryApp.UI.Services
 
         Task<Books> GetBooksAsync(Guid id);
 
-        Task UpdateBooksAsync(Books book);
+        Task UpdateBooksAsync(Guid id,Books book);
 
         Task DeleteBooksAsync(Guid id);
 
