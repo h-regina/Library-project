@@ -20,6 +20,14 @@ namespace LibraryApp
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
+            builder.Services.AddDbContext<LibraryContext>(options =>
+            {
+                options.UseSqlite(builder.Configuration.GetConnectionString("SQLite"));
+                options.UseLazyLoadingProxies();
+            }, ServiceLifetime.Singleton);
+
+            builder.Services.AddSingleton<IReadersService, ReaderService>();
+            builder.Services.AddSingleton<IBooksService, BookService>();
 
             var app = builder.Build();
 

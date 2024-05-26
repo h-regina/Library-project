@@ -1,0 +1,61 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\i3tvu97e4c.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\LibraryUI.styles.css",
+      "PackagePath": "staticwebassets\\LibraryUI.styles.css"
+    },
+    {
+      "Id": "D:\\C#\\LibraryApp\\LibraryUI\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "D:\\C#\\LibraryApp\\LibraryUI\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\C#\\LibraryApp\\LibraryUI\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\C#\\LibraryApp\\LibraryUI\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "D:\\C#\\LibraryApp\\LibraryUI\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "D:\\C#\\LibraryApp\\LibraryUI\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "D:\\C#\\LibraryApp\\LibraryUI\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.LibraryUI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.LibraryUI.props",
+      "PackagePath": "build\\LibraryUI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.LibraryUI.props",
+      "PackagePath": "buildMultiTargeting\\LibraryUI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.LibraryUI.props",
+      "PackagePath": "buildTransitive\\LibraryUI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

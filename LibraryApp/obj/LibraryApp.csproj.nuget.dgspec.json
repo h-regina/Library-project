@@ -28,8 +28,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\C#\\LibraryApp\\LibraryShared\\LibraryShared.csproj": {
-                "projectPath": "D:\\C#\\LibraryApp\\LibraryShared\\LibraryShared.csproj"
+              "D:\\C#\\LibraryApp\\LibraryShared\\Library.Shared.csproj": {
+                "projectPath": "D:\\C#\\LibraryApp\\LibraryShared\\Library.Shared.csproj"
               }
             }
           }
@@ -105,12 +105,12 @@
         }
       }
     },
-    "D:\\C#\\LibraryApp\\LibraryShared\\LibraryShared.csproj": {
+    "D:\\C#\\LibraryApp\\LibraryShared\\Library.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#\\LibraryApp\\LibraryShared\\LibraryShared.csproj",
-        "projectName": "LibraryShared",
-        "projectPath": "D:\\C#\\LibraryApp\\LibraryShared\\LibraryShared.csproj",
+        "projectUniqueName": "D:\\C#\\LibraryApp\\LibraryShared\\Library.Shared.csproj",
+        "projectName": "Library.Shared",
+        "projectPath": "D:\\C#\\LibraryApp\\LibraryShared\\Library.Shared.csproj",
         "packagesPath": "C:\\Users\\regi\\.nuget\\packages\\",
         "outputPath": "D:\\C#\\LibraryApp\\LibraryShared\\obj\\",
         "projectStyle": "PackageReference",

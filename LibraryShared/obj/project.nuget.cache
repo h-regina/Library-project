@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "p4wmWKxkZbr5iT5wKUvET3eG8uel0ExlaImXkWhQ9Oz/3DKbnbrWmYg7qwG3w/NhBREv6gn0sPdWhxwYjbvgOw==",
+  "dgSpecHash": "7rJIAbTIvowXYw2QewFk6UTvk6e+UpuCDGOnCi/eLJ57K7iR9i8HRpJVAtQedoccVPHiFsTrurysklhJgO9HHg==",
   "success": true,
-  "projectFilePath": "D:\\C#\\LibraryApp\\LibraryShared\\LibraryShared.csproj",
+  "projectFilePath": "D:\\C#\\LibraryApp\\LibraryShared\\Library.Shared.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

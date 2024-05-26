@@ -1,0 +1,41 @@
+2024-05-26 13:10:07.269 +02:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-05-26 13:10:07.371 +02:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "__EFMigrationsHistory" (
+    "MigrationId" TEXT NOT NULL CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY,
+    "ProductVersion" TEXT NOT NULL
+);
+2024-05-26 13:10:07.378 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-05-26 13:10:07.386 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2024-05-26 13:10:07.414 +02:00 [INF] Applying migration '20240526110435_Initial'.
+2024-05-26 13:10:07.439 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Books" (
+    "InventoryNumber" TEXT NOT NULL CONSTRAINT "PK_Books" PRIMARY KEY,
+    "BookTitle" TEXT NOT NULL,
+    "Author" TEXT NOT NULL,
+    "Publisher" TEXT NOT NULL,
+    "PublicationYear" TEXT NOT NULL
+);
+2024-05-26 13:10:07.442 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Loanings" (
+    "LoaningDate" TEXT NOT NULL CONSTRAINT "PK_Loanings" PRIMARY KEY,
+    "ReaderId" TEXT NOT NULL,
+    "InventoryNumber" TEXT NOT NULL,
+    "ReturnDate" TEXT NOT NULL,
+    CONSTRAINT "FK_Readers_ReaderId" FOREIGN KEY ("ReaderId") REFERENCES "Readers" ("ReaderId") ON DELETE CASCADE,
+    CONSTRAINT "FK_Books_InventoryNumber" FOREIGN KEY ("InventoryNumber") REFERENCES "Books" ("InventoryNumber") ON DELETE CASCADE
+);
+2024-05-26 13:10:07.445 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Readers" (
+    "ReaderId" TEXT NOT NULL CONSTRAINT "PK_Readers" PRIMARY KEY,
+    "Name" TEXT NOT NULL,
+    "Address" TEXT NOT NULL,
+    "BirthDate" TEXT NOT NULL
+);
+2024-05-26 13:10:07.450 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20240526110435_Initial', '8.0.5');
