@@ -1,4 +1,4 @@
-﻿using LibraryShared;
+﻿using LibraryApp.Shared;
 
 namespace LibraryApp
 {

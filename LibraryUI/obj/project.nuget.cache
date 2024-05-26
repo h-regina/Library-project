@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EAv/9irLMUT8ENgte/LFV6Gek3KUhz3f7RHxKMAhFKLbDkhnsdfgkbdgjC61zKt3v6JvawjdEIYO6GE12d5IYg==",
+  "dgSpecHash": "yN2QBqClzOUuzxS0fZSF0AsoJsJZDHXATSeH6vmuOcr3X/r4RLLF+TAWEkw9y/IfPr+5T+KQA5aXoZ+P+gr7hQ==",
   "success": true,
-  "projectFilePath": "D:\\C#\\LibraryApp\\LibraryUI\\LibraryUI.csproj",
+  "projectFilePath": "D:\\C#\\LibraryApp\\LibraryUI\\LibraryApp.UI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\regi\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.3\\microsoft.aspnetcore.authorization.8.0.3.nupkg.sha512",
     "C:\\Users\\regi\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.3\\microsoft.aspnetcore.components.8.0.3.nupkg.sha512",

@@ -5,9 +5,9 @@ VisualStudioVersion = 17.9.34714.143
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibraryApp", "LibraryApp\LibraryApp.csproj", "{1CAEB488-F2E6-4975-9944-FD46D79A92BE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibraryUI", "LibraryUI\LibraryUI.csproj", "{694A2E56-60B5-4DC8-B068-42ADEC6AFEB0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibraryApp.UI", "LibraryUI\LibraryApp.UI.csproj", "{694A2E56-60B5-4DC8-B068-42ADEC6AFEB0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Library.Shared", "LibraryShared\Library.Shared.csproj", "{254C74B4-A695-4CF4-9EE3-92FDB203F52F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibraryApp.Shared", "LibraryShared\LibraryApp.Shared.csproj", "{254C74B4-A695-4CF4-9EE3-92FDB203F52F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

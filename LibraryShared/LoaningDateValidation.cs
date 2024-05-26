@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace LibraryShared
+namespace LibraryApp.Shared
 {
     public class LoaningDateValidation : ValidationAttribute
     {

@@ -1,4 +1,4 @@
-﻿using LibraryShared;
+﻿using LibraryApp.Shared;
 using Microsoft.EntityFrameworkCore;
 
 namespace LibraryApp

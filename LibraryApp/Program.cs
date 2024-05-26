@@ -27,7 +27,7 @@ namespace LibraryApp
             }, ServiceLifetime.Singleton);
 
             builder.Services.AddSingleton<IReadersService, ReaderService>();
-            builder.Services.AddSingleton<IBooksService, BookService>();
+            builder.Services.AddSingleton<IBooksService, BooksService>();
 
             var app = builder.Build();
 

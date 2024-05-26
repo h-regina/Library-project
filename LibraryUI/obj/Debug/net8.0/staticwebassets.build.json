@@ -1,15 +1,15 @@
 {
   "Version": 1,
-  "Hash": "ODhkGLPkHIdtlaqHGl7JEWTyvm9AymJV1lOhJaTBwlo=",
-  "Source": "LibraryUI",
+  "Hash": "meSjtJqxBdW9nnPQm61GV6a3StRtnfbjksZjPY/6Dis=",
+  "Source": "LibraryApp.UI",
   "BasePath": "/",
   "Mode": "Root",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "LibraryUI\\wwwroot",
-      "Source": "LibraryUI",
+      "Name": "LibraryApp.UI\\wwwroot",
+      "Source": "LibraryApp.UI",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\wwwroot\\",
       "BasePath": "/",
       "Pattern": "**"
@@ -18,7 +18,7 @@
   "Assets": [
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.boot.json",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -37,7 +37,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -56,7 +56,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -75,7 +75,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js.map",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -94,7 +94,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.8.0.3.b28llv98hs.js",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -113,7 +113,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -132,7 +132,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.8.0.3.qc7dytvk20.js",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -151,7 +151,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.js.map",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -170,7 +170,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_CJK.dat",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -189,7 +189,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_EFIGS.dat",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -208,7 +208,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_no_CJK.dat",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -226,12 +226,12 @@
       "OriginalItemSpec": "C:\\Users\\regi\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.3\\runtimes\\browser-wasm\\native\\icudt_no_CJK.dat"
     },
     {
-      "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\LibraryUI.pdb",
-      "SourceId": "LibraryUI",
+      "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\LibraryApp.UI.pdb",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "_framework/LibraryUI.pdb",
+      "RelativePath": "_framework/LibraryApp.UI.pdb",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -242,15 +242,15 @@
       "AssetTraitValue": "symbol",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "obj\\Debug\\net8.0\\LibraryUI.pdb"
+      "OriginalItemSpec": "obj\\Debug\\net8.0\\LibraryApp.UI.pdb"
     },
     {
-      "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\LibraryUI.wasm",
-      "SourceId": "LibraryUI",
+      "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\LibraryApp.UI.wasm",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "_framework/LibraryUI.wasm",
+      "RelativePath": "_framework/LibraryApp.UI.wasm",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -261,11 +261,11 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\webcil\\LibraryUI.wasm"
+      "OriginalItemSpec": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\webcil\\LibraryApp.UI.wasm"
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -284,7 +284,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -303,7 +303,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -322,7 +322,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Web.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -341,7 +341,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.WebAssembly.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -360,7 +360,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -379,7 +379,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.CSharp.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -398,7 +398,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.Extensions.Configuration.Abstractions.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -417,7 +417,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.Extensions.Configuration.Binder.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -436,7 +436,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.Extensions.Configuration.FileExtensions.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -455,7 +455,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.Extensions.Configuration.Json.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -474,7 +474,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.Extensions.Configuration.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -493,7 +493,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.Abstractions.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -512,7 +512,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -531,7 +531,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.Extensions.FileProviders.Abstractions.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -550,7 +550,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.Extensions.FileProviders.Physical.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -569,7 +569,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.Extensions.FileSystemGlobbing.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -588,7 +588,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -607,7 +607,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -626,7 +626,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.Extensions.Options.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -645,7 +645,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.Extensions.Primitives.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -664,7 +664,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.JSInterop.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -683,7 +683,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.JSInterop.WebAssembly.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -702,7 +702,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.VisualBasic.Core.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -721,7 +721,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.VisualBasic.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -740,7 +740,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.Win32.Primitives.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -759,7 +759,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.Win32.Registry.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -778,7 +778,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\mscorlib.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -797,7 +797,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\netstandard.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -816,7 +816,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.AppContext.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -835,7 +835,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Buffers.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -854,7 +854,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Collections.Concurrent.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -873,7 +873,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Collections.Immutable.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -892,7 +892,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Collections.NonGeneric.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -911,7 +911,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Collections.Specialized.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -930,7 +930,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Collections.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -949,7 +949,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.ComponentModel.Annotations.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -968,7 +968,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.ComponentModel.DataAnnotations.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -987,7 +987,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.ComponentModel.EventBasedAsync.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1006,7 +1006,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.ComponentModel.Primitives.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1025,7 +1025,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.ComponentModel.TypeConverter.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1044,7 +1044,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.ComponentModel.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1063,7 +1063,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Configuration.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1082,7 +1082,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Console.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1101,7 +1101,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Core.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1120,7 +1120,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Data.Common.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1139,7 +1139,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Data.DataSetExtensions.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1158,7 +1158,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Data.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1177,7 +1177,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Diagnostics.Contracts.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1196,7 +1196,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Diagnostics.Debug.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1215,7 +1215,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Diagnostics.DiagnosticSource.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1234,7 +1234,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Diagnostics.FileVersionInfo.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1253,7 +1253,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Diagnostics.Process.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1272,7 +1272,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Diagnostics.StackTrace.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1291,7 +1291,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Diagnostics.TextWriterTraceListener.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1310,7 +1310,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Diagnostics.Tools.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1329,7 +1329,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Diagnostics.TraceSource.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1348,7 +1348,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Diagnostics.Tracing.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1367,7 +1367,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Drawing.Primitives.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1386,7 +1386,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Drawing.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1405,7 +1405,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Dynamic.Runtime.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1424,7 +1424,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Formats.Asn1.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1443,7 +1443,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Formats.Tar.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1462,7 +1462,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Globalization.Calendars.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1481,7 +1481,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Globalization.Extensions.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1500,7 +1500,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Globalization.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1519,7 +1519,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.IO.Compression.Brotli.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1538,7 +1538,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.IO.Compression.FileSystem.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1557,7 +1557,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.IO.Compression.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1576,7 +1576,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.IO.Compression.ZipFile.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1595,7 +1595,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.IO.FileSystem.AccessControl.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1614,7 +1614,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.IO.FileSystem.DriveInfo.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1633,7 +1633,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.IO.FileSystem.Primitives.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1652,7 +1652,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.IO.FileSystem.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1671,7 +1671,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.IO.FileSystem.Watcher.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1690,7 +1690,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.IO.IsolatedStorage.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1709,7 +1709,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.IO.MemoryMappedFiles.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1728,7 +1728,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.IO.Pipelines.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1747,7 +1747,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.IO.Pipes.AccessControl.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1766,7 +1766,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.IO.Pipes.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1785,7 +1785,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.IO.UnmanagedMemoryStream.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1804,7 +1804,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.IO.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1823,7 +1823,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Linq.Expressions.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1842,7 +1842,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Linq.Parallel.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1861,7 +1861,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Linq.Queryable.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1880,7 +1880,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Linq.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1899,7 +1899,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Memory.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1918,7 +1918,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Net.Http.Json.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1937,7 +1937,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Net.Http.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1956,7 +1956,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Net.HttpListener.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1975,7 +1975,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Net.Mail.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1994,7 +1994,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Net.NameResolution.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2013,7 +2013,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Net.NetworkInformation.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2032,7 +2032,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Net.Ping.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2051,7 +2051,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Net.Primitives.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2070,7 +2070,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Net.Quic.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2089,7 +2089,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Net.Requests.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2108,7 +2108,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Net.Security.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2127,7 +2127,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Net.ServicePoint.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2146,7 +2146,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Net.Sockets.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2165,7 +2165,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Net.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2184,7 +2184,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Net.WebClient.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2203,7 +2203,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Net.WebHeaderCollection.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2222,7 +2222,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Net.WebProxy.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2241,7 +2241,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Net.WebSockets.Client.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2260,7 +2260,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Net.WebSockets.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2279,7 +2279,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Numerics.Vectors.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2298,7 +2298,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Numerics.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2317,7 +2317,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.ObjectModel.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2336,7 +2336,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Private.CoreLib.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2355,7 +2355,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Private.DataContractSerialization.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2374,7 +2374,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Private.Uri.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2393,7 +2393,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Private.Xml.Linq.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2412,7 +2412,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Private.Xml.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2431,7 +2431,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Reflection.DispatchProxy.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2450,7 +2450,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Reflection.Emit.ILGeneration.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2469,7 +2469,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Reflection.Emit.Lightweight.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2488,7 +2488,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Reflection.Emit.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2507,7 +2507,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Reflection.Extensions.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2526,7 +2526,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Reflection.Metadata.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2545,7 +2545,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Reflection.Primitives.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2564,7 +2564,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Reflection.TypeExtensions.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2583,7 +2583,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Reflection.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2602,7 +2602,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Resources.Reader.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2621,7 +2621,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Resources.ResourceManager.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2640,7 +2640,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Resources.Writer.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2659,7 +2659,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Runtime.CompilerServices.Unsafe.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2678,7 +2678,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Runtime.CompilerServices.VisualC.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2697,7 +2697,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Runtime.Extensions.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2716,7 +2716,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Runtime.Handles.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2735,7 +2735,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Runtime.InteropServices.JavaScript.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2754,7 +2754,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Runtime.InteropServices.RuntimeInformation.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2773,7 +2773,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Runtime.InteropServices.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2792,7 +2792,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Runtime.Intrinsics.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2811,7 +2811,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Runtime.Loader.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2830,7 +2830,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Runtime.Numerics.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2849,7 +2849,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Runtime.Serialization.Formatters.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2868,7 +2868,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Runtime.Serialization.Json.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2887,7 +2887,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Runtime.Serialization.Primitives.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2906,7 +2906,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Runtime.Serialization.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2925,7 +2925,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Runtime.Serialization.Xml.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2944,7 +2944,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Runtime.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2963,7 +2963,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Security.AccessControl.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2982,7 +2982,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Security.Claims.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3001,7 +3001,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Security.Cryptography.Algorithms.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3020,7 +3020,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Security.Cryptography.Cng.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3039,7 +3039,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Security.Cryptography.Csp.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3058,7 +3058,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Security.Cryptography.Encoding.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3077,7 +3077,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Security.Cryptography.OpenSsl.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3096,7 +3096,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Security.Cryptography.Primitives.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3115,7 +3115,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Security.Cryptography.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3134,7 +3134,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Security.Cryptography.X509Certificates.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3153,7 +3153,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Security.Principal.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3172,7 +3172,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Security.Principal.Windows.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3191,7 +3191,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Security.SecureString.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3210,7 +3210,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Security.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3229,7 +3229,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.ServiceModel.Web.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3248,7 +3248,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.ServiceProcess.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3267,7 +3267,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Text.Encoding.CodePages.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3286,7 +3286,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Text.Encoding.Extensions.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3305,7 +3305,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Text.Encoding.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3324,7 +3324,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Text.Encodings.Web.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3343,7 +3343,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Text.Json.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3362,7 +3362,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Text.RegularExpressions.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3381,7 +3381,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Threading.Channels.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3400,7 +3400,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Threading.Overlapped.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3419,7 +3419,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Threading.Tasks.Dataflow.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3438,7 +3438,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Threading.Tasks.Extensions.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3457,7 +3457,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Threading.Tasks.Parallel.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3476,7 +3476,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Threading.Tasks.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3495,7 +3495,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Threading.Thread.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3514,7 +3514,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Threading.ThreadPool.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3533,7 +3533,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Threading.Timer.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3552,7 +3552,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Threading.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3571,7 +3571,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Transactions.Local.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3590,7 +3590,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Transactions.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3609,7 +3609,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.ValueTuple.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3628,7 +3628,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3647,7 +3647,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Web.HttpUtility.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3666,7 +3666,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Web.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3685,7 +3685,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Windows.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3704,7 +3704,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Xml.Linq.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3723,7 +3723,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Xml.ReaderWriter.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3742,7 +3742,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Xml.Serialization.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3761,7 +3761,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Xml.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3780,7 +3780,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Xml.XDocument.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3799,7 +3799,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Xml.XmlDocument.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3818,7 +3818,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Xml.XmlSerializer.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3837,7 +3837,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Xml.XPath.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3856,7 +3856,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Xml.XPath.XDocument.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3875,7 +3875,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\WindowsBase.wasm",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3894,7 +3894,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\046fti94ge.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3913,7 +3913,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\076wxtwcrj.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3932,7 +3932,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\08p5eju0b9.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3951,7 +3951,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\0cqjlgtlkx.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3970,7 +3970,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\0m2e8cdg9r.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3989,7 +3989,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\0s3jfhqa3e.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4008,7 +4008,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\0zd8rkdazb.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4027,7 +4027,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\1h32zw7bg6.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4046,7 +4046,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\1jfaz59urn.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4064,8 +4064,27 @@
       "OriginalItemSpec": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Buffers.wasm"
     },
     {
+      "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\1oh0y59h5k.gz",
+      "SourceId": "LibraryApp.UI",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/LibraryApp.UI.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\LibraryApp.UI.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\LibraryApp.UI.wasm"
+    },
+    {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\1qrwbz0f3r.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4084,7 +4103,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\1zrlv12qxr.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4103,7 +4122,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\24sr9olz8q.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4122,7 +4141,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\299vkgjjev.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4141,7 +4160,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\2fj0cty2wm.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4160,7 +4179,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\2usuehzxch.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4179,7 +4198,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\349pc3hzai.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4198,7 +4217,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\3nr5ofnf96.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4217,7 +4236,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\3swf7a9ui0.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4236,7 +4255,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\446y2473v2.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4255,7 +4274,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\46g37tfk5h.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4274,7 +4293,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\4cgjqr6sqj.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4293,7 +4312,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\4lmh32sbjh.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4312,7 +4331,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\4thzs10z7x.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4331,7 +4350,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\57e5yeoi13.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4350,7 +4369,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\5f15037tvy.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4369,7 +4388,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\5t9o1cp80q.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4388,7 +4407,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\6c9as1416n.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4407,7 +4426,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\6dmf2adwqz.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4426,7 +4445,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\6hwl2i2c2f.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4445,7 +4464,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\6kcd82m5q2.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4464,7 +4483,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\6q2w9pubmd.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4483,7 +4502,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\6yr7t15py9.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4502,7 +4521,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\74b3kk3hs9.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4521,7 +4540,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\783w7oq9z3.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4540,7 +4559,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\797n1602ud.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4559,7 +4578,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\799nkoi2q4.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4578,7 +4597,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\7blv6creyd.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4597,7 +4616,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\7sgu7uidt4.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4616,7 +4635,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\7sn73w72qy.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4635,7 +4654,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\7tl9yajse3.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4654,7 +4673,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\7twg4xt0r1.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4673,7 +4692,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\7u52x632za.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4692,7 +4711,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\7v7r7wilj2.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4711,7 +4730,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\84demt48r9.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4729,27 +4748,8 @@
       "OriginalItemSpec": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Configuration.wasm"
     },
     {
-      "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\8c892lnhzj.gz",
-      "SourceId": "LibraryUI",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/LibraryUI.wasm.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\LibraryUI.wasm",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\LibraryUI.wasm"
-    },
-    {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\8td1fej3vm.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4768,7 +4768,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\90nef1aw2g.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4787,7 +4787,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\94ys3ngqii.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4806,7 +4806,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\96zzeka290.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4825,7 +4825,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\9j2llxzr6i.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4844,7 +4844,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\a6ptl4tmcv.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4863,7 +4863,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\appt0ffsee.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4882,7 +4882,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\awa72hwxh8.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4901,7 +4901,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\b28llv98hs.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4920,7 +4920,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\b8sh1qirjg.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4939,7 +4939,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\bbkcbnktmf.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4958,7 +4958,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\blcc4ik6k5.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4977,7 +4977,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\bm5vo7s7gn.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4996,7 +4996,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\bvshqum8gw.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5015,7 +5015,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\bxh2oz2wrg.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5034,7 +5034,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\c574nqubzh.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5053,7 +5053,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\c8strgdi6j.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5072,7 +5072,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\cbtkciuuxh.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5091,7 +5091,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\ci0nuhiw0n.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5110,7 +5110,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\czlryl2pwo.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5129,7 +5129,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\d8dpfhxg8l.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5148,7 +5148,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\db4lx5ziv5.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5167,7 +5167,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\deq2ghiqdk.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5186,7 +5186,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\dfyko7c9w5.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5205,7 +5205,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\dihstl9xna.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5224,7 +5224,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\dojbb79z55.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5243,7 +5243,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\e02xcee35t.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5262,7 +5262,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\e0bk7dtapq.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5281,7 +5281,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\e4g00882r9.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5300,7 +5300,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\e4ttvlufgm.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5319,7 +5319,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\ed6sfup9nd.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5338,7 +5338,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\ej3s2f3z0x.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5357,7 +5357,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\eo0hdfivss.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5376,7 +5376,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\etpq4alksg.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5395,7 +5395,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\f4ucggn5a6.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5414,7 +5414,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\fsv7ps2swl.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5433,7 +5433,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\fu09hf04pr.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5452,7 +5452,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\fveyapdap7.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5471,7 +5471,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\fvj4tvnqf0.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5490,7 +5490,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\g235d19vx6.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5509,7 +5509,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\g9trx0if4a.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5528,7 +5528,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\ggpfdfa3kh.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5547,7 +5547,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\gkiy4fjglk.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5566,7 +5566,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\gpyc0787s0.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5585,7 +5585,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\gr56l2v5tm.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5604,7 +5604,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\gwjp6jc4se.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5623,7 +5623,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\gx2wblbi7a.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5642,7 +5642,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\gyvc99s4ep.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5661,7 +5661,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\h1eipplpkz.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5680,7 +5680,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\h77oudj0et.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5699,7 +5699,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\hchmrbdedy.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5718,7 +5718,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\hhxxnpdra3.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5737,7 +5737,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\hj5n9br12o.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5756,7 +5756,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\hlq17t6677.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5775,7 +5775,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\hronpfigsc.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5794,7 +5794,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\i3tvu97e4c.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5813,7 +5813,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\ir27hy80gg.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5832,7 +5832,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\iwsx25fkxm.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5851,7 +5851,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\j8ij2wr4ea.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5870,7 +5870,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\jfnulpl4j3.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5889,7 +5889,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\jit4f6rpnf.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5908,7 +5908,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\jnwcvsq2cx.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5927,7 +5927,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\jsv2sq5om5.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5946,7 +5946,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\jzixjz4b0h.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5965,7 +5965,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\k049lwgqq7.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5984,7 +5984,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\k05jya7leb.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6003,7 +6003,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\k300gt9kgs.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6022,7 +6022,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\kebar4a6ah.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6041,7 +6041,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\kexl6h5sjz.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6060,7 +6060,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\ktuqg17lac.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6079,7 +6079,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\kw0tu49i63.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6098,7 +6098,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\l3q54foycc.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6117,7 +6117,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\ld6pnqp2hv.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6136,7 +6136,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\ldeh4dnnwr.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6155,7 +6155,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\lgmwid7gk0.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6174,7 +6174,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\lmbcam7j2f.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6193,7 +6193,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\lnh9262tkm.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6212,7 +6212,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\lpa86hdj44.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6231,7 +6231,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\lqmoa0s3zp.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6250,7 +6250,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\lt5rcjw4rx.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6269,7 +6269,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\lwrox7h0uf.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6288,7 +6288,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\m3w4s6jhcd.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6307,7 +6307,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\m78obkccre.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6326,7 +6326,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\m9org10ljt.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6345,7 +6345,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\matnduu964.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6364,7 +6364,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\mfs903yp5g.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6383,7 +6383,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\mory1x9snm.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6402,7 +6402,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\mtj49sl1rd.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6421,7 +6421,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\myd9etseif.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6439,8 +6439,27 @@
       "OriginalItemSpec": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Collections.Concurrent.wasm"
     },
     {
+      "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\myfz21wxiw.gz",
+      "SourceId": "LibraryApp.UI",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/LibraryApp.UI.pdb.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\LibraryApp.UI.pdb",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\LibraryApp.UI.pdb"
+    },
+    {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\mzp4zvzb1e.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6459,7 +6478,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\nem52tv1y5.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6478,7 +6497,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\o6buq6hleg.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6497,7 +6516,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\oc53z23rqr.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6516,7 +6535,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\olyod9sb02.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6535,7 +6554,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\opr785jkd6.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6554,7 +6573,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\ouyarb9d53.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6573,7 +6592,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\owo014mtz7.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6592,7 +6611,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\p22vt0s09c.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6611,7 +6630,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\p3dn6rl85z.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6630,7 +6649,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\p5wfy8g0e2.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6649,7 +6668,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\pdk39hunf2.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6668,7 +6687,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\pefiusbwiu.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6687,7 +6706,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\pl6kqp50wq.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6706,7 +6725,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\pook4dpxs9.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6725,7 +6744,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\pp1m6a0k3c.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6744,7 +6763,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\pq9om17h64.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6763,7 +6782,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\pt2h3jhkbh.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6782,7 +6801,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\q4ibvd2uqh.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6801,7 +6820,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\qc7dytvk20.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6820,7 +6839,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\qecgaksp0j.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6839,7 +6858,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\qfr1i8iiqj.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6858,7 +6877,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\qk9jf2sxx1.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6877,7 +6896,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\qmhnpftx04.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6896,7 +6915,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\qnrwk84b5m.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6915,7 +6934,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\r1ho8chqcq.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6934,7 +6953,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\r8iu8k359n.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6953,7 +6972,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\ram2dnbm1d.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6972,7 +6991,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\rfwry517yy.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6991,7 +7010,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\riqklw49g5.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7010,7 +7029,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\rowjcregh1.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7028,27 +7047,8 @@
       "OriginalItemSpec": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.ValueTuple.wasm"
     },
     {
-      "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\rpkf55dt6q.gz",
-      "SourceId": "LibraryUI",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/LibraryUI.pdb.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\LibraryUI.pdb",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\LibraryUI.pdb"
-    },
-    {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\s1sp215nkg.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7067,7 +7067,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\s2dnrh6e2w.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7086,7 +7086,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\s421q3n23z.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7105,7 +7105,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\s4cefnvb7s.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7124,7 +7124,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\s87qnslihs.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7143,7 +7143,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\sboz30ee9x.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7162,7 +7162,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\sc4zxipn38.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7181,7 +7181,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\t28f8ckd2r.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7200,7 +7200,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\tffxwo1kr1.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7219,7 +7219,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\tp6vzsfue2.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7238,7 +7238,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\tqt26guol9.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7257,7 +7257,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\u19rpzzdx6.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7276,7 +7276,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\u5or1ntx6i.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7295,7 +7295,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\uhrb0ayi8b.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7314,7 +7314,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\um7i3hfzv0.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7333,7 +7333,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\uo9p1crvn0.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7352,7 +7352,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\v3iv828hxr.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7371,7 +7371,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\v3k3lp3gwt.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7390,7 +7390,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\v3nk0kaoix.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7409,7 +7409,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\v7ppx92ep5.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7428,7 +7428,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\vxtpyc14z1.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7447,7 +7447,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\w49rck2tjl.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7466,7 +7466,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\w71boh16cl.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7485,7 +7485,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\w795zu58ly.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7504,7 +7504,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\wb229kd4aq.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7523,7 +7523,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\wcbul137ev.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7542,7 +7542,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\wsh6vgai2b.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7561,7 +7561,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\x4avrqntho.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7580,7 +7580,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\xi70vhqqn8.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7599,7 +7599,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\xmbc6yolpp.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7618,7 +7618,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\xnxyf4hp2r.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7637,7 +7637,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\xo4lgcl386.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7656,7 +7656,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\xpj9uda00e.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7675,7 +7675,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\xsqxvphqiw.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7694,7 +7694,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\y3fjqduiji.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7713,7 +7713,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\y7k9luw1cz.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7732,7 +7732,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\yjvv24a4bm.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7751,7 +7751,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\compressed\\zfodgnibhq.gz",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7769,12 +7769,12 @@
       "OriginalItemSpec": "D:\\C#\\LibraryApp\\LibraryUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.ComponentModel.Annotations.wasm"
     },
     {
-      "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\LibraryUI.styles.css",
-      "SourceId": "LibraryUI",
+      "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\LibraryApp.UI.styles.css",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "/",
-      "RelativePath": "LibraryUI.styles.css",
+      "RelativePath": "LibraryApp.UI.styles.css",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Primary",
@@ -7785,15 +7785,15 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\LibraryUI.styles.css"
+      "OriginalItemSpec": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\LibraryApp.UI.styles.css"
     },
     {
-      "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\LibraryUI.bundle.scp.css",
-      "SourceId": "LibraryUI",
+      "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\LibraryApp.UI.bundle.scp.css",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "/",
-      "RelativePath": "LibraryUI.bundle.scp.css",
+      "RelativePath": "LibraryApp.UI.bundle.scp.css",
       "AssetKind": "All",
       "AssetMode": "Reference",
       "AssetRole": "Primary",
@@ -7804,11 +7804,11 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\LibraryUI.bundle.scp.css"
+      "OriginalItemSpec": "D:\\C#\\LibraryApp\\LibraryUI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\LibraryApp.UI.bundle.scp.css"
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\wwwroot\\css\\app.css",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\wwwroot\\",
       "BasePath": "/",
@@ -7827,7 +7827,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\wwwroot\\",
       "BasePath": "/",
@@ -7846,7 +7846,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\wwwroot\\",
       "BasePath": "/",
@@ -7865,7 +7865,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\wwwroot\\favicon.png",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\wwwroot\\",
       "BasePath": "/",
@@ -7884,7 +7884,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\wwwroot\\icon-192.png",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\wwwroot\\",
       "BasePath": "/",
@@ -7903,7 +7903,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\wwwroot\\index.html",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\wwwroot\\",
       "BasePath": "/",
@@ -7922,7 +7922,7 @@
     },
     {
       "Identity": "D:\\C#\\LibraryApp\\LibraryUI\\wwwroot\\sample-data\\weather.json",
-      "SourceId": "LibraryUI",
+      "SourceId": "LibraryApp.UI",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\C#\\LibraryApp\\LibraryUI\\wwwroot\\",
       "BasePath": "/",

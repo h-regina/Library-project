@@ -137,5 +137,5 @@ D:\C#\LibraryApp\LibraryApp\obj\Debug\net8.0\refint\LibraryApp.dll
 D:\C#\LibraryApp\LibraryApp\obj\Debug\net8.0\LibraryApp.pdb
 D:\C#\LibraryApp\LibraryApp\obj\Debug\net8.0\LibraryApp.genruntimeconfig.cache
 D:\C#\LibraryApp\LibraryApp\obj\Debug\net8.0\ref\LibraryApp.dll
-D:\C#\LibraryApp\LibraryApp\bin\Debug\net8.0\Library.Shared.dll
-D:\C#\LibraryApp\LibraryApp\bin\Debug\net8.0\Library.Shared.pdb
+D:\C#\LibraryApp\LibraryApp\bin\Debug\net8.0\LibraryApp.Shared.dll
+D:\C#\LibraryApp\LibraryApp\bin\Debug\net8.0\LibraryApp.Shared.pdb
