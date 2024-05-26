@@ -69,7 +69,7 @@ namespace LibraryApp
 
         public async Task<List<Loaning>> GetLoaningBooksOfReader(Guid ReaderId)
         {
-           throw new NotImplementedException();
+           return await _context.Loanings.Where(id => id.ReaderId == ReaderId).ToListAsync();
         }
 
         public async Task Update(Readers newReader)
