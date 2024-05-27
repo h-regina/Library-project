@@ -1,4 +1,5 @@
 ﻿using LibraryApp.Shared;
+using System.IO.Pipelines;
 using System.Net.Http.Json;
 
 namespace LibraryApp.UI.Services
@@ -24,7 +25,7 @@ namespace LibraryApp.UI.Services
 
         public async Task<IEnumerable<Loaning>> GetLoaningBooksOfReaderc(Guid readerId)
         {
-            return await _httpReaders.GetFromJsonAsync<IEnumerable<Loaning>>("/readers");
+            return await _httpReaders.GetFromJsonAsync<IEnumerable<Loaning>>($"/readers/{readerId}/loanings");
            
         }
 

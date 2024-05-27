@@ -9,7 +9,12 @@ using System.Threading.Tasks;
 namespace LibraryApp.Shared
 {
     public class Loaning
+
     {
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public Guid LoaningId { get; set; }
+
         [ForeignKey("Readers")]
         [Required]
         public Guid ReaderId { get; set; }
@@ -18,7 +23,6 @@ namespace LibraryApp.Shared
         [Required]
         public Guid InventoryNumber { get; set; }
 
-        [Key]
         [Required]
         [LoaningDateValidation]
         public DateTime LoaningDate { get; set; }

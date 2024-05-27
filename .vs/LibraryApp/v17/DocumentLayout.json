@@ -3,36 +3,32 @@
   "WorkspaceRootPath": "D:\\C#\\LibraryApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{277C495A-B8AA-4ADE-97DF-2C56EB3EAA37}|LibraryApp.UI\\LibraryApp.UI.csproj|d:\\c#\\libraryapp\\libraryapp.ui\\pages\\bookslist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{277C495A-B8AA-4ADE-97DF-2C56EB3EAA37}|LibraryApp.UI\\LibraryApp.UI.csproj|solutionrelative:libraryapp.ui\\pages\\bookslist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1CAEB488-F2E6-4975-9944-FD46D79A92BE}|LibraryApp\\LibraryApp.csproj|d:\\c#\\libraryapp\\libraryapp\\controllers\\loaningscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CAEB488-F2E6-4975-9944-FD46D79A92BE}|LibraryApp\\LibraryApp.csproj|solutionrelative:libraryapp\\controllers\\loaningscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CAEB488-F2E6-4975-9944-FD46D79A92BE}|LibraryApp\\LibraryApp.csproj|d:\\c#\\libraryapp\\libraryapp\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CAEB488-F2E6-4975-9944-FD46D79A92BE}|LibraryApp\\LibraryApp.csproj|solutionrelative:libraryapp\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{277C495A-B8AA-4ADE-97DF-2C56EB3EAA37}|LibraryApp.UI\\LibraryApp.UI.csproj|d:\\c#\\libraryapp\\libraryapp.ui\\services\\loaningsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{277C495A-B8AA-4ADE-97DF-2C56EB3EAA37}|LibraryApp.UI\\LibraryApp.UI.csproj|solutionrelative:libraryapp.ui\\services\\loaningsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{277C495A-B8AA-4ADE-97DF-2C56EB3EAA37}|LibraryApp.UI\\LibraryApp.UI.csproj|d:\\c#\\libraryapp\\libraryapp.ui\\services\\booksservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{277C495A-B8AA-4ADE-97DF-2C56EB3EAA37}|LibraryApp.UI\\LibraryApp.UI.csproj|solutionrelative:libraryapp.ui\\services\\booksservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{277C495A-B8AA-4ADE-97DF-2C56EB3EAA37}|LibraryApp.UI\\LibraryApp.UI.csproj|d:\\c#\\libraryapp\\libraryapp.ui\\services\\iloaningsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{277C495A-B8AA-4ADE-97DF-2C56EB3EAA37}|LibraryApp.UI\\LibraryApp.UI.csproj|solutionrelative:libraryapp.ui\\services\\iloaningsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{277C495A-B8AA-4ADE-97DF-2C56EB3EAA37}|LibraryApp.UI\\LibraryApp.UI.csproj|d:\\c#\\libraryapp\\libraryapp.ui\\services\\ibooksservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{277C495A-B8AA-4ADE-97DF-2C56EB3EAA37}|LibraryApp.UI\\LibraryApp.UI.csproj|solutionrelative:libraryapp.ui\\services\\ibooksservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{254C74B4-A695-4CF4-9EE3-92FDB203F52F}|LibraryShared\\LibraryApp.Shared.csproj|d:\\c#\\libraryapp\\libraryshared\\loaning.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{254C74B4-A695-4CF4-9EE3-92FDB203F52F}|LibraryShared\\LibraryApp.Shared.csproj|solutionrelative:libraryshared\\loaning.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{277C495A-B8AA-4ADE-97DF-2C56EB3EAA37}|LibraryApp.UI\\LibraryApp.UI.csproj|d:\\c#\\libraryapp\\libraryapp.ui\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{277C495A-B8AA-4ADE-97DF-2C56EB3EAA37}|LibraryApp.UI\\LibraryApp.UI.csproj|solutionrelative:libraryapp.ui\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{277C495A-B8AA-4ADE-97DF-2C56EB3EAA37}|LibraryApp.UI\\LibraryApp.UI.csproj|d:\\c#\\libraryapp\\libraryapp.ui\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{277C495A-B8AA-4ADE-97DF-2C56EB3EAA37}|LibraryApp.UI\\LibraryApp.UI.csproj|solutionrelative:libraryapp.ui\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{277C495A-B8AA-4ADE-97DF-2C56EB3EAA37}|LibraryApp.UI\\LibraryApp.UI.csproj|d:\\c#\\libraryapp\\libraryapp.ui\\services\\readersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{277C495A-B8AA-4ADE-97DF-2C56EB3EAA37}|LibraryApp.UI\\LibraryApp.UI.csproj|solutionrelative:libraryapp.ui\\services\\readersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{277C495A-B8AA-4ADE-97DF-2C56EB3EAA37}|LibraryApp.UI\\LibraryApp.UI.csproj|d:\\c#\\libraryapp\\libraryapp.ui\\pages\\readerslist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{277C495A-B8AA-4ADE-97DF-2C56EB3EAA37}|LibraryApp.UI\\LibraryApp.UI.csproj|solutionrelative:libraryapp.ui\\pages\\readerslist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{277C495A-B8AA-4ADE-97DF-2C56EB3EAA37}|LibraryApp.UI\\LibraryApp.UI.csproj|d:\\c#\\libraryapp\\libraryapp.ui\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{277C495A-B8AA-4ADE-97DF-2C56EB3EAA37}|LibraryApp.UI\\LibraryApp.UI.csproj|solutionrelative:libraryapp.ui\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{277C495A-B8AA-4ADE-97DF-2C56EB3EAA37}|LibraryApp.UI\\LibraryApp.UI.csproj|d:\\c#\\libraryapp\\libraryapp.ui\\pages\\readerdetails.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{277C495A-B8AA-4ADE-97DF-2C56EB3EAA37}|LibraryApp.UI\\LibraryApp.UI.csproj|solutionrelative:libraryapp.ui\\pages\\readerdetails.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,106 +62,99 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Loaning.cs",
-              "DocumentMoniker": "D:\\C#\\LibraryApp\\LibraryShared\\Loaning.cs",
-              "RelativeDocumentMoniker": "LibraryShared\\Loaning.cs",
-              "ToolTip": "D:\\C#\\LibraryApp\\LibraryShared\\Loaning.cs",
-              "RelativeToolTip": "LibraryShared\\Loaning.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T15:06:23.201Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Home.razor",
-              "DocumentMoniker": "D:\\C#\\LibraryApp\\LibraryApp.UI\\Pages\\Home.razor",
-              "RelativeDocumentMoniker": "LibraryApp.UI\\Pages\\Home.razor",
-              "ToolTip": "D:\\C#\\LibraryApp\\LibraryApp.UI\\Pages\\Home.razor",
-              "RelativeToolTip": "LibraryApp.UI\\Pages\\Home.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-27T14:53:12.969Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ReadersList.razor",
-              "DocumentMoniker": "D:\\C#\\LibraryApp\\LibraryApp.UI\\Pages\\ReadersList.razor",
-              "RelativeDocumentMoniker": "LibraryApp.UI\\Pages\\ReadersList.razor",
-              "ToolTip": "D:\\C#\\LibraryApp\\LibraryApp.UI\\Pages\\ReadersList.razor",
-              "RelativeToolTip": "LibraryApp.UI\\Pages\\ReadersList.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-27T14:51:28.942Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BooksList.razor",
-              "DocumentMoniker": "D:\\C#\\LibraryApp\\LibraryApp.UI\\Pages\\BooksList.razor",
-              "RelativeDocumentMoniker": "LibraryApp.UI\\Pages\\BooksList.razor",
-              "ToolTip": "D:\\C#\\LibraryApp\\LibraryApp.UI\\Pages\\BooksList.razor",
-              "RelativeToolTip": "LibraryApp.UI\\Pages\\BooksList.razor",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABUAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-27T14:50:52.56Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "NavMenu.razor",
-              "DocumentMoniker": "D:\\C#\\LibraryApp\\LibraryApp.UI\\Layout\\NavMenu.razor",
-              "RelativeDocumentMoniker": "LibraryApp.UI\\Layout\\NavMenu.razor",
-              "ToolTip": "D:\\C#\\LibraryApp\\LibraryApp.UI\\Layout\\NavMenu.razor",
-              "RelativeToolTip": "LibraryApp.UI\\Layout\\NavMenu.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-27T14:50:31.003Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MainLayout.razor",
-              "DocumentMoniker": "D:\\C#\\LibraryApp\\LibraryApp.UI\\Layout\\MainLayout.razor",
-              "RelativeDocumentMoniker": "LibraryApp.UI\\Layout\\MainLayout.razor",
-              "ToolTip": "D:\\C#\\LibraryApp\\LibraryApp.UI\\Layout\\MainLayout.razor",
-              "RelativeToolTip": "LibraryApp.UI\\Layout\\MainLayout.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-27T14:50:28.801Z",
+              "Title": "LoaningsService.cs",
+              "DocumentMoniker": "D:\\C#\\LibraryApp\\LibraryApp.UI\\Services\\LoaningsService.cs",
+              "RelativeDocumentMoniker": "LibraryApp.UI\\Services\\LoaningsService.cs",
+              "ToolTip": "D:\\C#\\LibraryApp\\LibraryApp.UI\\Services\\LoaningsService.cs",
+              "RelativeToolTip": "LibraryApp.UI\\Services\\LoaningsService.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwB8AAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T17:12:25.983Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ReadersService.cs",
-              "DocumentMoniker": "D:\\C#\\LibraryApp\\LibraryApp.UI\\Services\\ReadersService.cs",
-              "RelativeDocumentMoniker": "LibraryApp.UI\\Services\\ReadersService.cs",
-              "ToolTip": "D:\\C#\\LibraryApp\\LibraryApp.UI\\Services\\ReadersService.cs",
-              "RelativeToolTip": "LibraryApp.UI\\Services\\ReadersService.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAgwCUAAAAJAAAA",
+              "Title": "ILoaningsService.cs",
+              "DocumentMoniker": "D:\\C#\\LibraryApp\\LibraryApp.UI\\Services\\ILoaningsService.cs",
+              "RelativeDocumentMoniker": "LibraryApp.UI\\Services\\ILoaningsService.cs",
+              "ToolTip": "D:\\C#\\LibraryApp\\LibraryApp.UI\\Services\\ILoaningsService.cs",
+              "RelativeToolTip": "LibraryApp.UI\\Services\\ILoaningsService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T14:42:17.782Z",
+              "WhenOpened": "2024-05-27T17:12:24.685Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ReaderDetails.razor",
-              "DocumentMoniker": "D:\\C#\\LibraryApp\\LibraryApp.UI\\Pages\\ReaderDetails.razor",
-              "RelativeDocumentMoniker": "LibraryApp.UI\\Pages\\ReaderDetails.razor",
-              "ToolTip": "D:\\C#\\LibraryApp\\LibraryApp.UI\\Pages\\ReaderDetails.razor",
-              "RelativeToolTip": "LibraryApp.UI\\Pages\\ReaderDetails.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-27T14:39:01.818Z",
+              "DocumentIndex": 6,
+              "Title": "Loaning.cs",
+              "DocumentMoniker": "D:\\C#\\LibraryApp\\LibraryShared\\Loaning.cs",
+              "RelativeDocumentMoniker": "LibraryShared\\Loaning.cs",
+              "ToolTip": "D:\\C#\\LibraryApp\\LibraryShared\\Loaning.cs",
+              "RelativeToolTip": "LibraryShared\\Loaning.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwA4AAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T17:06:43.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoaningsController.cs",
+              "DocumentMoniker": "D:\\C#\\LibraryApp\\LibraryApp\\Controllers\\LoaningsController.cs",
+              "RelativeDocumentMoniker": "LibraryApp\\Controllers\\LoaningsController.cs",
+              "ToolTip": "D:\\C#\\LibraryApp\\LibraryApp\\Controllers\\LoaningsController.cs",
+              "RelativeToolTip": "LibraryApp\\Controllers\\LoaningsController.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAqwEYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T16:58:52.12Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IBooksService.cs",
+              "DocumentMoniker": "D:\\C#\\LibraryApp\\LibraryApp.UI\\Services\\IBooksService.cs",
+              "RelativeDocumentMoniker": "LibraryApp.UI\\Services\\IBooksService.cs",
+              "ToolTip": "D:\\C#\\LibraryApp\\LibraryApp.UI\\Services\\IBooksService.cs",
+              "RelativeToolTip": "LibraryApp.UI\\Services\\IBooksService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T17:12:44.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BooksService.cs",
+              "DocumentMoniker": "D:\\C#\\LibraryApp\\LibraryApp.UI\\Services\\BooksService.cs",
+              "RelativeDocumentMoniker": "LibraryApp.UI\\Services\\BooksService.cs",
+              "ToolTip": "D:\\C#\\LibraryApp\\LibraryApp.UI\\Services\\BooksService.cs",
+              "RelativeToolTip": "LibraryApp.UI\\Services\\BooksService.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwBAAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T17:12:47.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "D:\\C#\\LibraryApp\\LibraryApp\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "LibraryApp\\Controllers\\BooksController.cs",
+              "ToolTip": "D:\\C#\\LibraryApp\\LibraryApp\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "LibraryApp\\Controllers\\BooksController.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAkwFAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T17:16:12.216Z",
               "EditorCaption": ""
             }
           ]
