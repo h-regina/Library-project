@@ -17,6 +17,7 @@ else
                 <th>Name</th>
                 <th>Address</th>
                 <th>Birth Date</th>
+                <th>Details</th>
             </tr>
         </thead>
         <tbody>
@@ -26,7 +27,7 @@ else
                 <tr>
                     <td>@reader.Name</td>
                     <td>@reader.Address</td>
-                    <td>@reader.BirthDate</td>
+                    <td>@reader.BirthDate.Year/@reader.BirthDate.Month/@reader.BirthDate.Day</td>
                     <td><a href="/readers/@reader.ReaderId" class="btn btn-primary">Details</a></td>
                 </tr>
             }

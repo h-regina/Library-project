@@ -14,74 +14,35 @@ namespace LibraryApp.UI.Services
 
         public async Task AddReadersAsync(Readers readers)
         {
-            try
-            {
-                await _httpReaders.PostAsJsonAsync("/readers", readers);
-            }
-            catch
-            {
-                throw;
-            }
+            await _httpReaders.PostAsJsonAsync("/readers", readers);
         }
 
         public async Task DeleteReadersAsync(Guid id)
         {
-            try
-            {
-                await _httpReaders.DeleteAsync($"/readers/{id}");
-            }
-            catch
-            {
-                throw;
-            }
+            await _httpReaders.DeleteAsync($"/readers/{id}");
         }
 
         public async Task<IEnumerable<Loaning>> GetLoaningBooksOfReaderc(Guid readerId)
         {
-            try
-            {
-                return await _httpReaders.GetFromJsonAsync<IEnumerable<Loaning>>("/reader");
-            }
-            catch
-            {
-                throw;
-            }
+            return await _httpReaders.GetFromJsonAsync<IEnumerable<Loaning>>("/readers");
+           
         }
 
         public async Task<Readers> GetReadersAsync(Guid id)
         {
-            try
-            {
-                return await _httpReaders.GetFromJsonAsync<Readers>($"/readers/{id}");
-            }
-            catch
-            {
-                throw;
-            }
+            return await _httpReaders.GetFromJsonAsync<Readers>($"/readers/{id}");
+            
         }
 
         public async Task<IEnumerable<Readers>> GetReadersAsync()
         {
-            try
-            {
-                return await _httpReaders.GetFromJsonAsync<IEnumerable<Readers>>("/readers");
-            }
-            catch
-            {
-                throw;
-            }
+            return await _httpReaders.GetFromJsonAsync<IEnumerable<Readers>>("/readers");
+           
         }
 
         public async Task UpdateReadersAsync(Guid id, Readers readers)
         {
-            try
-            {
-                await _httpReaders.PutAsJsonAsync($"/readres/{id}", readers);
-            }
-            catch
-            {
-                throw;
-            }
+             await _httpReaders.PutAsJsonAsync($"/readers/{id}", readers);
         }
     }
 }
