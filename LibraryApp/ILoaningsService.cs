@@ -6,7 +6,7 @@ namespace LibraryApp
     {
         Task Add(Loaning loaning);
 
-        Task Delete(Loaning loaning);
+        Task Delete(Guid id);
 
         Task Update(Loaning loaning);
 

@@ -1,0 +1,50 @@
+﻿@page "/readers/{readerId:guid}/loanings"
+@using LibraryApp.Shared
+@using LibraryApp.UI.Services
+@inject IReadersService ReadersService
+
+<h3>Books For Reader</h3>
+
+@if (Books is null)
+{
+    <p>Loading..</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Inventory Number</th>
+                <th>Books Title</th>
+                <th>Author</th>
+                <th>Publisher</th>
+                <th>Publication Year</th>
+                <th>Details</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            @foreach (var book in Books)
+            {
+                <tr>
+                    <td>@book.InventoryNumber</td>
+                    <td>@book.BookTitle</td>
+                    <td>@book.Author</td>
+                    <td>@book.Publisher</td>
+                    <td>@book.PublicationYear</td>
+                    <td><a href="/books/@book.InventoryNumber" class="btn btn-primary">Details</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+
+    [Parameter]
+    public Guid ReaderId { get; set; }
+
+    private IEnumerable<Books>? Books { get; set; }
+
+    protected override async Task OnInitializedAsync() => Books = await ReadersService.GetLoaningBooksOfReaders(ReaderId);
+}

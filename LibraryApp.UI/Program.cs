@@ -15,6 +15,7 @@ public class Program
         builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("https://localhost:8080") });
         builder.Services.AddScoped<IBooksService, BooksService>();
         builder.Services.AddScoped<IReadersService, ReadersService>();
+        builder.Services.AddScoped<ILoaningsService, LoaningsService>();
 
         await builder.Build().RunAsync();
     }

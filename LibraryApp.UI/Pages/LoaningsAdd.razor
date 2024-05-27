@@ -1,0 +1,20 @@
+﻿@page "/loanings/add"
+@using LibraryApp.Shared
+@using LibraryApp.UI.Services
+@using LibraryApp.UI.Components
+@inject ILoaningsService LoaningsService
+@inject NavigationManager NavigationManager
+
+<h3>Add Loanings</h3>
+
+<LoaningsForm Loaning="Loaning" OnValidSubmit="AddLoaningAsync" ButtonText="Add Loanings" />
+
+@code {
+    private Loaning Loaning { get; set; } = new();
+
+    private async Task AddLoaningAsync()
+    {
+        await LoaningsService.AddLoaningAsync(Loaning);
+        NavigationManager.NavigateTo("/loanings/list");
+    }
+}

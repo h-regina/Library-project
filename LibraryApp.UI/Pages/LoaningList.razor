@@ -1,0 +1,49 @@
+﻿@page "/loanings/list"
+@using LibraryApp.Shared
+@using LibraryApp.UI.Services
+@inject ILoaningsService LoaningsService
+@inject IBooksService BooksService
+
+<h3>Loaning List</h3>
+
+@if (LoaningsWithBooks is null)
+{
+    <p>Loading..</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Book Title</th>
+                <th>Author</th>
+                <th>Publisher</th>
+                <th>Publication Year</th>
+                <th>Loaning Date</th>
+                <th>Return Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in LoaningsWithBooks)
+            {
+                <tr>
+                    <td>@item.Book.BookTitle</td>
+                    <td>@item.Book.Author</td>
+                    <td>@item.Book.Publisher</td>
+                    <td>@item.Book.PublicationYear</td>
+                    <td>@item.Loaning.LoaningDate</td>
+                    <td>@item.Loaning.ReturnDate</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private IEnumerable<LoaningWithBook>? LoaningsWithBooks { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        LoaningsWithBooks = await LoaningsService.GetLoaningsWithBooksAsync();
+    }
+}

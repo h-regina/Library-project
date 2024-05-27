@@ -14,7 +14,7 @@ namespace LibraryApp.UI.Services
 
         Task<IEnumerable<Readers>> GetReadersAsync();
 
-        Task<IEnumerable<Loaning>> GetLoaningBooksOfReaderc(Guid readerId);
+        Task<IEnumerable<Books>> GetLoaningBooksOfReaders(Guid readerId);
 
     }
 }

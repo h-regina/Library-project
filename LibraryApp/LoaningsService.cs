@@ -31,18 +31,19 @@ namespace LibraryApp
             }
         }
 
-        public async Task Delete(Loaning loaning)
+        public async Task Delete(Guid id)
         {
             try
             {
+                var loaning = await Get(id);
                 _context.Loanings.Remove(loaning);
                 await _context.SaveChangesAsync();
 
-                _logger.LogInformation("Loaning deleteded: @{Loaning}", loaning);
+                _logger.LogInformation("Loaning removed: @{LoaningId}", loaning);
             }
             catch
             {
-                _logger.LogError("An error occurred while deleted loaning");
+                _logger.LogError("An error occurred while removing loaning");
                 throw;
             }
         }

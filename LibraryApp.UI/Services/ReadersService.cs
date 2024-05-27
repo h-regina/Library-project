@@ -23,9 +23,9 @@ namespace LibraryApp.UI.Services
             await _httpReaders.DeleteAsync($"/readers/{id}");
         }
 
-        public async Task<IEnumerable<Loaning>> GetLoaningBooksOfReaderc(Guid readerId)
+        public async Task<IEnumerable<Books>> GetLoaningBooksOfReaders(Guid readerId)
         {
-            return await _httpReaders.GetFromJsonAsync<IEnumerable<Loaning>>($"/readers/{readerId}/loanings");
+            return await _httpReaders.GetFromJsonAsync<IEnumerable<Books>>($"/readers/{readerId}/loanings");
            
         }
 

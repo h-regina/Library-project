@@ -18,6 +18,7 @@ else
                 <th>Address</th>
                 <th>Birth Date</th>
                 <th>Details</th>
+                <th>Loanings</th>
             </tr>
         </thead>
         <tbody>
@@ -29,6 +30,7 @@ else
                     <td>@reader.Address</td>
                     <td>@reader.BirthDate.Year/@reader.BirthDate.Month/@reader.BirthDate.Day</td>
                     <td><a href="/readers/@reader.ReaderId" class="btn btn-primary">Details</a></td>
+                    <td><a href="/readers/@reader.ReaderId/loanings" class="btn btn-primary">Loanings</a></td>
                 </tr>
             }
         </tbody>

@@ -1,0 +1,69 @@
+﻿@using LibraryApp.Shared
+@using LibraryApp.UI.Services
+<EditForm Model="Loaning" OnValidSubmit="OnValidSubmit">
+    <DataAnnotationsValidator />
+
+    <div class="mb-3">
+        <label class="form-label">Book Inventory Number</label>
+        <InputSelect @bind-Value="Loaning.InventoryNumber" class="form-input">
+            <option value="">Select a book</option>
+            @foreach (var book in Books)
+            {
+                <option value="@book.InventoryNumber">@book.BookTitle</option>
+            }
+        </InputSelect>
+        <ValidationMessage For="() => Loaning.InventoryNumber" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Reader</label>
+        <InputSelect @bind-Value="Loaning.ReaderId" class="form-input">
+            <option value="">Select a reader</option>
+            @foreach (var reader in Readers)
+            {
+                <option value="@reader.ReaderId">@reader.Name</option>
+            }
+        </InputSelect>
+        <ValidationMessage For="() => Loaning.ReaderId" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Loaning Date</label>
+        <InputDate @bind-Value="Loaning.LoaningDate" class="form-input" />
+        <ValidationMessage For="() => Loaning.LoaningDate" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Return Date</label>
+        <InputDate @bind-Value="Loaning.ReturnDate" class="form-input" />
+        <ValidationMessage For="() => Loaning.ReturnDate" />
+    </div>
+
+    <button class="btn btn-primary" type="submit">@ButtonText</button>
+</EditForm>
+
+@code {
+    [Parameter]
+    public Loaning Loaning { get; set; } = new();
+
+    [Parameter]
+    public Func<Task> OnValidSubmit { get; set; }
+
+    [Parameter]
+    public string ButtonText { get; set; } = "Submit";
+
+    private List<Books> Books { get; set; } = new();
+    private List<Readers> Readers { get; set; } = new();
+
+    [Inject]
+    public IBooksService BooksService { get; set; }
+
+    [Inject]
+    public IReadersService ReadersService { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        Books = (await BooksService.GetBooksAsync()).ToList();
+        Readers = (await ReadersService.GetReadersAsync()).ToList();
+    }
+}

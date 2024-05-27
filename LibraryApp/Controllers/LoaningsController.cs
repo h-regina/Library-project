@@ -10,7 +10,7 @@ using LibraryApp.Shared;
 
 namespace LibraryApp.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class LoaningsController : ControllerBase
     {
@@ -79,7 +79,7 @@ namespace LibraryApp.Controllers
                 return NotFound();
             }
 
-            await _loaningService.Delete(loaning);
+            await _loaningService.Delete(id);
 
             return Ok();
         }

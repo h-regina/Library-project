@@ -83,8 +83,8 @@ public class ReadersController : ControllerBase
         return Ok(await _readerService.GetAll());
     }
 
-    [HttpGet("{id:guid}/Loanings")]
-    public async Task<ActionResult<List<Loaning>>> GetLoaningBooksOfReader(Guid id)
+    [HttpGet("{id:guid}/loanings")]
+    public async Task<ActionResult<List<Books>>> GetLoaningBooksOfReader(Guid id)
     {
         var client = await _readerService.Get(id);
 

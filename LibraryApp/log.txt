@@ -1340,3 +1340,1534 @@ FROM "Books" AS "b"
 2024-05-27 16:52:40.051 +02:00 [INF] Executed action LibraryApp.Controllers.BooksController.GetAll (LibraryApp) in 19.6847ms
 2024-05-27 16:52:40.054 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
 2024-05-27 16:52:40.056 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/books - 200 null application/json; charset=utf-8 32.2864ms
+2024-05-27 19:30:19.354 +02:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-05-27 19:30:19.384 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-05-27 19:30:19.400 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2024-05-27 19:30:19.415 +02:00 [INF] No migrations were applied. The database is already up to date.
+2024-05-27 19:36:02.181 +02:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-05-27 19:36:02.205 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-05-27 19:36:02.223 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2024-05-27 19:36:02.238 +02:00 [INF] No migrations were applied. The database is already up to date.
+2024-05-27 19:36:58.547 +02:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-05-27 19:36:58.577 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-05-27 19:36:58.596 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2024-05-27 19:36:58.616 +02:00 [INF] No migrations were applied. The database is already up to date.
+2024-05-27 19:37:29.234 +02:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-05-27 19:37:29.258 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-05-27 19:37:29.271 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2024-05-27 19:37:29.283 +02:00 [INF] No migrations were applied. The database is already up to date.
+2024-05-27 19:38:49.480 +02:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-05-27 19:38:49.504 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-05-27 19:38:49.520 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2024-05-27 19:38:49.536 +02:00 [INF] Applying migration '20240527173838_Initial'.
+2024-05-27 19:38:49.575 +02:00 [ERR] Failed executing DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Books" (
+    "InventoryNumber" TEXT NOT NULL CONSTRAINT "PK_Books" PRIMARY KEY,
+    "BookTitle" TEXT NOT NULL,
+    "Author" TEXT NOT NULL,
+    "Publisher" TEXT NOT NULL,
+    "PublicationYear" INTEGER NOT NULL
+);
+2024-05-27 19:41:03.317 +02:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-05-27 19:41:03.338 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-05-27 19:41:03.350 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2024-05-27 19:41:03.362 +02:00 [INF] Applying migration '20240527173838_Initial'.
+2024-05-27 19:41:03.397 +02:00 [ERR] Failed executing DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Books" (
+    "InventoryNumber" TEXT NOT NULL CONSTRAINT "PK_Books" PRIMARY KEY,
+    "BookTitle" TEXT NOT NULL,
+    "Author" TEXT NOT NULL,
+    "Publisher" TEXT NOT NULL,
+    "PublicationYear" INTEGER NOT NULL
+);
+2024-05-27 19:41:19.442 +02:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-05-27 19:41:19.480 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-05-27 19:41:19.499 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2024-05-27 19:41:19.518 +02:00 [INF] Applying migration '20240527173838_Initial'.
+2024-05-27 19:41:19.556 +02:00 [ERR] Failed executing DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Books" (
+    "InventoryNumber" TEXT NOT NULL CONSTRAINT "PK_Books" PRIMARY KEY,
+    "BookTitle" TEXT NOT NULL,
+    "Author" TEXT NOT NULL,
+    "Publisher" TEXT NOT NULL,
+    "PublicationYear" INTEGER NOT NULL
+);
+2024-05-27 19:43:07.448 +02:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-05-27 19:43:07.530 +02:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "__EFMigrationsHistory" (
+    "MigrationId" TEXT NOT NULL CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY,
+    "ProductVersion" TEXT NOT NULL
+);
+2024-05-27 19:43:07.537 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-05-27 19:43:07.543 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2024-05-27 19:43:07.560 +02:00 [INF] Applying migration '20240527173838_Initial'.
+2024-05-27 19:43:07.584 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Books" (
+    "InventoryNumber" TEXT NOT NULL CONSTRAINT "PK_Books" PRIMARY KEY,
+    "BookTitle" TEXT NOT NULL,
+    "Author" TEXT NOT NULL,
+    "Publisher" TEXT NOT NULL,
+    "PublicationYear" INTEGER NOT NULL
+);
+2024-05-27 19:43:07.587 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Loanings" (
+    "LoaningId" TEXT NOT NULL CONSTRAINT "PK_Loanings" PRIMARY KEY,
+    "ReaderId" TEXT NOT NULL,
+    "InventoryNumber" TEXT NOT NULL,
+    "LoaningDate" TEXT NOT NULL,
+    "ReturnDate" TEXT NOT NULL,
+    CONSTRAINT "FK_Readers_ReaderId" FOREIGN KEY ("ReaderId") REFERENCES "Readers" ("ReaderId") ON DELETE CASCADE,
+    CONSTRAINT "FK_Books_InventoryNumber" FOREIGN KEY ("InventoryNumber") REFERENCES "Books" ("InventoryNumber") ON DELETE CASCADE
+);
+2024-05-27 19:43:07.591 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Readers" (
+    "ReaderId" TEXT NOT NULL CONSTRAINT "PK_Readers" PRIMARY KEY,
+    "Name" TEXT NOT NULL,
+    "Address" TEXT NOT NULL,
+    "BirthDate" TEXT NOT NULL
+);
+2024-05-27 19:43:07.595 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20240527173838_Initial', '8.0.5');
+2024-05-27 19:44:46.912 +02:00 [INF] Now listening on: https://localhost:8080
+2024-05-27 19:44:46.934 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-27 19:44:46.938 +02:00 [INF] Hosting environment: Development
+2024-05-27 19:44:46.940 +02:00 [INF] Content root path: D:\C#\LibraryApp\LibraryApp
+2024-05-27 19:44:59.641 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/readers - null null
+2024-05-27 19:44:59.733 +02:00 [INF] CORS policy execution successful.
+2024-05-27 19:44:59.738 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 19:44:59.751 +02:00 [INF] Route matched with {action = "GetAll", controller = "Readers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Readers]]] GetAll() on controller LibraryApp.Controllers.ReadersController (LibraryApp).
+2024-05-27 19:45:01.088 +02:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "r"."ReaderId", "r"."Address", "r"."BirthDate", "r"."Name"
+FROM "Readers" AS "r"
+2024-05-27 19:45:01.099 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Readers, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 19:45:01.118 +02:00 [INF] Executed action LibraryApp.Controllers.ReadersController.GetAll (LibraryApp) in 1361.2278ms
+2024-05-27 19:45:01.120 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 19:45:01.121 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/readers - 200 null application/json; charset=utf-8 1481.7226ms
+2024-05-27 19:45:07.543 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/books - null null
+2024-05-27 19:45:07.547 +02:00 [INF] CORS policy execution successful.
+2024-05-27 19:45:07.548 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 19:45:07.551 +02:00 [INF] Route matched with {action = "GetAll", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Books]]] GetAll() on controller LibraryApp.Controllers.BooksController (LibraryApp).
+2024-05-27 19:45:07.561 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "b"."InventoryNumber", "b"."Author", "b"."BookTitle", "b"."PublicationYear", "b"."Publisher"
+FROM "Books" AS "b"
+2024-05-27 19:45:07.564 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Books, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 19:45:07.570 +02:00 [INF] Executed action LibraryApp.Controllers.BooksController.GetAll (LibraryApp) in 17.0711ms
+2024-05-27 19:45:07.572 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 19:45:07.574 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/books - 200 null application/json; charset=utf-8 31.1278ms
+2024-05-27 19:45:51.380 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:8080/readers - null null
+2024-05-27 19:45:51.385 +02:00 [INF] CORS policy execution successful.
+2024-05-27 19:45:51.387 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:8080/readers - 204 null null 7.0889ms
+2024-05-27 19:45:51.392 +02:00 [INF] Request starting HTTP/2 POST https://localhost:8080/readers - application/json; charset=utf-8 120
+2024-05-27 19:45:51.396 +02:00 [INF] CORS policy execution successful.
+2024-05-27 19:45:51.396 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.ReadersController.Add (LibraryApp)'
+2024-05-27 19:45:51.403 +02:00 [INF] Route matched with {action = "Add", controller = "Readers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Add(LibraryApp.Shared.Readers) on controller LibraryApp.Controllers.ReadersController (LibraryApp).
+2024-05-27 19:45:51.548 +02:00 [INF] Executed DbCommand (5ms) [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "r"."ReaderId", "r"."Address", "r"."BirthDate", "r"."Name"
+FROM "Readers" AS "r"
+WHERE "r"."ReaderId" = @__get_Item_0
+LIMIT 1
+2024-05-27 19:45:51.553 +02:00 [INF] Reader retrieved: null
+2024-05-27 19:45:51.654 +02:00 [INF] Executed DbCommand (9ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 8), @p2='?' (DbType = DateTime), @p3='?' (Size = 4)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Readers" ("ReaderId", "Address", "BirthDate", "Name")
+VALUES (@p0, @p1, @p2, @p3);
+2024-05-27 19:45:51.666 +02:00 [INF] Reader added: @"e0b94615-888b-48e6-aa99-08b647fd8b88"
+2024-05-27 19:45:51.669 +02:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-05-27 19:45:51.670 +02:00 [INF] Executed action LibraryApp.Controllers.ReadersController.Add (LibraryApp) in 265.8474ms
+2024-05-27 19:45:51.671 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.ReadersController.Add (LibraryApp)'
+2024-05-27 19:45:51.671 +02:00 [INF] Request finished HTTP/2 POST https://localhost:8080/readers - 200 0 null 279.5914ms
+2024-05-27 19:45:51.711 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/readers - null null
+2024-05-27 19:45:51.721 +02:00 [INF] CORS policy execution successful.
+2024-05-27 19:45:51.725 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 19:45:51.727 +02:00 [INF] Route matched with {action = "GetAll", controller = "Readers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Readers]]] GetAll() on controller LibraryApp.Controllers.ReadersController (LibraryApp).
+2024-05-27 19:45:51.730 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "r"."ReaderId", "r"."Address", "r"."BirthDate", "r"."Name"
+FROM "Readers" AS "r"
+2024-05-27 19:45:51.733 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Readers, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 19:45:51.738 +02:00 [INF] Executed action LibraryApp.Controllers.ReadersController.GetAll (LibraryApp) in 8.8262ms
+2024-05-27 19:45:51.739 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 19:45:51.740 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/readers - 200 null application/json; charset=utf-8 29.4863ms
+2024-05-27 19:45:54.717 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/readers/e0b94615-888b-48e6-aa99-08b647fd8b88 - null null
+2024-05-27 19:45:54.723 +02:00 [INF] CORS policy execution successful.
+2024-05-27 19:45:54.724 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.ReadersController.Get (LibraryApp)'
+2024-05-27 19:45:54.728 +02:00 [INF] Route matched with {action = "Get", controller = "Readers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[LibraryApp.Shared.Readers]] Get(System.Guid) on controller LibraryApp.Controllers.ReadersController (LibraryApp).
+2024-05-27 19:45:54.732 +02:00 [INF] Reader retrieved: {"ReaderId":"e0b94615-888b-48e6-aa99-08b647fd8b88","Name":"Regi","Address":"debrecen","BirthDate":"2003-01-01T00:00:00.0000000","$type":"Readers"}
+2024-05-27 19:45:54.738 +02:00 [INF] Executing OkObjectResult, writing value of type 'LibraryApp.Shared.Readers'.
+2024-05-27 19:45:54.739 +02:00 [INF] Executed action LibraryApp.Controllers.ReadersController.Get (LibraryApp) in 10.0964ms
+2024-05-27 19:45:54.740 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.ReadersController.Get (LibraryApp)'
+2024-05-27 19:45:54.741 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/readers/e0b94615-888b-48e6-aa99-08b647fd8b88 - 200 null application/json; charset=utf-8 23.906ms
+2024-05-27 19:46:15.837 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:8080/books - null null
+2024-05-27 19:46:15.841 +02:00 [INF] CORS policy execution successful.
+2024-05-27 19:46:15.841 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:8080/books - 204 null null 4.9453ms
+2024-05-27 19:46:15.845 +02:00 [INF] Request starting HTTP/2 POST https://localhost:8080/books - application/json; charset=utf-8 138
+2024-05-27 19:46:15.848 +02:00 [INF] CORS policy execution successful.
+2024-05-27 19:46:15.848 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.BooksController.Add (LibraryApp)'
+2024-05-27 19:46:15.851 +02:00 [INF] Route matched with {action = "Add", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Add(LibraryApp.Shared.Books) on controller LibraryApp.Controllers.BooksController (LibraryApp).
+2024-05-27 19:46:15.862 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "b"."InventoryNumber", "b"."Author", "b"."BookTitle", "b"."PublicationYear", "b"."Publisher"
+FROM "Books" AS "b"
+WHERE "b"."InventoryNumber" = @__get_Item_0
+LIMIT 1
+2024-05-27 19:46:15.864 +02:00 [INF] Books retrieved: null
+2024-05-27 19:46:15.890 +02:00 [INF] Executed DbCommand (10ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 4), @p2='?' (Size = 8), @p3='?' (DbType = Int32), @p4='?' (Size = 3)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Books" ("InventoryNumber", "Author", "BookTitle", "PublicationYear", "Publisher")
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2024-05-27 19:46:15.896 +02:00 [INF] Book added: @"2395b956-278d-42bb-8ecb-e8f50acbaee5"
+2024-05-27 19:46:15.897 +02:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-05-27 19:46:15.898 +02:00 [INF] Executed action LibraryApp.Controllers.BooksController.Add (LibraryApp) in 45.5253ms
+2024-05-27 19:46:15.898 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.BooksController.Add (LibraryApp)'
+2024-05-27 19:46:15.899 +02:00 [INF] Request finished HTTP/2 POST https://localhost:8080/books - 200 0 null 54.3985ms
+2024-05-27 19:46:15.937 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/books - null null
+2024-05-27 19:46:15.941 +02:00 [INF] CORS policy execution successful.
+2024-05-27 19:46:15.941 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 19:46:15.943 +02:00 [INF] Route matched with {action = "GetAll", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Books]]] GetAll() on controller LibraryApp.Controllers.BooksController (LibraryApp).
+2024-05-27 19:46:15.944 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "b"."InventoryNumber", "b"."Author", "b"."BookTitle", "b"."PublicationYear", "b"."Publisher"
+FROM "Books" AS "b"
+2024-05-27 19:46:15.945 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Books, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 19:46:15.948 +02:00 [INF] Executed action LibraryApp.Controllers.BooksController.GetAll (LibraryApp) in 3.8873ms
+2024-05-27 19:46:15.949 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 19:46:15.950 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/books - 200 null application/json; charset=utf-8 13.1519ms
+2024-05-27 19:46:19.007 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/books/2395b956-278d-42bb-8ecb-e8f50acbaee5 - null null
+2024-05-27 19:46:19.019 +02:00 [INF] CORS policy execution successful.
+2024-05-27 19:46:19.020 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.BooksController.Get (LibraryApp)'
+2024-05-27 19:46:19.027 +02:00 [INF] Route matched with {action = "Get", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[LibraryApp.Shared.Books]] Get(System.Guid) on controller LibraryApp.Controllers.BooksController (LibraryApp).
+2024-05-27 19:46:19.030 +02:00 [INF] Books retrieved: {"InventoryNumber":"2395b956-278d-42bb-8ecb-e8f50acbaee5","BookTitle":"egy ropi","Author":"jeff","Publisher":"kmk","PublicationYear":2007,"$type":"Books"}
+2024-05-27 19:46:19.034 +02:00 [INF] Executing OkObjectResult, writing value of type 'LibraryApp.Shared.Books'.
+2024-05-27 19:46:19.037 +02:00 [INF] Executed action LibraryApp.Controllers.BooksController.Get (LibraryApp) in 7.8262ms
+2024-05-27 19:46:19.038 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.BooksController.Get (LibraryApp)'
+2024-05-27 19:46:19.039 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/books/2395b956-278d-42bb-8ecb-e8f50acbaee5 - 200 null application/json; charset=utf-8 31.6998ms
+2024-05-27 19:46:25.703 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:8080/books/2395b956-278d-42bb-8ecb-e8f50acbaee5 - null null
+2024-05-27 19:46:25.708 +02:00 [INF] CORS policy execution successful.
+2024-05-27 19:46:25.710 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:8080/books/2395b956-278d-42bb-8ecb-e8f50acbaee5 - 204 null null 6.225ms
+2024-05-27 19:46:25.714 +02:00 [INF] Request starting HTTP/2 PUT https://localhost:8080/books/2395b956-278d-42bb-8ecb-e8f50acbaee5 - application/json; charset=utf-8 138
+2024-05-27 19:46:25.724 +02:00 [INF] CORS policy execution successful.
+2024-05-27 19:46:25.724 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.BooksController.Update (LibraryApp)'
+2024-05-27 19:46:25.728 +02:00 [INF] Route matched with {action = "Update", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Update(System.Guid, LibraryApp.Shared.Books) on controller LibraryApp.Controllers.BooksController (LibraryApp).
+2024-05-27 19:46:25.731 +02:00 [INF] Books retrieved: {"InventoryNumber":"2395b956-278d-42bb-8ecb-e8f50acbaee5","BookTitle":"egy ropi","Author":"jeff","Publisher":"kmk","PublicationYear":2007,"$type":"Books"}
+2024-05-27 19:46:25.736 +02:00 [INF] Books retrieved: {"InventoryNumber":"2395b956-278d-42bb-8ecb-e8f50acbaee5","BookTitle":"egy ropi","Author":"jeff","Publisher":"kmk","PublicationYear":2007,"$type":"Books"}
+2024-05-27 19:46:25.739 +02:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-05-27 19:46:25.739 +02:00 [INF] Executed action LibraryApp.Controllers.BooksController.Update (LibraryApp) in 9.9341ms
+2024-05-27 19:46:25.740 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.BooksController.Update (LibraryApp)'
+2024-05-27 19:46:25.741 +02:00 [INF] Request finished HTTP/2 PUT https://localhost:8080/books/2395b956-278d-42bb-8ecb-e8f50acbaee5 - 200 0 null 27.0005ms
+2024-05-27 19:46:25.768 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/books - null null
+2024-05-27 19:46:25.770 +02:00 [INF] CORS policy execution successful.
+2024-05-27 19:46:25.771 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 19:46:25.772 +02:00 [INF] Route matched with {action = "GetAll", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Books]]] GetAll() on controller LibraryApp.Controllers.BooksController (LibraryApp).
+2024-05-27 19:46:25.773 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "b"."InventoryNumber", "b"."Author", "b"."BookTitle", "b"."PublicationYear", "b"."Publisher"
+FROM "Books" AS "b"
+2024-05-27 19:46:25.775 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Books, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 19:46:25.776 +02:00 [INF] Executed action LibraryApp.Controllers.BooksController.GetAll (LibraryApp) in 2.7978ms
+2024-05-27 19:46:25.776 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 19:46:25.777 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/books - 200 null application/json; charset=utf-8 9.6489ms
+2024-05-27 19:46:37.056 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/readers - null null
+2024-05-27 19:46:37.058 +02:00 [INF] CORS policy execution successful.
+2024-05-27 19:46:37.061 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 19:46:37.063 +02:00 [INF] Route matched with {action = "GetAll", controller = "Readers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Readers]]] GetAll() on controller LibraryApp.Controllers.ReadersController (LibraryApp).
+2024-05-27 19:46:37.066 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "r"."ReaderId", "r"."Address", "r"."BirthDate", "r"."Name"
+FROM "Readers" AS "r"
+2024-05-27 19:46:37.068 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Readers, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 19:46:37.069 +02:00 [INF] Executed action LibraryApp.Controllers.ReadersController.GetAll (LibraryApp) in 3.1561ms
+2024-05-27 19:46:37.070 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 19:46:37.071 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/readers - 200 null application/json; charset=utf-8 14.9614ms
+2024-05-27 19:47:14.209 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/readers - null null
+2024-05-27 19:47:14.217 +02:00 [INF] CORS policy execution successful.
+2024-05-27 19:47:14.218 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 19:47:14.223 +02:00 [INF] Route matched with {action = "GetAll", controller = "Readers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Readers]]] GetAll() on controller LibraryApp.Controllers.ReadersController (LibraryApp).
+2024-05-27 19:47:14.227 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "r"."ReaderId", "r"."Address", "r"."BirthDate", "r"."Name"
+FROM "Readers" AS "r"
+2024-05-27 19:47:14.231 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Readers, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 19:47:14.232 +02:00 [INF] Executed action LibraryApp.Controllers.ReadersController.GetAll (LibraryApp) in 5.2504ms
+2024-05-27 19:47:14.233 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 19:47:14.234 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/readers - 200 null application/json; charset=utf-8 24.9362ms
+2024-05-27 20:07:56.816 +02:00 [INF] Now listening on: https://localhost:8080
+2024-05-27 20:07:56.831 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-27 20:07:56.834 +02:00 [INF] Hosting environment: Development
+2024-05-27 20:07:56.834 +02:00 [INF] Content root path: D:\C#\LibraryApp\LibraryApp
+2024-05-27 20:08:07.246 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/readers - null null
+2024-05-27 20:08:07.271 +02:00 [INF] CORS policy execution successful.
+2024-05-27 20:08:07.274 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 20:08:07.284 +02:00 [INF] Route matched with {action = "GetAll", controller = "Readers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Readers]]] GetAll() on controller LibraryApp.Controllers.ReadersController (LibraryApp).
+2024-05-27 20:08:07.679 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "r"."ReaderId", "r"."Address", "r"."BirthDate", "r"."Name"
+FROM "Readers" AS "r"
+2024-05-27 20:08:07.712 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Readers, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 20:08:07.727 +02:00 [INF] Executed action LibraryApp.Controllers.ReadersController.GetAll (LibraryApp) in 440.6694ms
+2024-05-27 20:08:07.731 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 20:08:07.732 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/readers - 200 null application/json; charset=utf-8 487.1235ms
+2024-05-27 20:08:18.564 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/readers/e0b94615-888b-48e6-aa99-08b647fd8b88 - null null
+2024-05-27 20:08:18.579 +02:00 [INF] CORS policy execution successful.
+2024-05-27 20:08:18.580 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.ReadersController.Get (LibraryApp)'
+2024-05-27 20:08:18.586 +02:00 [INF] Route matched with {action = "Get", controller = "Readers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[LibraryApp.Shared.Readers]] Get(System.Guid) on controller LibraryApp.Controllers.ReadersController (LibraryApp).
+2024-05-27 20:08:18.595 +02:00 [INF] Reader retrieved: {"LazyLoader":{"$type":"LazyLoader"},"ReaderId":"e0b94615-888b-48e6-aa99-08b647fd8b88","Name":"Regi","Address":"debrecen","BirthDate":"2003-01-01T00:00:00.0000000","$type":"ReadersProxy"}
+2024-05-27 20:08:18.598 +02:00 [INF] Executing OkObjectResult, writing value of type 'Castle.Proxies.ReadersProxy'.
+2024-05-27 20:08:18.602 +02:00 [INF] Executed action LibraryApp.Controllers.ReadersController.Get (LibraryApp) in 15.3512ms
+2024-05-27 20:08:18.603 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.ReadersController.Get (LibraryApp)'
+2024-05-27 20:08:18.604 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/readers/e0b94615-888b-48e6-aa99-08b647fd8b88 - 200 null application/json; charset=utf-8 40.1049ms
+2024-05-27 20:12:41.033 +02:00 [INF] Now listening on: https://localhost:8080
+2024-05-27 20:12:41.049 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-27 20:12:41.051 +02:00 [INF] Hosting environment: Development
+2024-05-27 20:12:41.052 +02:00 [INF] Content root path: D:\C#\LibraryApp\LibraryApp
+2024-05-27 20:25:29.547 +02:00 [INF] Now listening on: https://localhost:8080
+2024-05-27 20:25:29.567 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-27 20:25:29.569 +02:00 [INF] Hosting environment: Development
+2024-05-27 20:25:29.570 +02:00 [INF] Content root path: D:\C#\LibraryApp\LibraryApp
+2024-05-27 20:26:08.240 +02:00 [INF] Application is shutting down...
+2024-05-27 20:26:22.093 +02:00 [INF] Now listening on: https://localhost:8080
+2024-05-27 20:26:22.112 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-27 20:26:22.115 +02:00 [INF] Hosting environment: Development
+2024-05-27 20:26:22.115 +02:00 [INF] Content root path: D:\C#\LibraryApp\LibraryApp
+2024-05-27 20:26:34.126 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/readers - null null
+2024-05-27 20:26:34.227 +02:00 [INF] CORS policy execution successful.
+2024-05-27 20:26:34.239 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 20:26:34.274 +02:00 [INF] Route matched with {action = "GetAll", controller = "Readers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Readers]]] GetAll() on controller LibraryApp.Controllers.ReadersController (LibraryApp).
+2024-05-27 20:26:35.975 +02:00 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "r"."ReaderId", "r"."Address", "r"."BirthDate", "r"."Name"
+FROM "Readers" AS "r"
+2024-05-27 20:26:36.116 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Readers, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 20:26:36.181 +02:00 [INF] Executed action LibraryApp.Controllers.ReadersController.GetAll (LibraryApp) in 1891.7018ms
+2024-05-27 20:26:36.185 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 20:26:36.190 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/readers - 200 null application/json; charset=utf-8 2066.9536ms
+2024-05-27 20:26:38.178 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/books - null null
+2024-05-27 20:26:38.192 +02:00 [INF] CORS policy execution successful.
+2024-05-27 20:26:38.195 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 20:26:38.207 +02:00 [INF] Route matched with {action = "GetAll", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Books]]] GetAll() on controller LibraryApp.Controllers.BooksController (LibraryApp).
+2024-05-27 20:26:38.233 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "b"."InventoryNumber", "b"."Author", "b"."BookTitle", "b"."PublicationYear", "b"."Publisher"
+FROM "Books" AS "b"
+2024-05-27 20:26:38.276 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Books, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 20:26:38.298 +02:00 [INF] Executed action LibraryApp.Controllers.BooksController.GetAll (LibraryApp) in 87.7289ms
+2024-05-27 20:26:38.301 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 20:26:38.308 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/books - 200 null application/json; charset=utf-8 130.0319ms
+2024-05-27 20:29:20.218 +02:00 [INF] Now listening on: https://localhost:8080
+2024-05-27 20:29:20.237 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-27 20:29:20.239 +02:00 [INF] Hosting environment: Development
+2024-05-27 20:29:20.240 +02:00 [INF] Content root path: D:\C#\LibraryApp\LibraryApp
+2024-05-27 20:32:49.408 +02:00 [INF] Now listening on: https://localhost:8080
+2024-05-27 20:32:49.427 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-27 20:32:49.430 +02:00 [INF] Hosting environment: Development
+2024-05-27 20:32:49.431 +02:00 [INF] Content root path: D:\C#\LibraryApp\LibraryApp
+2024-05-27 20:33:25.237 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/books - null null
+2024-05-27 20:33:25.270 +02:00 [INF] CORS policy execution successful.
+2024-05-27 20:33:25.274 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 20:33:25.289 +02:00 [INF] Route matched with {action = "GetAll", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Books]]] GetAll() on controller LibraryApp.Controllers.BooksController (LibraryApp).
+2024-05-27 20:33:25.816 +02:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "b"."InventoryNumber", "b"."Author", "b"."BookTitle", "b"."PublicationYear", "b"."Publisher"
+FROM "Books" AS "b"
+2024-05-27 20:33:25.860 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Books, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 20:33:25.881 +02:00 [INF] Executed action LibraryApp.Controllers.BooksController.GetAll (LibraryApp) in 583.4112ms
+2024-05-27 20:33:25.883 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 20:33:25.885 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/books - 200 null application/json; charset=utf-8 648.6808ms
+2024-05-27 20:33:28.105 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/books/2395b956-278d-42bb-8ecb-e8f50acbaee5 - null null
+2024-05-27 20:33:28.115 +02:00 [INF] CORS policy execution successful.
+2024-05-27 20:33:28.119 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.BooksController.Get (LibraryApp)'
+2024-05-27 20:33:28.131 +02:00 [INF] Route matched with {action = "Get", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[LibraryApp.Shared.Books]] Get(System.Guid) on controller LibraryApp.Controllers.BooksController (LibraryApp).
+2024-05-27 20:33:28.145 +02:00 [INF] Books retrieved: {"LazyLoader":{"$type":"LazyLoader"},"InventoryNumber":"2395b956-278d-42bb-8ecb-e8f50acbaee5","BookTitle":"egy ropi","Author":"jeff","Publisher":"kmk","PublicationYear":2007,"$type":"BooksProxy"}
+2024-05-27 20:33:28.152 +02:00 [INF] Executing OkObjectResult, writing value of type 'Castle.Proxies.BooksProxy'.
+2024-05-27 20:33:28.156 +02:00 [INF] Executed action LibraryApp.Controllers.BooksController.Get (LibraryApp) in 22.4679ms
+2024-05-27 20:33:28.158 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.BooksController.Get (LibraryApp)'
+2024-05-27 20:33:28.161 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/books/2395b956-278d-42bb-8ecb-e8f50acbaee5 - 200 null application/json; charset=utf-8 56.2038ms
+2024-05-27 21:10:28.616 +02:00 [INF] Now listening on: https://localhost:8080
+2024-05-27 21:10:28.636 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-27 21:10:28.639 +02:00 [INF] Hosting environment: Development
+2024-05-27 21:10:28.641 +02:00 [INF] Content root path: D:\C#\LibraryApp\LibraryApp
+2024-05-27 21:21:27.751 +02:00 [INF] Now listening on: https://localhost:8080
+2024-05-27 21:21:27.771 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-27 21:21:27.773 +02:00 [INF] Hosting environment: Development
+2024-05-27 21:21:27.774 +02:00 [INF] Content root path: D:\C#\LibraryApp\LibraryApp
+2024-05-27 21:21:35.571 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/books - null null
+2024-05-27 21:21:35.604 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:21:35.609 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 21:21:35.623 +02:00 [INF] Route matched with {action = "GetAll", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Books]]] GetAll() on controller LibraryApp.Controllers.BooksController (LibraryApp).
+2024-05-27 21:21:36.160 +02:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "b"."InventoryNumber", "b"."Author", "b"."BookTitle", "b"."PublicationYear", "b"."Publisher"
+FROM "Books" AS "b"
+2024-05-27 21:21:36.206 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Books, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 21:21:36.228 +02:00 [INF] Executed action LibraryApp.Controllers.BooksController.GetAll (LibraryApp) in 600.3139ms
+2024-05-27 21:21:36.230 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 21:21:36.232 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/books - 200 null application/json; charset=utf-8 661.6817ms
+2024-05-27 21:21:36.276 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/readers - null null
+2024-05-27 21:21:36.282 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:21:36.282 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 21:21:36.286 +02:00 [INF] Route matched with {action = "GetAll", controller = "Readers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Readers]]] GetAll() on controller LibraryApp.Controllers.ReadersController (LibraryApp).
+2024-05-27 21:21:36.294 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "r"."ReaderId", "r"."Address", "r"."BirthDate", "r"."Name"
+FROM "Readers" AS "r"
+2024-05-27 21:21:36.303 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Readers, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 21:21:36.310 +02:00 [INF] Executed action LibraryApp.Controllers.ReadersController.GetAll (LibraryApp) in 22.6571ms
+2024-05-27 21:21:36.313 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 21:21:36.316 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/readers - 200 null application/json; charset=utf-8 39.8357ms
+2024-05-27 21:23:09.790 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:8080/loanings/add - null null
+2024-05-27 21:23:09.797 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:23:09.798 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:8080/loanings/add - 204 null null 7.9394ms
+2024-05-27 21:23:09.801 +02:00 [INF] Request starting HTTP/2 POST https://localhost:8080/loanings/add - application/json; charset=utf-8 230
+2024-05-27 21:23:09.803 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:23:09.803 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2024-05-27 21:23:09.804 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2024-05-27 21:23:09.804 +02:00 [INF] Request finished HTTP/2 POST https://localhost:8080/loanings/add - 405 0 null 3.22ms
+2024-05-27 21:23:11.970 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/books - null null
+2024-05-27 21:23:11.975 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:23:11.977 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 21:23:11.978 +02:00 [INF] Route matched with {action = "GetAll", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Books]]] GetAll() on controller LibraryApp.Controllers.BooksController (LibraryApp).
+2024-05-27 21:23:11.986 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "b"."InventoryNumber", "b"."Author", "b"."BookTitle", "b"."PublicationYear", "b"."Publisher"
+FROM "Books" AS "b"
+2024-05-27 21:23:11.990 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Books, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 21:23:11.991 +02:00 [INF] Executed action LibraryApp.Controllers.BooksController.GetAll (LibraryApp) in 6.4597ms
+2024-05-27 21:23:11.993 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 21:23:11.995 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/books - 200 null application/json; charset=utf-8 24.3167ms
+2024-05-27 21:23:12.000 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/readers - null null
+2024-05-27 21:23:12.001 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:23:12.002 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 21:23:12.002 +02:00 [INF] Route matched with {action = "GetAll", controller = "Readers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Readers]]] GetAll() on controller LibraryApp.Controllers.ReadersController (LibraryApp).
+2024-05-27 21:23:12.004 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "r"."ReaderId", "r"."Address", "r"."BirthDate", "r"."Name"
+FROM "Readers" AS "r"
+2024-05-27 21:23:12.005 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Readers, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 21:23:12.006 +02:00 [INF] Executed action LibraryApp.Controllers.ReadersController.GetAll (LibraryApp) in 2.5392ms
+2024-05-27 21:23:12.007 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 21:23:12.007 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/readers - 200 null application/json; charset=utf-8 7.4692ms
+2024-05-27 21:28:54.588 +02:00 [INF] Now listening on: https://localhost:8080
+2024-05-27 21:28:54.607 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-27 21:28:54.610 +02:00 [INF] Hosting environment: Development
+2024-05-27 21:28:54.611 +02:00 [INF] Content root path: D:\C#\LibraryApp\LibraryApp
+2024-05-27 21:29:01.807 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/books - null null
+2024-05-27 21:29:01.847 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:29:01.854 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 21:29:01.870 +02:00 [INF] Route matched with {action = "GetAll", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Books]]] GetAll() on controller LibraryApp.Controllers.BooksController (LibraryApp).
+2024-05-27 21:29:02.448 +02:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "b"."InventoryNumber", "b"."Author", "b"."BookTitle", "b"."PublicationYear", "b"."Publisher"
+FROM "Books" AS "b"
+2024-05-27 21:29:02.500 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Books, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 21:29:02.522 +02:00 [INF] Executed action LibraryApp.Controllers.BooksController.GetAll (LibraryApp) in 644.7226ms
+2024-05-27 21:29:02.525 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 21:29:02.526 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/books - 200 null application/json; charset=utf-8 719.603ms
+2024-05-27 21:29:02.576 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/readers - null null
+2024-05-27 21:29:02.582 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:29:02.582 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 21:29:02.587 +02:00 [INF] Route matched with {action = "GetAll", controller = "Readers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Readers]]] GetAll() on controller LibraryApp.Controllers.ReadersController (LibraryApp).
+2024-05-27 21:29:02.595 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "r"."ReaderId", "r"."Address", "r"."BirthDate", "r"."Name"
+FROM "Readers" AS "r"
+2024-05-27 21:29:02.606 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Readers, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 21:29:02.613 +02:00 [INF] Executed action LibraryApp.Controllers.ReadersController.GetAll (LibraryApp) in 24.6419ms
+2024-05-27 21:29:02.615 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 21:29:02.616 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/readers - 200 null application/json; charset=utf-8 39.4589ms
+2024-05-27 21:29:19.953 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:8080/readers - null null
+2024-05-27 21:29:19.960 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:29:19.961 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:8080/readers - 204 null null 8.178ms
+2024-05-27 21:29:19.964 +02:00 [INF] Request starting HTTP/2 POST https://localhost:8080/readers - application/json; charset=utf-8 116
+2024-05-27 21:29:19.968 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:29:19.968 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.ReadersController.Add (LibraryApp)'
+2024-05-27 21:29:19.975 +02:00 [INF] Route matched with {action = "Add", controller = "Readers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Add(LibraryApp.Shared.Readers) on controller LibraryApp.Controllers.ReadersController (LibraryApp).
+2024-05-27 21:29:20.068 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "r"."ReaderId", "r"."Address", "r"."BirthDate", "r"."Name"
+FROM "Readers" AS "r"
+WHERE "r"."ReaderId" = @__get_Item_0
+LIMIT 1
+2024-05-27 21:29:20.070 +02:00 [INF] Reader retrieved: null
+2024-05-27 21:29:20.149 +02:00 [INF] Executed DbCommand (9ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 4), @p2='?' (DbType = DateTime), @p3='?' (Size = 4)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Readers" ("ReaderId", "Address", "BirthDate", "Name")
+VALUES (@p0, @p1, @p2, @p3);
+2024-05-27 21:29:20.157 +02:00 [INF] Reader added: @"c1bfcf3e-d23b-4225-9767-cbddccc53396"
+2024-05-27 21:29:20.160 +02:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-05-27 21:29:20.161 +02:00 [INF] Executed action LibraryApp.Controllers.ReadersController.Add (LibraryApp) in 183.9463ms
+2024-05-27 21:29:20.161 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.ReadersController.Add (LibraryApp)'
+2024-05-27 21:29:20.162 +02:00 [INF] Request finished HTTP/2 POST https://localhost:8080/readers - 200 0 null 197.7163ms
+2024-05-27 21:29:20.197 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/readers - null null
+2024-05-27 21:29:20.203 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:29:20.203 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 21:29:20.204 +02:00 [INF] Route matched with {action = "GetAll", controller = "Readers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Readers]]] GetAll() on controller LibraryApp.Controllers.ReadersController (LibraryApp).
+2024-05-27 21:29:20.206 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "r"."ReaderId", "r"."Address", "r"."BirthDate", "r"."Name"
+FROM "Readers" AS "r"
+2024-05-27 21:29:20.207 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Readers, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 21:29:20.208 +02:00 [INF] Executed action LibraryApp.Controllers.ReadersController.GetAll (LibraryApp) in 3.2571ms
+2024-05-27 21:29:20.209 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 21:29:20.210 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/readers - 200 null application/json; charset=utf-8 12.7289ms
+2024-05-27 21:29:47.269 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/books - null null
+2024-05-27 21:29:47.273 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:29:47.274 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 21:29:47.275 +02:00 [INF] Route matched with {action = "GetAll", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Books]]] GetAll() on controller LibraryApp.Controllers.BooksController (LibraryApp).
+2024-05-27 21:29:47.276 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "b"."InventoryNumber", "b"."Author", "b"."BookTitle", "b"."PublicationYear", "b"."Publisher"
+FROM "Books" AS "b"
+2024-05-27 21:29:47.281 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Books, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 21:29:47.284 +02:00 [INF] Executed action LibraryApp.Controllers.BooksController.GetAll (LibraryApp) in 8.5905ms
+2024-05-27 21:29:47.286 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 21:29:47.287 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/books - 200 null application/json; charset=utf-8 17.5716ms
+2024-05-27 21:29:47.290 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/readers - null null
+2024-05-27 21:29:47.291 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:29:47.292 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 21:29:47.292 +02:00 [INF] Route matched with {action = "GetAll", controller = "Readers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Readers]]] GetAll() on controller LibraryApp.Controllers.ReadersController (LibraryApp).
+2024-05-27 21:29:47.294 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "r"."ReaderId", "r"."Address", "r"."BirthDate", "r"."Name"
+FROM "Readers" AS "r"
+2024-05-27 21:29:47.296 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Readers, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 21:29:47.297 +02:00 [INF] Executed action LibraryApp.Controllers.ReadersController.GetAll (LibraryApp) in 3.9031ms
+2024-05-27 21:29:47.298 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 21:29:47.299 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/readers - 200 null application/json; charset=utf-8 8.8386ms
+2024-05-27 21:39:35.038 +02:00 [INF] Now listening on: https://localhost:8080
+2024-05-27 21:39:35.057 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-27 21:39:35.061 +02:00 [INF] Hosting environment: Development
+2024-05-27 21:39:35.062 +02:00 [INF] Content root path: D:\C#\LibraryApp\LibraryApp
+2024-05-27 21:39:46.649 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/readers - null null
+2024-05-27 21:39:46.748 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:39:46.757 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 21:39:46.793 +02:00 [INF] Route matched with {action = "GetAll", controller = "Readers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Readers]]] GetAll() on controller LibraryApp.Controllers.ReadersController (LibraryApp).
+2024-05-27 21:39:48.500 +02:00 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "r"."ReaderId", "r"."Address", "r"."BirthDate", "r"."Name"
+FROM "Readers" AS "r"
+2024-05-27 21:39:48.647 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Readers, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 21:39:48.717 +02:00 [INF] Executed action LibraryApp.Controllers.ReadersController.GetAll (LibraryApp) in 1907.2977ms
+2024-05-27 21:39:48.722 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 21:39:48.726 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/readers - 200 null application/json; charset=utf-8 2081.3663ms
+2024-05-27 21:39:54.263 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/books - null null
+2024-05-27 21:39:54.278 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:39:54.284 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 21:39:54.299 +02:00 [INF] Route matched with {action = "GetAll", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Books]]] GetAll() on controller LibraryApp.Controllers.BooksController (LibraryApp).
+2024-05-27 21:39:54.329 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "b"."InventoryNumber", "b"."Author", "b"."BookTitle", "b"."PublicationYear", "b"."Publisher"
+FROM "Books" AS "b"
+2024-05-27 21:39:54.366 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Books, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 21:39:54.389 +02:00 [INF] Executed action LibraryApp.Controllers.BooksController.GetAll (LibraryApp) in 84.0215ms
+2024-05-27 21:39:54.393 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 21:39:54.399 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/books - 200 null application/json; charset=utf-8 136.544ms
+2024-05-27 21:40:41.504 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:8080/books - null null
+2024-05-27 21:40:41.518 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:40:41.524 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:8080/books - 204 null null 20.3233ms
+2024-05-27 21:40:41.530 +02:00 [INF] Request starting HTTP/2 POST https://localhost:8080/books - application/json; charset=utf-8 154
+2024-05-27 21:40:41.547 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:40:41.549 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.BooksController.Add (LibraryApp)'
+2024-05-27 21:40:41.569 +02:00 [INF] Route matched with {action = "Add", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Add(LibraryApp.Shared.Books) on controller LibraryApp.Controllers.BooksController (LibraryApp).
+2024-05-27 21:40:41.859 +02:00 [INF] Executed DbCommand (7ms) [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "b"."InventoryNumber", "b"."Author", "b"."BookTitle", "b"."PublicationYear", "b"."Publisher"
+FROM "Books" AS "b"
+WHERE "b"."InventoryNumber" = @__get_Item_0
+LIMIT 1
+2024-05-27 21:40:41.864 +02:00 [INF] Books retrieved: null
+2024-05-27 21:40:42.114 +02:00 [INF] Executed DbCommand (13ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 9), @p2='?' (Size = 13), @p3='?' (DbType = Int32), @p4='?' (Size = 9)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Books" ("InventoryNumber", "Author", "BookTitle", "PublicationYear", "Publisher")
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2024-05-27 21:40:42.136 +02:00 [INF] Book added: @"e8134014-06a0-418b-8c9a-923f1571edbc"
+2024-05-27 21:40:42.143 +02:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-05-27 21:40:42.145 +02:00 [INF] Executed action LibraryApp.Controllers.BooksController.Add (LibraryApp) in 563.8496ms
+2024-05-27 21:40:42.147 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.BooksController.Add (LibraryApp)'
+2024-05-27 21:40:42.149 +02:00 [INF] Request finished HTTP/2 POST https://localhost:8080/books - 200 0 null 619.6533ms
+2024-05-27 21:40:42.207 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/books - null null
+2024-05-27 21:40:42.218 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:40:42.220 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 21:40:42.222 +02:00 [INF] Route matched with {action = "GetAll", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Books]]] GetAll() on controller LibraryApp.Controllers.BooksController (LibraryApp).
+2024-05-27 21:40:42.226 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "b"."InventoryNumber", "b"."Author", "b"."BookTitle", "b"."PublicationYear", "b"."Publisher"
+FROM "Books" AS "b"
+2024-05-27 21:40:42.231 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Books, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 21:40:42.234 +02:00 [INF] Executed action LibraryApp.Controllers.BooksController.GetAll (LibraryApp) in 9.388ms
+2024-05-27 21:40:42.237 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 21:40:42.245 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/books - 200 null application/json; charset=utf-8 37.6876ms
+2024-05-27 21:40:46.160 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/books - null null
+2024-05-27 21:40:46.169 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:40:46.171 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 21:40:46.172 +02:00 [INF] Route matched with {action = "GetAll", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Books]]] GetAll() on controller LibraryApp.Controllers.BooksController (LibraryApp).
+2024-05-27 21:40:46.176 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "b"."InventoryNumber", "b"."Author", "b"."BookTitle", "b"."PublicationYear", "b"."Publisher"
+FROM "Books" AS "b"
+2024-05-27 21:40:46.180 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Books, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 21:40:46.185 +02:00 [INF] Executed action LibraryApp.Controllers.BooksController.GetAll (LibraryApp) in 9.7464ms
+2024-05-27 21:40:46.190 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 21:40:46.197 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/books - 200 null application/json; charset=utf-8 37.5006ms
+2024-05-27 21:40:46.204 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/readers - null null
+2024-05-27 21:40:46.211 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:40:46.212 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 21:40:46.214 +02:00 [INF] Route matched with {action = "GetAll", controller = "Readers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Readers]]] GetAll() on controller LibraryApp.Controllers.ReadersController (LibraryApp).
+2024-05-27 21:40:46.222 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "r"."ReaderId", "r"."Address", "r"."BirthDate", "r"."Name"
+FROM "Readers" AS "r"
+2024-05-27 21:40:46.226 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Readers, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 21:40:46.228 +02:00 [INF] Executed action LibraryApp.Controllers.ReadersController.GetAll (LibraryApp) in 7.7912ms
+2024-05-27 21:40:46.231 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 21:40:46.238 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/readers - 200 null application/json; charset=utf-8 33.5484ms
+2024-05-27 21:41:02.496 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:8080/loanings/add - null null
+2024-05-27 21:41:02.501 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:41:02.505 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:8080/loanings/add - 204 null null 8.8759ms
+2024-05-27 21:41:02.509 +02:00 [INF] Request starting HTTP/2 POST https://localhost:8080/loanings/add - application/json; charset=utf-8 230
+2024-05-27 21:41:02.516 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:41:02.518 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2024-05-27 21:41:02.522 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2024-05-27 21:41:02.523 +02:00 [INF] Request finished HTTP/2 POST https://localhost:8080/loanings/add - 405 0 null 14.3738ms
+2024-05-27 21:41:06.455 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/books - null null
+2024-05-27 21:41:06.459 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:41:06.462 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 21:41:06.465 +02:00 [INF] Route matched with {action = "GetAll", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Books]]] GetAll() on controller LibraryApp.Controllers.BooksController (LibraryApp).
+2024-05-27 21:41:06.471 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "b"."InventoryNumber", "b"."Author", "b"."BookTitle", "b"."PublicationYear", "b"."Publisher"
+FROM "Books" AS "b"
+2024-05-27 21:41:06.478 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Books, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 21:41:06.480 +02:00 [INF] Executed action LibraryApp.Controllers.BooksController.GetAll (LibraryApp) in 10.5862ms
+2024-05-27 21:41:06.483 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 21:41:06.487 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/books - 200 null application/json; charset=utf-8 31.7002ms
+2024-05-27 21:41:06.493 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/readers - null null
+2024-05-27 21:41:06.498 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:41:06.501 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 21:41:06.503 +02:00 [INF] Route matched with {action = "GetAll", controller = "Readers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Readers]]] GetAll() on controller LibraryApp.Controllers.ReadersController (LibraryApp).
+2024-05-27 21:41:06.507 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "r"."ReaderId", "r"."Address", "r"."BirthDate", "r"."Name"
+FROM "Readers" AS "r"
+2024-05-27 21:41:06.511 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Readers, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 21:41:06.514 +02:00 [INF] Executed action LibraryApp.Controllers.ReadersController.GetAll (LibraryApp) in 7.3014ms
+2024-05-27 21:41:06.518 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 21:41:06.524 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/readers - 200 null application/json; charset=utf-8 31.9055ms
+2024-05-27 21:43:30.200 +02:00 [INF] Now listening on: https://localhost:8080
+2024-05-27 21:43:30.221 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-27 21:43:30.223 +02:00 [INF] Hosting environment: Development
+2024-05-27 21:43:30.224 +02:00 [INF] Content root path: D:\C#\LibraryApp\LibraryApp
+2024-05-27 21:43:37.690 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/books - null null
+2024-05-27 21:43:37.731 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:43:37.738 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 21:43:37.757 +02:00 [INF] Route matched with {action = "GetAll", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Books]]] GetAll() on controller LibraryApp.Controllers.BooksController (LibraryApp).
+2024-05-27 21:43:38.387 +02:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "b"."InventoryNumber", "b"."Author", "b"."BookTitle", "b"."PublicationYear", "b"."Publisher"
+FROM "Books" AS "b"
+2024-05-27 21:43:38.449 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Books, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 21:43:38.474 +02:00 [INF] Executed action LibraryApp.Controllers.BooksController.GetAll (LibraryApp) in 708.8439ms
+2024-05-27 21:43:38.480 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 21:43:38.485 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/books - 200 null application/json; charset=utf-8 795.5741ms
+2024-05-27 21:43:38.525 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/readers - null null
+2024-05-27 21:43:38.531 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:43:38.533 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 21:43:38.537 +02:00 [INF] Route matched with {action = "GetAll", controller = "Readers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Readers]]] GetAll() on controller LibraryApp.Controllers.ReadersController (LibraryApp).
+2024-05-27 21:43:38.546 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "r"."ReaderId", "r"."Address", "r"."BirthDate", "r"."Name"
+FROM "Readers" AS "r"
+2024-05-27 21:43:38.556 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Readers, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 21:43:38.566 +02:00 [INF] Executed action LibraryApp.Controllers.ReadersController.GetAll (LibraryApp) in 27.4902ms
+2024-05-27 21:43:38.569 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 21:43:38.570 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/readers - 200 null application/json; charset=utf-8 44.6927ms
+2024-05-27 21:45:32.937 +02:00 [INF] Now listening on: https://localhost:8080
+2024-05-27 21:45:32.957 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-27 21:45:32.959 +02:00 [INF] Hosting environment: Development
+2024-05-27 21:45:32.960 +02:00 [INF] Content root path: D:\C#\LibraryApp\LibraryApp
+2024-05-27 21:45:40.151 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/books - null null
+2024-05-27 21:45:40.188 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:45:40.193 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 21:45:40.208 +02:00 [INF] Route matched with {action = "GetAll", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Books]]] GetAll() on controller LibraryApp.Controllers.BooksController (LibraryApp).
+2024-05-27 21:45:41.438 +02:00 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "b"."InventoryNumber", "b"."Author", "b"."BookTitle", "b"."PublicationYear", "b"."Publisher"
+FROM "Books" AS "b"
+2024-05-27 21:45:41.588 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Books, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 21:45:41.657 +02:00 [INF] Executed action LibraryApp.Controllers.BooksController.GetAll (LibraryApp) in 1438.8617ms
+2024-05-27 21:45:41.662 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 21:45:41.666 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/books - 200 null application/json; charset=utf-8 1515.6557ms
+2024-05-27 21:45:41.717 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/readers - null null
+2024-05-27 21:45:41.728 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:45:41.729 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 21:45:41.739 +02:00 [INF] Route matched with {action = "GetAll", controller = "Readers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Readers]]] GetAll() on controller LibraryApp.Controllers.ReadersController (LibraryApp).
+2024-05-27 21:45:41.762 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "r"."ReaderId", "r"."Address", "r"."BirthDate", "r"."Name"
+FROM "Readers" AS "r"
+2024-05-27 21:45:41.797 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Readers, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 21:45:41.820 +02:00 [INF] Executed action LibraryApp.Controllers.ReadersController.GetAll (LibraryApp) in 77.2391ms
+2024-05-27 21:45:41.823 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 21:45:41.830 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/readers - 200 null application/json; charset=utf-8 112.5918ms
+2024-05-27 21:46:00.361 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/books - null null
+2024-05-27 21:46:00.375 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:46:00.378 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 21:46:00.384 +02:00 [INF] Route matched with {action = "GetAll", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Books]]] GetAll() on controller LibraryApp.Controllers.BooksController (LibraryApp).
+2024-05-27 21:46:00.395 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "b"."InventoryNumber", "b"."Author", "b"."BookTitle", "b"."PublicationYear", "b"."Publisher"
+FROM "Books" AS "b"
+2024-05-27 21:46:00.400 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Books, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 21:46:00.406 +02:00 [INF] Executed action LibraryApp.Controllers.BooksController.GetAll (LibraryApp) in 14.2045ms
+2024-05-27 21:46:00.408 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 21:46:00.409 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/books - 200 null application/json; charset=utf-8 48.5206ms
+2024-05-27 21:46:00.544 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/readers - null null
+2024-05-27 21:46:00.553 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:46:00.556 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 21:46:00.560 +02:00 [INF] Route matched with {action = "GetAll", controller = "Readers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Readers]]] GetAll() on controller LibraryApp.Controllers.ReadersController (LibraryApp).
+2024-05-27 21:46:00.576 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "r"."ReaderId", "r"."Address", "r"."BirthDate", "r"."Name"
+FROM "Readers" AS "r"
+2024-05-27 21:46:00.586 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Readers, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 21:46:00.594 +02:00 [INF] Executed action LibraryApp.Controllers.ReadersController.GetAll (LibraryApp) in 22.5727ms
+2024-05-27 21:46:00.598 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 21:46:00.600 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/readers - 200 null application/json; charset=utf-8 55.6938ms
+2024-05-27 21:50:19.258 +02:00 [INF] Now listening on: https://localhost:8080
+2024-05-27 21:50:19.281 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-27 21:50:19.284 +02:00 [INF] Hosting environment: Development
+2024-05-27 21:50:19.285 +02:00 [INF] Content root path: D:\C#\LibraryApp\LibraryApp
+2024-05-27 21:50:26.207 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/books - null null
+2024-05-27 21:50:26.244 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:50:26.248 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 21:50:26.259 +02:00 [INF] Route matched with {action = "GetAll", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Books]]] GetAll() on controller LibraryApp.Controllers.BooksController (LibraryApp).
+2024-05-27 21:50:26.793 +02:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "b"."InventoryNumber", "b"."Author", "b"."BookTitle", "b"."PublicationYear", "b"."Publisher"
+FROM "Books" AS "b"
+2024-05-27 21:50:26.848 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Books, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 21:50:26.872 +02:00 [INF] Executed action LibraryApp.Controllers.BooksController.GetAll (LibraryApp) in 608.4281ms
+2024-05-27 21:50:26.878 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 21:50:26.880 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/books - 200 null application/json; charset=utf-8 674.8846ms
+2024-05-27 21:50:27.008 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/readers - null null
+2024-05-27 21:50:27.012 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:50:27.012 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 21:50:27.016 +02:00 [INF] Route matched with {action = "GetAll", controller = "Readers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Readers]]] GetAll() on controller LibraryApp.Controllers.ReadersController (LibraryApp).
+2024-05-27 21:50:27.023 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "r"."ReaderId", "r"."Address", "r"."BirthDate", "r"."Name"
+FROM "Readers" AS "r"
+2024-05-27 21:50:27.037 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Readers, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 21:50:27.046 +02:00 [INF] Executed action LibraryApp.Controllers.ReadersController.GetAll (LibraryApp) in 29.4939ms
+2024-05-27 21:50:27.047 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 21:50:27.051 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/readers - 200 null application/json; charset=utf-8 42.481ms
+2024-05-27 21:50:32.462 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/books - null null
+2024-05-27 21:50:32.469 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:50:32.470 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 21:50:32.470 +02:00 [INF] Route matched with {action = "GetAll", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Books]]] GetAll() on controller LibraryApp.Controllers.BooksController (LibraryApp).
+2024-05-27 21:50:32.473 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "b"."InventoryNumber", "b"."Author", "b"."BookTitle", "b"."PublicationYear", "b"."Publisher"
+FROM "Books" AS "b"
+2024-05-27 21:50:32.475 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Books, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 21:50:32.476 +02:00 [INF] Executed action LibraryApp.Controllers.BooksController.GetAll (LibraryApp) in 4.222ms
+2024-05-27 21:50:32.477 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 21:50:32.478 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/books - 200 null application/json; charset=utf-8 15.9792ms
+2024-05-27 21:50:32.618 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/readers - null null
+2024-05-27 21:50:32.624 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:50:32.626 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 21:50:32.627 +02:00 [INF] Route matched with {action = "GetAll", controller = "Readers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Readers]]] GetAll() on controller LibraryApp.Controllers.ReadersController (LibraryApp).
+2024-05-27 21:50:32.630 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "r"."ReaderId", "r"."Address", "r"."BirthDate", "r"."Name"
+FROM "Readers" AS "r"
+2024-05-27 21:50:32.631 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Readers, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 21:50:32.632 +02:00 [INF] Executed action LibraryApp.Controllers.ReadersController.GetAll (LibraryApp) in 2.755ms
+2024-05-27 21:50:32.633 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 21:50:32.634 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/readers - 200 null application/json; charset=utf-8 16.6253ms
+2024-05-27 21:51:01.711 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:8080/loanings/add - null null
+2024-05-27 21:51:01.712 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:51:01.713 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:8080/loanings/add - 204 null null 2.648ms
+2024-05-27 21:51:01.718 +02:00 [INF] Request starting HTTP/2 POST https://localhost:8080/loanings/add - application/json; charset=utf-8 230
+2024-05-27 21:51:01.720 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:51:01.721 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2024-05-27 21:51:01.724 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2024-05-27 21:51:01.727 +02:00 [INF] Request finished HTTP/2 POST https://localhost:8080/loanings/add - 405 0 null 8.831ms
+2024-05-27 21:58:32.215 +02:00 [INF] Now listening on: https://localhost:8080
+2024-05-27 21:58:32.234 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-27 21:58:32.238 +02:00 [INF] Hosting environment: Development
+2024-05-27 21:58:32.240 +02:00 [INF] Content root path: D:\C#\LibraryApp\LibraryApp
+2024-05-27 21:58:49.118 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/books - null null
+2024-05-27 21:58:49.222 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:58:49.231 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 21:58:49.266 +02:00 [INF] Route matched with {action = "GetAll", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Books]]] GetAll() on controller LibraryApp.Controllers.BooksController (LibraryApp).
+2024-05-27 21:58:50.989 +02:00 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "b"."InventoryNumber", "b"."Author", "b"."BookTitle", "b"."PublicationYear", "b"."Publisher"
+FROM "Books" AS "b"
+2024-05-27 21:58:51.133 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Books, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 21:58:51.201 +02:00 [INF] Executed action LibraryApp.Controllers.BooksController.GetAll (LibraryApp) in 1924.8405ms
+2024-05-27 21:58:51.206 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 21:58:51.210 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/books - 200 null application/json; charset=utf-8 2094.754ms
+2024-05-27 22:01:56.811 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/books - null null
+2024-05-27 22:01:56.826 +02:00 [INF] CORS policy execution successful.
+2024-05-27 22:01:56.829 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 22:01:56.834 +02:00 [INF] Route matched with {action = "GetAll", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Books]]] GetAll() on controller LibraryApp.Controllers.BooksController (LibraryApp).
+2024-05-27 22:01:56.843 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "b"."InventoryNumber", "b"."Author", "b"."BookTitle", "b"."PublicationYear", "b"."Publisher"
+FROM "Books" AS "b"
+2024-05-27 22:01:56.851 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Books, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 22:01:56.854 +02:00 [INF] Executed action LibraryApp.Controllers.BooksController.GetAll (LibraryApp) in 13.9471ms
+2024-05-27 22:01:56.859 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 22:01:56.864 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/books - 200 null application/json; charset=utf-8 52.1864ms
+2024-05-27 22:02:06.958 +02:00 [INF] Now listening on: https://localhost:8080
+2024-05-27 22:02:06.979 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-27 22:02:06.981 +02:00 [INF] Hosting environment: Development
+2024-05-27 22:02:06.982 +02:00 [INF] Content root path: D:\C#\LibraryApp\LibraryApp
+2024-05-27 22:02:13.942 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/books - null null
+2024-05-27 22:02:13.982 +02:00 [INF] CORS policy execution successful.
+2024-05-27 22:02:13.986 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 22:02:14.006 +02:00 [INF] Route matched with {action = "GetAll", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Books]]] GetAll() on controller LibraryApp.Controllers.BooksController (LibraryApp).
+2024-05-27 22:02:14.590 +02:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "b"."InventoryNumber", "b"."Author", "b"."BookTitle", "b"."PublicationYear", "b"."Publisher"
+FROM "Books" AS "b"
+2024-05-27 22:02:14.637 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Books, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 22:02:14.659 +02:00 [INF] Executed action LibraryApp.Controllers.BooksController.GetAll (LibraryApp) in 641.244ms
+2024-05-27 22:02:14.661 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 22:02:14.663 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/books - 200 null application/json; charset=utf-8 721.7332ms
+2024-05-27 22:02:51.192 +02:00 [INF] Now listening on: https://localhost:8080
+2024-05-27 22:02:51.212 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-27 22:02:51.215 +02:00 [INF] Hosting environment: Development
+2024-05-27 22:02:51.215 +02:00 [INF] Content root path: D:\C#\LibraryApp\LibraryApp
+2024-05-27 22:09:00.582 +02:00 [INF] Now listening on: https://localhost:8080
+2024-05-27 22:09:00.600 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-27 22:09:00.601 +02:00 [INF] Hosting environment: Development
+2024-05-27 22:09:00.602 +02:00 [INF] Content root path: D:\C#\LibraryApp\LibraryApp
+2024-05-27 22:10:55.782 +02:00 [INF] Now listening on: https://localhost:8080
+2024-05-27 22:10:55.799 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-27 22:10:55.800 +02:00 [INF] Hosting environment: Development
+2024-05-27 22:10:55.801 +02:00 [INF] Content root path: D:\C#\LibraryApp\LibraryApp
+2024-05-27 22:45:34.392 +02:00 [INF] Now listening on: https://localhost:8080
+2024-05-27 22:45:34.406 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-27 22:45:34.408 +02:00 [INF] Hosting environment: Development
+2024-05-27 22:45:34.408 +02:00 [INF] Content root path: D:\C#\LibraryApp\LibraryApp
+2024-05-27 22:45:54.643 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/books - null null
+2024-05-27 22:45:54.673 +02:00 [INF] CORS policy execution successful.
+2024-05-27 22:45:54.677 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 22:45:54.685 +02:00 [INF] Route matched with {action = "GetAll", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Books]]] GetAll() on controller LibraryApp.Controllers.BooksController (LibraryApp).
+2024-05-27 22:45:55.089 +02:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "b"."InventoryNumber", "b"."Author", "b"."BookTitle", "b"."PublicationYear", "b"."Publisher"
+FROM "Books" AS "b"
+2024-05-27 22:45:55.127 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Books, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 22:45:55.146 +02:00 [INF] Executed action LibraryApp.Controllers.BooksController.GetAll (LibraryApp) in 457.3585ms
+2024-05-27 22:45:55.150 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 22:45:55.151 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/books - 200 null application/json; charset=utf-8 508.2149ms
+2024-05-27 22:45:55.185 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/readers - null null
+2024-05-27 22:45:55.188 +02:00 [INF] CORS policy execution successful.
+2024-05-27 22:45:55.188 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 22:45:55.191 +02:00 [INF] Route matched with {action = "GetAll", controller = "Readers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Readers]]] GetAll() on controller LibraryApp.Controllers.ReadersController (LibraryApp).
+2024-05-27 22:45:55.197 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "r"."ReaderId", "r"."Address", "r"."BirthDate", "r"."Name"
+FROM "Readers" AS "r"
+2024-05-27 22:45:55.206 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Readers, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 22:45:55.211 +02:00 [INF] Executed action LibraryApp.Controllers.ReadersController.GetAll (LibraryApp) in 19.1351ms
+2024-05-27 22:45:55.212 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 22:45:55.213 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/readers - 200 null application/json; charset=utf-8 27.8023ms
+2024-05-27 22:45:55.969 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/readers - null null
+2024-05-27 22:45:55.972 +02:00 [INF] CORS policy execution successful.
+2024-05-27 22:45:55.974 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 22:45:55.974 +02:00 [INF] Route matched with {action = "GetAll", controller = "Readers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Readers]]] GetAll() on controller LibraryApp.Controllers.ReadersController (LibraryApp).
+2024-05-27 22:45:55.976 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "r"."ReaderId", "r"."Address", "r"."BirthDate", "r"."Name"
+FROM "Readers" AS "r"
+2024-05-27 22:45:55.977 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Readers, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 22:45:55.977 +02:00 [INF] Executed action LibraryApp.Controllers.ReadersController.GetAll (LibraryApp) in 2.5633ms
+2024-05-27 22:45:55.979 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 22:45:55.981 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/readers - 200 null application/json; charset=utf-8 12.5489ms
+2024-05-27 22:46:00.701 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/books - null null
+2024-05-27 22:46:00.702 +02:00 [INF] CORS policy execution successful.
+2024-05-27 22:46:00.703 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 22:46:00.703 +02:00 [INF] Route matched with {action = "GetAll", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Books]]] GetAll() on controller LibraryApp.Controllers.BooksController (LibraryApp).
+2024-05-27 22:46:00.704 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "b"."InventoryNumber", "b"."Author", "b"."BookTitle", "b"."PublicationYear", "b"."Publisher"
+FROM "Books" AS "b"
+2024-05-27 22:46:00.705 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Books, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 22:46:00.706 +02:00 [INF] Executed action LibraryApp.Controllers.BooksController.GetAll (LibraryApp) in 2.4352ms
+2024-05-27 22:46:00.707 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 22:46:00.708 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/books - 200 null application/json; charset=utf-8 6.941ms
+2024-05-27 22:46:00.710 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/readers - null null
+2024-05-27 22:46:00.712 +02:00 [INF] CORS policy execution successful.
+2024-05-27 22:46:00.712 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 22:46:00.713 +02:00 [INF] Route matched with {action = "GetAll", controller = "Readers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Readers]]] GetAll() on controller LibraryApp.Controllers.ReadersController (LibraryApp).
+2024-05-27 22:46:00.714 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "r"."ReaderId", "r"."Address", "r"."BirthDate", "r"."Name"
+FROM "Readers" AS "r"
+2024-05-27 22:46:00.715 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Readers, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 22:46:00.715 +02:00 [INF] Executed action LibraryApp.Controllers.ReadersController.GetAll (LibraryApp) in 2.0059ms
+2024-05-27 22:46:00.716 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 22:46:00.717 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/readers - 200 null application/json; charset=utf-8 6.2359ms
+2024-05-27 22:46:19.804 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:8080/loanings/add - null null
+2024-05-27 22:46:19.807 +02:00 [INF] CORS policy execution successful.
+2024-05-27 22:46:19.807 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:8080/loanings/add - 204 null null 3.818ms
+2024-05-27 22:46:19.810 +02:00 [INF] Request starting HTTP/2 POST https://localhost:8080/loanings/add - application/json; charset=utf-8 230
+2024-05-27 22:46:19.812 +02:00 [INF] CORS policy execution successful.
+2024-05-27 22:46:19.812 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2024-05-27 22:46:19.813 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2024-05-27 22:46:19.813 +02:00 [INF] Request finished HTTP/2 POST https://localhost:8080/loanings/add - 405 0 null 3.2042ms
+2024-05-27 22:46:29.316 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/readers - null null
+2024-05-27 22:46:29.318 +02:00 [INF] CORS policy execution successful.
+2024-05-27 22:46:29.318 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 22:46:29.319 +02:00 [INF] Route matched with {action = "GetAll", controller = "Readers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Readers]]] GetAll() on controller LibraryApp.Controllers.ReadersController (LibraryApp).
+2024-05-27 22:46:29.320 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "r"."ReaderId", "r"."Address", "r"."BirthDate", "r"."Name"
+FROM "Readers" AS "r"
+2024-05-27 22:46:29.321 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Readers, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 22:46:29.322 +02:00 [INF] Executed action LibraryApp.Controllers.ReadersController.GetAll (LibraryApp) in 2.0658ms
+2024-05-27 22:46:29.323 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 22:46:29.323 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/readers - 200 null application/json; charset=utf-8 7.1608ms
+2024-05-27 22:46:33.198 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/readers - null null
+2024-05-27 22:46:33.200 +02:00 [INF] CORS policy execution successful.
+2024-05-27 22:46:33.200 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 22:46:33.201 +02:00 [INF] Route matched with {action = "GetAll", controller = "Readers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Readers]]] GetAll() on controller LibraryApp.Controllers.ReadersController (LibraryApp).
+2024-05-27 22:46:33.202 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "r"."ReaderId", "r"."Address", "r"."BirthDate", "r"."Name"
+FROM "Readers" AS "r"
+2024-05-27 22:46:33.203 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Readers, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 22:46:33.204 +02:00 [INF] Executed action LibraryApp.Controllers.ReadersController.GetAll (LibraryApp) in 2.2021ms
+2024-05-27 22:46:33.204 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 22:46:33.205 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/readers - 200 null application/json; charset=utf-8 6.7009ms
+2024-05-27 22:46:37.098 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/readers - null null
+2024-05-27 22:46:37.099 +02:00 [INF] CORS policy execution successful.
+2024-05-27 22:46:37.100 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 22:46:37.101 +02:00 [INF] Route matched with {action = "GetAll", controller = "Readers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Readers]]] GetAll() on controller LibraryApp.Controllers.ReadersController (LibraryApp).
+2024-05-27 22:46:37.102 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "r"."ReaderId", "r"."Address", "r"."BirthDate", "r"."Name"
+FROM "Readers" AS "r"
+2024-05-27 22:46:37.103 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Readers, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 22:46:37.104 +02:00 [INF] Executed action LibraryApp.Controllers.ReadersController.GetAll (LibraryApp) in 2.1007ms
+2024-05-27 22:46:37.104 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 22:46:37.105 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/readers - 200 null application/json; charset=utf-8 7.0874ms
+2024-05-27 22:46:38.448 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/readers/e0b94615-888b-48e6-aa99-08b647fd8b88 - null null
+2024-05-27 22:46:38.450 +02:00 [INF] CORS policy execution successful.
+2024-05-27 22:46:38.450 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.ReadersController.Get (LibraryApp)'
+2024-05-27 22:46:38.456 +02:00 [INF] Route matched with {action = "Get", controller = "Readers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[LibraryApp.Shared.Readers]] Get(System.Guid) on controller LibraryApp.Controllers.ReadersController (LibraryApp).
+2024-05-27 22:46:38.466 +02:00 [INF] Reader retrieved: {"LazyLoader":{"$type":"LazyLoader"},"ReaderId":"e0b94615-888b-48e6-aa99-08b647fd8b88","Name":"Regi","Address":"debrecen","BirthDate":"2003-01-01T00:00:00.0000000","$type":"ReadersProxy"}
+2024-05-27 22:46:38.469 +02:00 [INF] Executing OkObjectResult, writing value of type 'Castle.Proxies.ReadersProxy'.
+2024-05-27 22:46:38.472 +02:00 [INF] Executed action LibraryApp.Controllers.ReadersController.Get (LibraryApp) in 15.5272ms
+2024-05-27 22:46:38.474 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.ReadersController.Get (LibraryApp)'
+2024-05-27 22:46:38.474 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/readers/e0b94615-888b-48e6-aa99-08b647fd8b88 - 200 null application/json; charset=utf-8 26.8093ms
+2024-05-27 22:46:40.315 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/readers - null null
+2024-05-27 22:46:40.316 +02:00 [INF] CORS policy execution successful.
+2024-05-27 22:46:40.317 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 22:46:40.317 +02:00 [INF] Route matched with {action = "GetAll", controller = "Readers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Readers]]] GetAll() on controller LibraryApp.Controllers.ReadersController (LibraryApp).
+2024-05-27 22:46:40.318 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "r"."ReaderId", "r"."Address", "r"."BirthDate", "r"."Name"
+FROM "Readers" AS "r"
+2024-05-27 22:46:40.319 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Readers, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 22:46:40.320 +02:00 [INF] Executed action LibraryApp.Controllers.ReadersController.GetAll (LibraryApp) in 2.1574ms
+2024-05-27 22:46:40.321 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 22:46:40.321 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/readers - 200 null application/json; charset=utf-8 6.7139ms
+2024-05-27 22:50:36.515 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/readers - null null
+2024-05-27 22:50:36.518 +02:00 [INF] CORS policy execution successful.
+2024-05-27 22:50:36.518 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 22:50:36.519 +02:00 [INF] Route matched with {action = "GetAll", controller = "Readers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Readers]]] GetAll() on controller LibraryApp.Controllers.ReadersController (LibraryApp).
+2024-05-27 22:50:36.521 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "r"."ReaderId", "r"."Address", "r"."BirthDate", "r"."Name"
+FROM "Readers" AS "r"
+2024-05-27 22:50:36.523 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Readers, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 22:50:36.524 +02:00 [INF] Executed action LibraryApp.Controllers.ReadersController.GetAll (LibraryApp) in 4.114ms
+2024-05-27 22:50:36.525 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 22:50:36.525 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/readers - 200 null application/json; charset=utf-8 9.8624ms
+2024-05-27 22:50:48.469 +02:00 [INF] Now listening on: https://localhost:8080
+2024-05-27 22:50:48.485 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-27 22:50:48.486 +02:00 [INF] Hosting environment: Development
+2024-05-27 22:50:48.487 +02:00 [INF] Content root path: D:\C#\LibraryApp\LibraryApp
+2024-05-27 22:50:54.126 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/readers - null null
+2024-05-27 22:50:54.153 +02:00 [INF] CORS policy execution successful.
+2024-05-27 22:50:54.156 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 22:50:54.165 +02:00 [INF] Route matched with {action = "GetAll", controller = "Readers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Readers]]] GetAll() on controller LibraryApp.Controllers.ReadersController (LibraryApp).
+2024-05-27 22:50:54.605 +02:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "r"."ReaderId", "r"."Address", "r"."BirthDate", "r"."Name"
+FROM "Readers" AS "r"
+2024-05-27 22:50:54.646 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Readers, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 22:50:54.665 +02:00 [INF] Executed action LibraryApp.Controllers.ReadersController.GetAll (LibraryApp) in 497.1105ms
+2024-05-27 22:50:54.668 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 22:50:54.669 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/readers - 200 null application/json; charset=utf-8 544.2869ms
+2024-05-27 22:51:05.221 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/books - null null
+2024-05-27 22:51:05.224 +02:00 [INF] CORS policy execution successful.
+2024-05-27 22:51:05.225 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 22:51:05.228 +02:00 [INF] Route matched with {action = "GetAll", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Books]]] GetAll() on controller LibraryApp.Controllers.BooksController (LibraryApp).
+2024-05-27 22:51:05.237 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "b"."InventoryNumber", "b"."Author", "b"."BookTitle", "b"."PublicationYear", "b"."Publisher"
+FROM "Books" AS "b"
+2024-05-27 22:51:05.249 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Books, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 22:51:05.261 +02:00 [INF] Executed action LibraryApp.Controllers.BooksController.GetAll (LibraryApp) in 31.7766ms
+2024-05-27 22:51:05.264 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 22:51:05.265 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/books - 200 null application/json; charset=utf-8 43.7877ms
+2024-05-27 22:51:05.285 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/readers - null null
+2024-05-27 22:51:05.287 +02:00 [INF] CORS policy execution successful.
+2024-05-27 22:51:05.288 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 22:51:05.289 +02:00 [INF] Route matched with {action = "GetAll", controller = "Readers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Readers]]] GetAll() on controller LibraryApp.Controllers.ReadersController (LibraryApp).
+2024-05-27 22:51:05.290 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "r"."ReaderId", "r"."Address", "r"."BirthDate", "r"."Name"
+FROM "Readers" AS "r"
+2024-05-27 22:51:05.291 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Readers, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 22:51:05.292 +02:00 [INF] Executed action LibraryApp.Controllers.ReadersController.GetAll (LibraryApp) in 2.6853ms
+2024-05-27 22:51:05.293 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 22:51:05.294 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/readers - 200 null application/json; charset=utf-8 9.0106ms
+2024-05-27 22:51:11.399 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/books - null null
+2024-05-27 22:51:11.401 +02:00 [INF] CORS policy execution successful.
+2024-05-27 22:51:11.402 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 22:51:11.403 +02:00 [INF] Route matched with {action = "GetAll", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Books]]] GetAll() on controller LibraryApp.Controllers.BooksController (LibraryApp).
+2024-05-27 22:51:11.405 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "b"."InventoryNumber", "b"."Author", "b"."BookTitle", "b"."PublicationYear", "b"."Publisher"
+FROM "Books" AS "b"
+2024-05-27 22:51:11.408 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Books, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 22:51:11.410 +02:00 [INF] Executed action LibraryApp.Controllers.BooksController.GetAll (LibraryApp) in 4.731ms
+2024-05-27 22:51:11.411 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 22:51:11.412 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/books - 200 null application/json; charset=utf-8 13.0561ms
+2024-05-27 22:51:11.511 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/readers - null null
+2024-05-27 22:51:11.514 +02:00 [INF] CORS policy execution successful.
+2024-05-27 22:51:11.514 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 22:51:11.514 +02:00 [INF] Route matched with {action = "GetAll", controller = "Readers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Readers]]] GetAll() on controller LibraryApp.Controllers.ReadersController (LibraryApp).
+2024-05-27 22:51:11.516 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "r"."ReaderId", "r"."Address", "r"."BirthDate", "r"."Name"
+FROM "Readers" AS "r"
+2024-05-27 22:51:11.517 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Readers, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 22:51:11.518 +02:00 [INF] Executed action LibraryApp.Controllers.ReadersController.GetAll (LibraryApp) in 2.2547ms
+2024-05-27 22:51:11.519 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 22:51:11.520 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/readers - 200 null application/json; charset=utf-8 8.5276ms
+2024-05-27 22:51:29.083 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:8080/loanings/add - null null
+2024-05-27 22:51:29.085 +02:00 [INF] CORS policy execution successful.
+2024-05-27 22:51:29.087 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:8080/loanings/add - 204 null null 4.1064ms
+2024-05-27 22:51:29.090 +02:00 [INF] Request starting HTTP/2 POST https://localhost:8080/loanings/add - application/json; charset=utf-8 230
+2024-05-27 22:51:29.091 +02:00 [INF] CORS policy execution successful.
+2024-05-27 22:51:29.091 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2024-05-27 22:51:29.092 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2024-05-27 22:51:29.092 +02:00 [INF] Request finished HTTP/2 POST https://localhost:8080/loanings/add - 405 0 null 2.4426ms
+2024-05-27 23:06:38.283 +02:00 [INF] Now listening on: https://localhost:8080
+2024-05-27 23:06:38.299 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-27 23:06:38.301 +02:00 [INF] Hosting environment: Development
+2024-05-27 23:06:38.302 +02:00 [INF] Content root path: D:\C#\LibraryApp\LibraryApp
+2024-05-27 23:06:52.734 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/readers - null null
+2024-05-27 23:06:52.757 +02:00 [INF] CORS policy execution successful.
+2024-05-27 23:06:52.761 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 23:06:52.769 +02:00 [INF] Route matched with {action = "GetAll", controller = "Readers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Readers]]] GetAll() on controller LibraryApp.Controllers.ReadersController (LibraryApp).
+2024-05-27 23:06:53.163 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "r"."ReaderId", "r"."Address", "r"."BirthDate", "r"."Name"
+FROM "Readers" AS "r"
+2024-05-27 23:06:53.196 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Readers, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 23:06:53.212 +02:00 [INF] Executed action LibraryApp.Controllers.ReadersController.GetAll (LibraryApp) in 439.6346ms
+2024-05-27 23:06:53.215 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 23:06:53.217 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/readers - 200 null application/json; charset=utf-8 483.2642ms
+2024-05-27 23:06:56.496 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/books - null null
+2024-05-27 23:06:56.500 +02:00 [INF] CORS policy execution successful.
+2024-05-27 23:06:56.501 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 23:06:56.504 +02:00 [INF] Route matched with {action = "GetAll", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Books]]] GetAll() on controller LibraryApp.Controllers.BooksController (LibraryApp).
+2024-05-27 23:06:56.511 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "b"."InventoryNumber", "b"."Author", "b"."BookTitle", "b"."PublicationYear", "b"."Publisher"
+FROM "Books" AS "b"
+2024-05-27 23:06:56.521 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Books, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 23:06:56.527 +02:00 [INF] Executed action LibraryApp.Controllers.BooksController.GetAll (LibraryApp) in 21.9413ms
+2024-05-27 23:06:56.528 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 23:06:56.528 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/books - 200 null application/json; charset=utf-8 32.1504ms
+2024-05-27 23:06:56.549 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/readers - null null
+2024-05-27 23:06:56.552 +02:00 [INF] CORS policy execution successful.
+2024-05-27 23:06:56.553 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 23:06:56.553 +02:00 [INF] Route matched with {action = "GetAll", controller = "Readers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Readers]]] GetAll() on controller LibraryApp.Controllers.ReadersController (LibraryApp).
+2024-05-27 23:06:56.555 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "r"."ReaderId", "r"."Address", "r"."BirthDate", "r"."Name"
+FROM "Readers" AS "r"
+2024-05-27 23:06:56.556 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Readers, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 23:06:56.557 +02:00 [INF] Executed action LibraryApp.Controllers.ReadersController.GetAll (LibraryApp) in 2.5006ms
+2024-05-27 23:06:56.557 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 23:06:56.558 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/readers - 200 null application/json; charset=utf-8 8.7773ms
+2024-05-27 23:07:17.342 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:8080/loanings/add - null null
+2024-05-27 23:07:17.345 +02:00 [INF] CORS policy execution successful.
+2024-05-27 23:07:17.346 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:8080/loanings/add - 204 null null 3.605ms
+2024-05-27 23:07:17.348 +02:00 [INF] Request starting HTTP/2 POST https://localhost:8080/loanings/add - application/json; charset=utf-8 230
+2024-05-27 23:07:17.349 +02:00 [INF] CORS policy execution successful.
+2024-05-27 23:07:17.349 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2024-05-27 23:07:17.350 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2024-05-27 23:07:17.350 +02:00 [INF] Request finished HTTP/2 POST https://localhost:8080/loanings/add - 405 0 null 2.4058ms
+2024-05-27 23:07:19.929 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/readers - null null
+2024-05-27 23:07:19.930 +02:00 [INF] CORS policy execution successful.
+2024-05-27 23:07:19.931 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 23:07:19.932 +02:00 [INF] Route matched with {action = "GetAll", controller = "Readers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Readers]]] GetAll() on controller LibraryApp.Controllers.ReadersController (LibraryApp).
+2024-05-27 23:07:19.933 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "r"."ReaderId", "r"."Address", "r"."BirthDate", "r"."Name"
+FROM "Readers" AS "r"
+2024-05-27 23:07:19.934 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Readers, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 23:07:19.935 +02:00 [INF] Executed action LibraryApp.Controllers.ReadersController.GetAll (LibraryApp) in 2.1195ms
+2024-05-27 23:07:19.935 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 23:07:19.936 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/readers - 200 null application/json; charset=utf-8 7.1137ms
+2024-05-27 23:07:43.539 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/books - null null
+2024-05-27 23:07:43.542 +02:00 [INF] CORS policy execution successful.
+2024-05-27 23:07:43.542 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 23:07:43.542 +02:00 [INF] Route matched with {action = "GetAll", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Books]]] GetAll() on controller LibraryApp.Controllers.BooksController (LibraryApp).
+2024-05-27 23:07:43.544 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "b"."InventoryNumber", "b"."Author", "b"."BookTitle", "b"."PublicationYear", "b"."Publisher"
+FROM "Books" AS "b"
+2024-05-27 23:07:43.545 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Books, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 23:07:43.546 +02:00 [INF] Executed action LibraryApp.Controllers.BooksController.GetAll (LibraryApp) in 2.2788ms
+2024-05-27 23:07:43.546 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 23:07:43.547 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/books - 200 null application/json; charset=utf-8 8.0144ms
+2024-05-27 23:07:43.621 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/readers - null null
+2024-05-27 23:07:43.624 +02:00 [INF] CORS policy execution successful.
+2024-05-27 23:07:43.624 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 23:07:43.625 +02:00 [INF] Route matched with {action = "GetAll", controller = "Readers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Readers]]] GetAll() on controller LibraryApp.Controllers.ReadersController (LibraryApp).
+2024-05-27 23:07:43.627 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "r"."ReaderId", "r"."Address", "r"."BirthDate", "r"."Name"
+FROM "Readers" AS "r"
+2024-05-27 23:07:43.628 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Readers, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 23:07:43.628 +02:00 [INF] Executed action LibraryApp.Controllers.ReadersController.GetAll (LibraryApp) in 2.4966ms
+2024-05-27 23:07:43.629 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 23:07:43.630 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/readers - 200 null application/json; charset=utf-8 9.2347ms
+2024-05-27 23:08:00.877 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:8080/loanings/add - null null
+2024-05-27 23:08:00.879 +02:00 [INF] CORS policy execution successful.
+2024-05-27 23:08:00.880 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:8080/loanings/add - 204 null null 2.7272ms
+2024-05-27 23:08:00.882 +02:00 [INF] Request starting HTTP/2 POST https://localhost:8080/loanings/add - application/json; charset=utf-8 230
+2024-05-27 23:08:00.883 +02:00 [INF] CORS policy execution successful.
+2024-05-27 23:08:00.883 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2024-05-27 23:08:00.883 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2024-05-27 23:08:00.884 +02:00 [INF] Request finished HTTP/2 POST https://localhost:8080/loanings/add - 405 0 null 2.5855ms
+2024-05-27 23:08:48.430 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/books - null null
+2024-05-27 23:08:48.432 +02:00 [INF] CORS policy execution successful.
+2024-05-27 23:08:48.434 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 23:08:48.435 +02:00 [INF] Route matched with {action = "GetAll", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Books]]] GetAll() on controller LibraryApp.Controllers.BooksController (LibraryApp).
+2024-05-27 23:08:48.436 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "b"."InventoryNumber", "b"."Author", "b"."BookTitle", "b"."PublicationYear", "b"."Publisher"
+FROM "Books" AS "b"
+2024-05-27 23:08:48.439 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Books, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 23:08:48.440 +02:00 [INF] Executed action LibraryApp.Controllers.BooksController.GetAll (LibraryApp) in 4.0695ms
+2024-05-27 23:08:48.440 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 23:08:48.441 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/books - 200 null application/json; charset=utf-8 10.9126ms
+2024-05-27 23:08:51.907 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/books/2395b956-278d-42bb-8ecb-e8f50acbaee5 - null null
+2024-05-27 23:08:51.909 +02:00 [INF] CORS policy execution successful.
+2024-05-27 23:08:51.910 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.BooksController.Get (LibraryApp)'
+2024-05-27 23:08:51.915 +02:00 [INF] Route matched with {action = "Get", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[LibraryApp.Shared.Books]] Get(System.Guid) on controller LibraryApp.Controllers.BooksController (LibraryApp).
+2024-05-27 23:08:51.929 +02:00 [INF] Books retrieved: {"LazyLoader":{"$type":"LazyLoader"},"InventoryNumber":"2395b956-278d-42bb-8ecb-e8f50acbaee5","BookTitle":"egy ropi","Author":"jeff","Publisher":"kmk","PublicationYear":2007,"$type":"BooksProxy"}
+2024-05-27 23:08:51.932 +02:00 [INF] Executing OkObjectResult, writing value of type 'Castle.Proxies.BooksProxy'.
+2024-05-27 23:08:51.934 +02:00 [INF] Executed action LibraryApp.Controllers.BooksController.Get (LibraryApp) in 14.8ms
+2024-05-27 23:08:51.935 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.BooksController.Get (LibraryApp)'
+2024-05-27 23:08:51.936 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/books/2395b956-278d-42bb-8ecb-e8f50acbaee5 - 200 null application/json; charset=utf-8 28.3546ms
+2024-05-27 23:08:55.925 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/books - null null
+2024-05-27 23:08:55.927 +02:00 [INF] CORS policy execution successful.
+2024-05-27 23:08:55.927 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 23:08:55.928 +02:00 [INF] Route matched with {action = "GetAll", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Books]]] GetAll() on controller LibraryApp.Controllers.BooksController (LibraryApp).
+2024-05-27 23:08:55.929 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "b"."InventoryNumber", "b"."Author", "b"."BookTitle", "b"."PublicationYear", "b"."Publisher"
+FROM "Books" AS "b"
+2024-05-27 23:08:55.931 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Books, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 23:08:55.932 +02:00 [INF] Executed action LibraryApp.Controllers.BooksController.GetAll (LibraryApp) in 2.7879ms
+2024-05-27 23:08:55.932 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 23:08:55.933 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/books - 200 null application/json; charset=utf-8 8.3443ms
+2024-05-27 23:09:09.190 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/readers - null null
+2024-05-27 23:09:09.192 +02:00 [INF] CORS policy execution successful.
+2024-05-27 23:09:09.193 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 23:09:09.193 +02:00 [INF] Route matched with {action = "GetAll", controller = "Readers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Readers]]] GetAll() on controller LibraryApp.Controllers.ReadersController (LibraryApp).
+2024-05-27 23:09:09.195 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "r"."ReaderId", "r"."Address", "r"."BirthDate", "r"."Name"
+FROM "Readers" AS "r"
+2024-05-27 23:09:09.196 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Readers, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 23:09:09.197 +02:00 [INF] Executed action LibraryApp.Controllers.ReadersController.GetAll (LibraryApp) in 2.12ms
+2024-05-27 23:09:09.198 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 23:09:09.198 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/readers - 200 null application/json; charset=utf-8 8.6586ms
+2024-05-27 23:09:10.539 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/readers/e0b94615-888b-48e6-aa99-08b647fd8b88 - null null
+2024-05-27 23:09:10.542 +02:00 [INF] CORS policy execution successful.
+2024-05-27 23:09:10.542 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.ReadersController.Get (LibraryApp)'
+2024-05-27 23:09:10.545 +02:00 [INF] Route matched with {action = "Get", controller = "Readers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[LibraryApp.Shared.Readers]] Get(System.Guid) on controller LibraryApp.Controllers.ReadersController (LibraryApp).
+2024-05-27 23:09:10.548 +02:00 [INF] Reader retrieved: {"LazyLoader":{"$type":"LazyLoader"},"ReaderId":"e0b94615-888b-48e6-aa99-08b647fd8b88","Name":"Regi","Address":"debrecen","BirthDate":"2003-01-01T00:00:00.0000000","$type":"ReadersProxy"}
+2024-05-27 23:09:10.551 +02:00 [INF] Executing OkObjectResult, writing value of type 'Castle.Proxies.ReadersProxy'.
+2024-05-27 23:09:10.552 +02:00 [INF] Executed action LibraryApp.Controllers.ReadersController.Get (LibraryApp) in 5.3541ms
+2024-05-27 23:09:10.553 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.ReadersController.Get (LibraryApp)'
+2024-05-27 23:09:10.553 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/readers/e0b94615-888b-48e6-aa99-08b647fd8b88 - 200 null application/json; charset=utf-8 14.1207ms
+2024-05-27 23:09:12.449 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/readers - null null
+2024-05-27 23:09:12.450 +02:00 [INF] CORS policy execution successful.
+2024-05-27 23:09:12.451 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 23:09:12.451 +02:00 [INF] Route matched with {action = "GetAll", controller = "Readers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Readers]]] GetAll() on controller LibraryApp.Controllers.ReadersController (LibraryApp).
+2024-05-27 23:09:12.453 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "r"."ReaderId", "r"."Address", "r"."BirthDate", "r"."Name"
+FROM "Readers" AS "r"
+2024-05-27 23:09:12.454 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Readers, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 23:09:12.455 +02:00 [INF] Executed action LibraryApp.Controllers.ReadersController.GetAll (LibraryApp) in 2.4357ms
+2024-05-27 23:09:12.455 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 23:09:12.456 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/readers - 200 null application/json; charset=utf-8 7.3934ms
+2024-05-27 23:13:30.363 +02:00 [INF] Now listening on: https://localhost:8080
+2024-05-27 23:13:30.376 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-27 23:13:30.378 +02:00 [INF] Hosting environment: Development
+2024-05-27 23:13:30.378 +02:00 [INF] Content root path: D:\C#\LibraryApp\LibraryApp
+2024-05-27 23:13:37.080 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/readers - null null
+2024-05-27 23:13:37.105 +02:00 [INF] CORS policy execution successful.
+2024-05-27 23:13:37.108 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 23:13:37.117 +02:00 [INF] Route matched with {action = "GetAll", controller = "Readers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Readers]]] GetAll() on controller LibraryApp.Controllers.ReadersController (LibraryApp).
+2024-05-27 23:13:37.514 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "r"."ReaderId", "r"."Address", "r"."BirthDate", "r"."Name"
+FROM "Readers" AS "r"
+2024-05-27 23:13:37.546 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Readers, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 23:13:37.563 +02:00 [INF] Executed action LibraryApp.Controllers.ReadersController.GetAll (LibraryApp) in 443.8843ms
+2024-05-27 23:13:37.566 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 23:13:37.567 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/readers - 200 null application/json; charset=utf-8 488.2568ms
+2024-05-27 23:13:41.418 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/books - null null
+2024-05-27 23:13:41.421 +02:00 [INF] CORS policy execution successful.
+2024-05-27 23:13:41.422 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 23:13:41.425 +02:00 [INF] Route matched with {action = "GetAll", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Books]]] GetAll() on controller LibraryApp.Controllers.BooksController (LibraryApp).
+2024-05-27 23:13:41.432 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "b"."InventoryNumber", "b"."Author", "b"."BookTitle", "b"."PublicationYear", "b"."Publisher"
+FROM "Books" AS "b"
+2024-05-27 23:13:41.441 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Books, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 23:13:41.447 +02:00 [INF] Executed action LibraryApp.Controllers.BooksController.GetAll (LibraryApp) in 20.8705ms
+2024-05-27 23:13:41.448 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 23:13:41.449 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/books - 200 null application/json; charset=utf-8 30.683ms
+2024-05-27 23:13:41.486 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/readers - null null
+2024-05-27 23:13:41.489 +02:00 [INF] CORS policy execution successful.
+2024-05-27 23:13:41.490 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 23:13:41.491 +02:00 [INF] Route matched with {action = "GetAll", controller = "Readers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Readers]]] GetAll() on controller LibraryApp.Controllers.ReadersController (LibraryApp).
+2024-05-27 23:13:41.492 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "r"."ReaderId", "r"."Address", "r"."BirthDate", "r"."Name"
+FROM "Readers" AS "r"
+2024-05-27 23:13:41.493 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Readers, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 23:13:41.494 +02:00 [INF] Executed action LibraryApp.Controllers.ReadersController.GetAll (LibraryApp) in 2.2892ms
+2024-05-27 23:13:41.495 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 23:13:41.495 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/readers - 200 null application/json; charset=utf-8 8.8706ms
+2024-05-27 23:13:57.004 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:8080/loanings/add - null null
+2024-05-27 23:13:57.005 +02:00 [INF] CORS policy execution successful.
+2024-05-27 23:13:57.007 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:8080/loanings/add - 204 null null 3.2125ms
+2024-05-27 23:13:57.009 +02:00 [INF] Request starting HTTP/2 POST https://localhost:8080/loanings/add - application/json; charset=utf-8 230
+2024-05-27 23:13:57.011 +02:00 [INF] CORS policy execution successful.
+2024-05-27 23:13:57.011 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2024-05-27 23:13:57.011 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2024-05-27 23:13:57.012 +02:00 [INF] Request finished HTTP/2 POST https://localhost:8080/loanings/add - 405 0 null 2.4831ms
+2024-05-27 23:13:58.962 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/readers - null null
+2024-05-27 23:13:58.964 +02:00 [INF] CORS policy execution successful.
+2024-05-27 23:13:58.964 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 23:13:58.965 +02:00 [INF] Route matched with {action = "GetAll", controller = "Readers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Readers]]] GetAll() on controller LibraryApp.Controllers.ReadersController (LibraryApp).
+2024-05-27 23:13:58.966 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "r"."ReaderId", "r"."Address", "r"."BirthDate", "r"."Name"
+FROM "Readers" AS "r"
+2024-05-27 23:13:58.968 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Readers, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 23:13:58.968 +02:00 [INF] Executed action LibraryApp.Controllers.ReadersController.GetAll (LibraryApp) in 2.8548ms
+2024-05-27 23:13:58.969 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 23:13:58.970 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/readers - 200 null application/json; charset=utf-8 7.2516ms
+2024-05-27 23:15:29.510 +02:00 [INF] Now listening on: https://localhost:8080
+2024-05-27 23:15:29.523 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-27 23:15:29.525 +02:00 [INF] Hosting environment: Development
+2024-05-27 23:15:29.526 +02:00 [INF] Content root path: D:\C#\LibraryApp\LibraryApp
+2024-05-27 23:15:37.878 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/books - null null
+2024-05-27 23:15:37.905 +02:00 [INF] CORS policy execution successful.
+2024-05-27 23:15:37.908 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 23:15:37.916 +02:00 [INF] Route matched with {action = "GetAll", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Books]]] GetAll() on controller LibraryApp.Controllers.BooksController (LibraryApp).
+2024-05-27 23:15:38.322 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "b"."InventoryNumber", "b"."Author", "b"."BookTitle", "b"."PublicationYear", "b"."Publisher"
+FROM "Books" AS "b"
+2024-05-27 23:15:38.357 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Books, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 23:15:38.372 +02:00 [INF] Executed action LibraryApp.Controllers.BooksController.GetAll (LibraryApp) in 452.4089ms
+2024-05-27 23:15:38.376 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 23:15:38.377 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/books - 200 null application/json; charset=utf-8 499.0788ms
+2024-05-27 23:15:38.410 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/readers - null null
+2024-05-27 23:15:38.414 +02:00 [INF] CORS policy execution successful.
+2024-05-27 23:15:38.414 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 23:15:38.417 +02:00 [INF] Route matched with {action = "GetAll", controller = "Readers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Readers]]] GetAll() on controller LibraryApp.Controllers.ReadersController (LibraryApp).
+2024-05-27 23:15:38.423 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "r"."ReaderId", "r"."Address", "r"."BirthDate", "r"."Name"
+FROM "Readers" AS "r"
+2024-05-27 23:15:38.432 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Readers, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 23:15:38.437 +02:00 [INF] Executed action LibraryApp.Controllers.ReadersController.GetAll (LibraryApp) in 19.0601ms
+2024-05-27 23:15:38.438 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 23:15:38.438 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/readers - 200 null application/json; charset=utf-8 27.9028ms
+2024-05-27 23:15:52.346 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:8080/loanings/add - null null
+2024-05-27 23:15:52.350 +02:00 [INF] CORS policy execution successful.
+2024-05-27 23:15:52.351 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:8080/loanings/add - 204 null null 5.3867ms
+2024-05-27 23:15:52.353 +02:00 [INF] Request starting HTTP/2 POST https://localhost:8080/loanings/add - application/json; charset=utf-8 230
+2024-05-27 23:15:52.354 +02:00 [INF] CORS policy execution successful.
+2024-05-27 23:15:52.355 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2024-05-27 23:15:52.355 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2024-05-27 23:15:52.356 +02:00 [INF] Request finished HTTP/2 POST https://localhost:8080/loanings/add - 405 0 null 2.5027ms
+2024-05-27 23:15:52.371 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/loanings - null null
+2024-05-27 23:15:52.373 +02:00 [INF] CORS policy execution successful.
+2024-05-27 23:15:52.373 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2024-05-27 23:15:52.374 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2024-05-27 23:15:52.384 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/loanings - 405 0 null 12.0415ms
+2024-05-27 23:15:58.921 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/readers - null null
+2024-05-27 23:15:58.923 +02:00 [INF] CORS policy execution successful.
+2024-05-27 23:15:58.924 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 23:15:58.925 +02:00 [INF] Route matched with {action = "GetAll", controller = "Readers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Readers]]] GetAll() on controller LibraryApp.Controllers.ReadersController (LibraryApp).
+2024-05-27 23:15:58.926 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "r"."ReaderId", "r"."Address", "r"."BirthDate", "r"."Name"
+FROM "Readers" AS "r"
+2024-05-27 23:15:58.927 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Readers, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 23:15:58.928 +02:00 [INF] Executed action LibraryApp.Controllers.ReadersController.GetAll (LibraryApp) in 2.6363ms
+2024-05-27 23:15:58.928 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 23:15:58.929 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/readers - 200 null application/json; charset=utf-8 7.7266ms
+2024-05-27 23:16:04.408 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/readers - null null
+2024-05-27 23:16:04.410 +02:00 [INF] CORS policy execution successful.
+2024-05-27 23:16:04.411 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 23:16:04.411 +02:00 [INF] Route matched with {action = "GetAll", controller = "Readers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Readers]]] GetAll() on controller LibraryApp.Controllers.ReadersController (LibraryApp).
+2024-05-27 23:16:04.413 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "r"."ReaderId", "r"."Address", "r"."BirthDate", "r"."Name"
+FROM "Readers" AS "r"
+2024-05-27 23:16:04.414 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Readers, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 23:16:04.415 +02:00 [INF] Executed action LibraryApp.Controllers.ReadersController.GetAll (LibraryApp) in 2.9858ms
+2024-05-27 23:16:04.416 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 23:16:04.417 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/readers - 200 null application/json; charset=utf-8 8.5634ms
+2024-05-27 23:16:06.656 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/books - null null
+2024-05-27 23:16:06.657 +02:00 [INF] CORS policy execution successful.
+2024-05-27 23:16:06.657 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 23:16:06.658 +02:00 [INF] Route matched with {action = "GetAll", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Books]]] GetAll() on controller LibraryApp.Controllers.BooksController (LibraryApp).
+2024-05-27 23:16:06.659 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "b"."InventoryNumber", "b"."Author", "b"."BookTitle", "b"."PublicationYear", "b"."Publisher"
+FROM "Books" AS "b"
+2024-05-27 23:16:06.660 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Books, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 23:16:06.661 +02:00 [INF] Executed action LibraryApp.Controllers.BooksController.GetAll (LibraryApp) in 2.2681ms
+2024-05-27 23:16:06.661 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 23:16:06.662 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/books - 200 null application/json; charset=utf-8 6.4271ms
+2024-05-27 23:16:06.718 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/readers - null null
+2024-05-27 23:16:06.720 +02:00 [INF] CORS policy execution successful.
+2024-05-27 23:16:06.720 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 23:16:06.721 +02:00 [INF] Route matched with {action = "GetAll", controller = "Readers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Readers]]] GetAll() on controller LibraryApp.Controllers.ReadersController (LibraryApp).
+2024-05-27 23:16:06.722 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "r"."ReaderId", "r"."Address", "r"."BirthDate", "r"."Name"
+FROM "Readers" AS "r"
+2024-05-27 23:16:06.723 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Readers, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 23:16:06.723 +02:00 [INF] Executed action LibraryApp.Controllers.ReadersController.GetAll (LibraryApp) in 1.9588ms
+2024-05-27 23:16:06.724 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 23:16:06.725 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/readers - 200 null application/json; charset=utf-8 6.8299ms
+2024-05-27 23:16:56.221 +02:00 [INF] Now listening on: https://localhost:8080
+2024-05-27 23:16:56.235 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-27 23:16:56.237 +02:00 [INF] Hosting environment: Development
+2024-05-27 23:16:56.237 +02:00 [INF] Content root path: D:\C#\LibraryApp\LibraryApp
+2024-05-27 23:17:00.936 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/books - null null
+2024-05-27 23:17:00.962 +02:00 [INF] CORS policy execution successful.
+2024-05-27 23:17:00.966 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 23:17:00.975 +02:00 [INF] Route matched with {action = "GetAll", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Books]]] GetAll() on controller LibraryApp.Controllers.BooksController (LibraryApp).
+2024-05-27 23:17:01.369 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "b"."InventoryNumber", "b"."Author", "b"."BookTitle", "b"."PublicationYear", "b"."Publisher"
+FROM "Books" AS "b"
+2024-05-27 23:17:01.402 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Books, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 23:17:01.417 +02:00 [INF] Executed action LibraryApp.Controllers.BooksController.GetAll (LibraryApp) in 437.9614ms
+2024-05-27 23:17:01.420 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 23:17:01.421 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/books - 200 null application/json; charset=utf-8 486.2925ms
+2024-05-27 23:17:01.474 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/readers - null null
+2024-05-27 23:17:01.477 +02:00 [INF] CORS policy execution successful.
+2024-05-27 23:17:01.478 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 23:17:01.480 +02:00 [INF] Route matched with {action = "GetAll", controller = "Readers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Readers]]] GetAll() on controller LibraryApp.Controllers.ReadersController (LibraryApp).
+2024-05-27 23:17:01.487 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "r"."ReaderId", "r"."Address", "r"."BirthDate", "r"."Name"
+FROM "Readers" AS "r"
+2024-05-27 23:17:01.497 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Readers, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 23:17:01.503 +02:00 [INF] Executed action LibraryApp.Controllers.ReadersController.GetAll (LibraryApp) in 21.4915ms
+2024-05-27 23:17:01.504 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 23:17:01.505 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/readers - 200 null application/json; charset=utf-8 30.655ms
+2024-05-27 23:17:05.726 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/books - null null
+2024-05-27 23:17:05.729 +02:00 [INF] CORS policy execution successful.
+2024-05-27 23:17:05.729 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 23:17:05.730 +02:00 [INF] Route matched with {action = "GetAll", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Books]]] GetAll() on controller LibraryApp.Controllers.BooksController (LibraryApp).
+2024-05-27 23:17:05.732 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "b"."InventoryNumber", "b"."Author", "b"."BookTitle", "b"."PublicationYear", "b"."Publisher"
+FROM "Books" AS "b"
+2024-05-27 23:17:05.734 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Books, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 23:17:05.735 +02:00 [INF] Executed action LibraryApp.Controllers.BooksController.GetAll (LibraryApp) in 2.9514ms
+2024-05-27 23:17:05.735 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 23:17:05.736 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/books - 200 null application/json; charset=utf-8 9.6414ms
+2024-05-27 23:17:05.843 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/readers - null null
+2024-05-27 23:17:05.845 +02:00 [INF] CORS policy execution successful.
+2024-05-27 23:17:05.846 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 23:17:05.846 +02:00 [INF] Route matched with {action = "GetAll", controller = "Readers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Readers]]] GetAll() on controller LibraryApp.Controllers.ReadersController (LibraryApp).
+2024-05-27 23:17:05.848 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "r"."ReaderId", "r"."Address", "r"."BirthDate", "r"."Name"
+FROM "Readers" AS "r"
+2024-05-27 23:17:05.849 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Readers, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 23:17:05.850 +02:00 [INF] Executed action LibraryApp.Controllers.ReadersController.GetAll (LibraryApp) in 2.3999ms
+2024-05-27 23:17:05.850 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 23:17:05.851 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/readers - 200 null application/json; charset=utf-8 7.8415ms
+2024-05-27 23:17:20.234 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:8080/loanings/add - null null
+2024-05-27 23:17:20.238 +02:00 [INF] CORS policy execution successful.
+2024-05-27 23:17:20.239 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:8080/loanings/add - 204 null null 4.1837ms
+2024-05-27 23:17:20.240 +02:00 [INF] Request starting HTTP/2 POST https://localhost:8080/loanings/add - application/json; charset=utf-8 230
+2024-05-27 23:17:20.242 +02:00 [INF] CORS policy execution successful.
+2024-05-27 23:17:20.242 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2024-05-27 23:17:20.242 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2024-05-27 23:17:20.243 +02:00 [INF] Request finished HTTP/2 POST https://localhost:8080/loanings/add - 405 0 null 2.4299ms
+2024-05-27 23:18:05.762 +02:00 [INF] Now listening on: https://localhost:8080
+2024-05-27 23:18:05.777 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-27 23:18:05.779 +02:00 [INF] Hosting environment: Development
+2024-05-27 23:18:05.779 +02:00 [INF] Content root path: D:\C#\LibraryApp\LibraryApp
+2024-05-27 23:18:16.276 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/loanings - null null
+2024-05-27 23:18:16.324 +02:00 [INF] CORS policy execution successful.
+2024-05-27 23:18:16.330 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2024-05-27 23:18:16.332 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2024-05-27 23:18:16.333 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/loanings - 405 0 null 59.9774ms
+2024-05-27 23:18:17.366 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/books - null null
+2024-05-27 23:18:17.369 +02:00 [INF] CORS policy execution successful.
+2024-05-27 23:18:17.370 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 23:18:17.381 +02:00 [INF] Route matched with {action = "GetAll", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Books]]] GetAll() on controller LibraryApp.Controllers.BooksController (LibraryApp).
+2024-05-27 23:18:17.997 +02:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "b"."InventoryNumber", "b"."Author", "b"."BookTitle", "b"."PublicationYear", "b"."Publisher"
+FROM "Books" AS "b"
+2024-05-27 23:18:18.041 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Books, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 23:18:18.068 +02:00 [INF] Executed action LibraryApp.Controllers.BooksController.GetAll (LibraryApp) in 683.2515ms
+2024-05-27 23:18:18.070 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 23:18:18.071 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/books - 200 null application/json; charset=utf-8 705.0985ms
+2024-05-27 23:18:18.097 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/readers - null null
+2024-05-27 23:18:18.100 +02:00 [INF] CORS policy execution successful.
+2024-05-27 23:18:18.100 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 23:18:18.104 +02:00 [INF] Route matched with {action = "GetAll", controller = "Readers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Readers]]] GetAll() on controller LibraryApp.Controllers.ReadersController (LibraryApp).
+2024-05-27 23:18:18.113 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "r"."ReaderId", "r"."Address", "r"."BirthDate", "r"."Name"
+FROM "Readers" AS "r"
+2024-05-27 23:18:18.123 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Readers, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 23:18:18.129 +02:00 [INF] Executed action LibraryApp.Controllers.ReadersController.GetAll (LibraryApp) in 24.2271ms
+2024-05-27 23:18:18.131 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 23:18:18.132 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/readers - 200 null application/json; charset=utf-8 34.313ms
+2024-05-27 23:18:35.377 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:8080/loanings/add - null null
+2024-05-27 23:18:35.380 +02:00 [INF] CORS policy execution successful.
+2024-05-27 23:18:35.382 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:8080/loanings/add - 204 null null 5.1935ms
+2024-05-27 23:18:35.385 +02:00 [INF] Request starting HTTP/2 POST https://localhost:8080/loanings/add - application/json; charset=utf-8 230
+2024-05-27 23:18:35.387 +02:00 [INF] CORS policy execution successful.
+2024-05-27 23:18:35.387 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2024-05-27 23:18:35.388 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2024-05-27 23:18:35.388 +02:00 [INF] Request finished HTTP/2 POST https://localhost:8080/loanings/add - 405 0 null 3.5329ms
+2024-05-27 23:18:37.049 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/loanings - null null
+2024-05-27 23:18:37.051 +02:00 [INF] CORS policy execution successful.
+2024-05-27 23:18:37.051 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2024-05-27 23:18:37.052 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2024-05-27 23:18:37.052 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/loanings - 405 0 null 3.2208ms
+2024-05-27 23:21:01.407 +02:00 [INF] Now listening on: https://localhost:8080
+2024-05-27 23:21:01.422 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-27 23:21:01.423 +02:00 [INF] Hosting environment: Development
+2024-05-27 23:21:01.424 +02:00 [INF] Content root path: D:\C#\LibraryApp\LibraryApp
+2024-05-27 23:21:08.706 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/loanings - null null
+2024-05-27 23:21:08.730 +02:00 [INF] CORS policy execution successful.
+2024-05-27 23:21:08.733 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2024-05-27 23:21:08.735 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2024-05-27 23:21:08.737 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/loanings - 405 0 null 32.1966ms
+2024-05-27 23:21:12.743 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/books - null null
+2024-05-27 23:21:12.746 +02:00 [INF] CORS policy execution successful.
+2024-05-27 23:21:12.746 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 23:21:12.757 +02:00 [INF] Route matched with {action = "GetAll", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Books]]] GetAll() on controller LibraryApp.Controllers.BooksController (LibraryApp).
+2024-05-27 23:21:13.501 +02:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "b"."InventoryNumber", "b"."Author", "b"."BookTitle", "b"."PublicationYear", "b"."Publisher"
+FROM "Books" AS "b"
+2024-05-27 23:21:13.580 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Books, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 23:21:13.602 +02:00 [INF] Executed action LibraryApp.Controllers.BooksController.GetAll (LibraryApp) in 841.9574ms
+2024-05-27 23:21:13.603 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 23:21:13.604 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/books - 200 null application/json; charset=utf-8 861.0796ms
+2024-05-27 23:21:13.634 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/readers - null null
+2024-05-27 23:21:13.636 +02:00 [INF] CORS policy execution successful.
+2024-05-27 23:21:13.638 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 23:21:13.641 +02:00 [INF] Route matched with {action = "GetAll", controller = "Readers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Readers]]] GetAll() on controller LibraryApp.Controllers.ReadersController (LibraryApp).
+2024-05-27 23:21:13.650 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "r"."ReaderId", "r"."Address", "r"."BirthDate", "r"."Name"
+FROM "Readers" AS "r"
+2024-05-27 23:21:13.661 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Readers, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 23:21:13.670 +02:00 [INF] Executed action LibraryApp.Controllers.ReadersController.GetAll (LibraryApp) in 28.4247ms
+2024-05-27 23:21:13.673 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 23:21:13.674 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/readers - 200 null application/json; charset=utf-8 39.8944ms
+2024-05-27 23:21:26.504 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:8080/loanings/add - null null
+2024-05-27 23:21:26.505 +02:00 [INF] CORS policy execution successful.
+2024-05-27 23:21:26.506 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:8080/loanings/add - 204 null null 2.658ms
+2024-05-27 23:21:26.509 +02:00 [INF] Request starting HTTP/2 POST https://localhost:8080/loanings/add - application/json; charset=utf-8 230
+2024-05-27 23:21:26.511 +02:00 [INF] CORS policy execution successful.
+2024-05-27 23:21:26.511 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2024-05-27 23:21:26.512 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2024-05-27 23:21:26.512 +02:00 [INF] Request finished HTTP/2 POST https://localhost:8080/loanings/add - 405 0 null 3.1022ms
+2024-05-27 23:21:26.529 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/loanings - null null
+2024-05-27 23:21:26.531 +02:00 [INF] CORS policy execution successful.
+2024-05-27 23:21:26.531 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2024-05-27 23:21:26.532 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2024-05-27 23:21:26.532 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/loanings - 405 0 null 3.304ms
+2024-05-27 23:46:41.257 +02:00 [INF] Now listening on: https://localhost:8080
+2024-05-27 23:46:41.271 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-27 23:46:41.272 +02:00 [INF] Hosting environment: Development
+2024-05-27 23:46:41.273 +02:00 [INF] Content root path: D:\C#\LibraryApp\LibraryApp
+2024-05-27 23:46:53.951 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/loanings - null null
+2024-05-27 23:46:53.975 +02:00 [INF] CORS policy execution successful.
+2024-05-27 23:46:53.978 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2024-05-27 23:46:53.978 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2024-05-27 23:46:53.980 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/loanings - 405 0 null 29.921ms
+2024-05-27 23:46:55.258 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/books - null null
+2024-05-27 23:46:55.262 +02:00 [INF] CORS policy execution successful.
+2024-05-27 23:46:55.262 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 23:46:55.272 +02:00 [INF] Route matched with {action = "GetAll", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Books]]] GetAll() on controller LibraryApp.Controllers.BooksController (LibraryApp).
+2024-05-27 23:46:55.668 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "b"."InventoryNumber", "b"."Author", "b"."BookTitle", "b"."PublicationYear", "b"."Publisher"
+FROM "Books" AS "b"
+2024-05-27 23:46:55.704 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Books, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 23:46:55.719 +02:00 [INF] Executed action LibraryApp.Controllers.BooksController.GetAll (LibraryApp) in 444.6105ms
+2024-05-27 23:46:55.721 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 23:46:55.722 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/books - 200 null application/json; charset=utf-8 464.1206ms
+2024-05-27 23:46:55.750 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/readers - null null
+2024-05-27 23:46:55.754 +02:00 [INF] CORS policy execution successful.
+2024-05-27 23:46:55.754 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 23:46:55.757 +02:00 [INF] Route matched with {action = "GetAll", controller = "Readers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Readers]]] GetAll() on controller LibraryApp.Controllers.ReadersController (LibraryApp).
+2024-05-27 23:46:55.762 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "r"."ReaderId", "r"."Address", "r"."BirthDate", "r"."Name"
+FROM "Readers" AS "r"
+2024-05-27 23:46:55.770 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Readers, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 23:46:55.773 +02:00 [INF] Executed action LibraryApp.Controllers.ReadersController.GetAll (LibraryApp) in 15.6826ms
+2024-05-27 23:46:55.774 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 23:46:55.775 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/readers - 200 null application/json; charset=utf-8 24.449ms
+2024-05-27 23:47:17.634 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:8080/loanings/add - null null
+2024-05-27 23:47:17.636 +02:00 [INF] CORS policy execution successful.
+2024-05-27 23:47:17.637 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:8080/loanings/add - 204 null null 3.2043ms
+2024-05-27 23:47:17.640 +02:00 [INF] Request starting HTTP/2 POST https://localhost:8080/loanings/add - application/json; charset=utf-8 230
+2024-05-27 23:47:17.641 +02:00 [INF] CORS policy execution successful.
+2024-05-27 23:47:17.641 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2024-05-27 23:47:17.642 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2024-05-27 23:47:17.643 +02:00 [INF] Request finished HTTP/2 POST https://localhost:8080/loanings/add - 405 0 null 2.7189ms
+2024-05-27 23:47:17.688 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/loanings - null null
+2024-05-27 23:47:17.690 +02:00 [INF] CORS policy execution successful.
+2024-05-27 23:47:17.691 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2024-05-27 23:47:17.691 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2024-05-27 23:47:17.692 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/loanings - 405 0 null 3.4195ms
+2024-05-27 23:47:23.106 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/readers - null null
+2024-05-27 23:47:23.108 +02:00 [INF] CORS policy execution successful.
+2024-05-27 23:47:23.108 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 23:47:23.109 +02:00 [INF] Route matched with {action = "GetAll", controller = "Readers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Readers]]] GetAll() on controller LibraryApp.Controllers.ReadersController (LibraryApp).
+2024-05-27 23:47:23.110 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "r"."ReaderId", "r"."Address", "r"."BirthDate", "r"."Name"
+FROM "Readers" AS "r"
+2024-05-27 23:47:23.112 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Readers, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 23:47:23.112 +02:00 [INF] Executed action LibraryApp.Controllers.ReadersController.GetAll (LibraryApp) in 2.6121ms
+2024-05-27 23:47:23.113 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 23:47:23.113 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/readers - 200 null application/json; charset=utf-8 7.4788ms
+2024-05-27 23:47:36.945 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/loanings - null null
+2024-05-27 23:47:36.947 +02:00 [INF] CORS policy execution successful.
+2024-05-27 23:47:36.948 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2024-05-27 23:47:36.948 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2024-05-27 23:47:36.949 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/loanings - 405 0 null 4.0401ms
+2024-05-27 23:49:02.623 +02:00 [INF] Now listening on: https://localhost:8080
+2024-05-27 23:49:02.638 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-27 23:49:02.639 +02:00 [INF] Hosting environment: Development
+2024-05-27 23:49:02.640 +02:00 [INF] Content root path: D:\C#\LibraryApp\LibraryApp
+2024-05-27 23:49:10.766 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/books - null null
+2024-05-27 23:49:10.794 +02:00 [INF] CORS policy execution successful.
+2024-05-27 23:49:10.798 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 23:49:10.807 +02:00 [INF] Route matched with {action = "GetAll", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Books]]] GetAll() on controller LibraryApp.Controllers.BooksController (LibraryApp).
+2024-05-27 23:49:11.206 +02:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "b"."InventoryNumber", "b"."Author", "b"."BookTitle", "b"."PublicationYear", "b"."Publisher"
+FROM "Books" AS "b"
+2024-05-27 23:49:11.244 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Books, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 23:49:11.262 +02:00 [INF] Executed action LibraryApp.Controllers.BooksController.GetAll (LibraryApp) in 451.5461ms
+2024-05-27 23:49:11.264 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.BooksController.GetAll (LibraryApp)'
+2024-05-27 23:49:11.267 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/books - 200 null application/json; charset=utf-8 500.906ms
+2024-05-27 23:49:11.301 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/readers - null null
+2024-05-27 23:49:11.304 +02:00 [INF] CORS policy execution successful.
+2024-05-27 23:49:11.305 +02:00 [INF] Executing endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 23:49:11.309 +02:00 [INF] Route matched with {action = "GetAll", controller = "Readers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[LibraryApp.Shared.Readers]]] GetAll() on controller LibraryApp.Controllers.ReadersController (LibraryApp).
+2024-05-27 23:49:11.318 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "r"."ReaderId", "r"."Address", "r"."BirthDate", "r"."Name"
+FROM "Readers" AS "r"
+2024-05-27 23:49:11.328 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LibraryApp.Shared.Readers, LibraryApp.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 23:49:11.333 +02:00 [INF] Executed action LibraryApp.Controllers.ReadersController.GetAll (LibraryApp) in 22.4928ms
+2024-05-27 23:49:11.335 +02:00 [INF] Executed endpoint 'LibraryApp.Controllers.ReadersController.GetAll (LibraryApp)'
+2024-05-27 23:49:11.336 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/readers - 200 null application/json; charset=utf-8 34.6276ms
+2024-05-27 23:49:25.769 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:8080/loanings/add - null null
+2024-05-27 23:49:25.774 +02:00 [INF] CORS policy execution successful.
+2024-05-27 23:49:25.774 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:8080/loanings/add - 204 null null 5.0427ms
+2024-05-27 23:49:25.777 +02:00 [INF] Request starting HTTP/2 POST https://localhost:8080/loanings/add - application/json; charset=utf-8 230
+2024-05-27 23:49:25.778 +02:00 [INF] CORS policy execution successful.
+2024-05-27 23:49:25.779 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2024-05-27 23:49:25.779 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2024-05-27 23:49:25.779 +02:00 [INF] Request finished HTTP/2 POST https://localhost:8080/loanings/add - 405 0 null 2.608ms
+2024-05-27 23:49:25.800 +02:00 [INF] Request starting HTTP/2 GET https://localhost:8080/loanings - null null
+2024-05-27 23:49:25.815 +02:00 [INF] CORS policy execution successful.
+2024-05-27 23:49:25.815 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2024-05-27 23:49:25.816 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2024-05-27 23:49:25.816 +02:00 [INF] Request finished HTTP/2 GET https://localhost:8080/loanings - 405 0 null 16.849ms

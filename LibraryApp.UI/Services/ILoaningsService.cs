@@ -5,11 +5,13 @@ namespace LibraryApp.UI.Services
     {
         Task AddLoaningAsync(Loaning loaning);
 
-        Task DeleteLoaningAsync(DateTime dateTime);
+        Task DeleteLoaningAsync(Guid id);
 
         Task UpdateLoaningAsync(Loaning loaning);
 
         Task<Loaning> GetLoaningAsync(Guid id);
+
+        Task<IEnumerable<LoaningWithBook>> GetLoaningsWithBooksAsync();
 
     }
 }

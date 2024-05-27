@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibraryApp", "LibraryApp\Li
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibraryApp.Shared", "LibraryShared\LibraryApp.Shared.csproj", "{254C74B4-A695-4CF4-9EE3-92FDB203F52F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryApp.UI", "LibraryApp.UI\LibraryApp.UI.csproj", "{277C495A-B8AA-4ADE-97DF-2C56EB3EAA37}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibraryApp.UI", "LibraryApp.UI\LibraryApp.UI.csproj", "{277C495A-B8AA-4ADE-97DF-2C56EB3EAA37}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

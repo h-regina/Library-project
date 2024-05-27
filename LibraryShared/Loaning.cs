@@ -28,7 +28,7 @@ namespace LibraryApp.Shared
         public DateTime LoaningDate { get; set; }
 
         [Required]
-        [LoaningDateValidation]
+        [ReturnDateValidation]
         public DateTime ReturnDate { get; set; }
     }
 }

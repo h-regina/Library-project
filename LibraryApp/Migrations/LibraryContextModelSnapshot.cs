@@ -21,7 +21,7 @@ namespace LibraryApp.Migrations
                 .HasAnnotation("Proxies:CheckEquality", false)
                 .HasAnnotation("Proxies:LazyLoading", true);
 
-            modelBuilder.Entity("LibraryShared.Books", b =>
+            modelBuilder.Entity("LibraryApp.Shared.Books", b =>
                 {
                     b.Property<Guid>("InventoryNumber")
                         .ValueGeneratedOnAdd()
@@ -35,8 +35,8 @@ namespace LibraryApp.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<DateTime>("PublicationYear")
-                        .HasColumnType("TEXT");
+                    b.Property<int>("PublicationYear")
+                        .HasColumnType("INTEGER");
 
                     b.Property<string>("Publisher")
                         .IsRequired()
@@ -47,12 +47,16 @@ namespace LibraryApp.Migrations
                     b.ToTable("Books");
                 });
 
-            modelBuilder.Entity("LibraryShared.Loaning", b =>
+            modelBuilder.Entity("LibraryApp.Shared.Loaning", b =>
                 {
-                    b.Property<DateTime>("LoaningDate")
+                    b.Property<Guid>("LoaningId")
+                        .ValueGeneratedOnAdd()
                         .HasColumnType("TEXT");
 
                     b.Property<Guid>("InventoryNumber")
+                        .HasColumnType("TEXT");
+
+                    b.Property<DateTime>("LoaningDate")
                         .HasColumnType("TEXT");
 
                     b.Property<Guid>("ReaderId")
@@ -61,12 +65,12 @@ namespace LibraryApp.Migrations
                     b.Property<DateTime>("ReturnDate")
                         .HasColumnType("TEXT");
 
-                    b.HasKey("LoaningDate");
+                    b.HasKey("LoaningId");
 
                     b.ToTable("Loanings");
                 });
 
-            modelBuilder.Entity("LibraryShared.Readers", b =>
+            modelBuilder.Entity("LibraryApp.Shared.Readers", b =>
                 {
                     b.Property<Guid>("ReaderId")
                         .ValueGeneratedOnAdd()

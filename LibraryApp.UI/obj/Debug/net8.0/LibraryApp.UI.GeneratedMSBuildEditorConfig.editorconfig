@@ -30,6 +30,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xCb29rc0Zvcm0ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/C\#/LibraryApp/LibraryApp.UI/Components/LoaningsForm.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMb2FuaW5nc0Zvcm0ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/C\#/LibraryApp/LibraryApp.UI/Components/ReadersForm.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSZWFkZXJzRm9ybS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -48,6 +52,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/C\#/LibraryApp/LibraryApp.UI/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#/LibraryApp/LibraryApp.UI/Pages/LoaningList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9hbmluZ0xpc3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#/LibraryApp/LibraryApp.UI/Pages/LoaningsAdd.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9hbmluZ3NBZGQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/C\#/LibraryApp/LibraryApp.UI/Pages/ReaderAdd.razor]
