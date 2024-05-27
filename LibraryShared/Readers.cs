@@ -16,9 +16,11 @@ namespace LibraryApp.Shared
         public Guid ReaderId { get; set; }
 
         [Required]
+        [RegularExpression(@".*\S.*")]
         public string Name { get; set; }
 
         [Required]
+        [RegularExpression(@".*\S.*")]
         public string Address { get; set; }
 
         [Required]

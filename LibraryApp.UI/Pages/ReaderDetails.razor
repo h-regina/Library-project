@@ -1,0 +1,41 @@
+﻿@page "/person/{id:guid}"
+@using LibraryApp.Shared
+@using LibraryApp.UI.Components
+@using LibraryApp.UI.Services
+@inject IReadersService ReaderService
+@inject NavigationManager NavigationManager
+
+@if (Readers is null)
+{
+    <p>Loading..</p>
+}
+else
+{
+    <ReadersForm Readers="Readers" OnValidSubmit="UpdateAsync" ButtonText="Update Reader" />
+    <button class="btn btn-warning" @onclick="DeleteAsync">Delete</button>
+}
+
+@code {
+    
+    [Parameter]
+    public Guid Id { get; set; }
+    
+    private Readers? Readers { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        Readers = await ReaderService.GetReadersAsync(Id);
+    }
+
+    private async Task DeleteAsync()
+    {
+        await ReaderService.DeleteReadersAsync(Id);
+        NavigationManager.NavigateTo("/readers/list");
+    }
+
+    private async Task UpdateAsync()
+    {
+        await ReaderService.UpdateReadersAsync(Id, Readers);
+        NavigationManager.NavigateTo("/readers/list");
+    }
+}

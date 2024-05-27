@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "D:\\C#\\LibraryApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{694A2E56-60B5-4DC8-B068-42ADEC6AFEB0}|LibraryUI\\LibraryApp.UI.csproj|d:\\c#\\libraryapp\\libraryui\\pages\\bookadd.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{694A2E56-60B5-4DC8-B068-42ADEC6AFEB0}|LibraryUI\\LibraryApp.UI.csproj|solutionrelative:libraryui\\pages\\bookadd.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{254C74B4-A695-4CF4-9EE3-92FDB203F52F}|LibraryShared\\LibraryApp.Shared.csproj|d:\\c#\\libraryapp\\libraryshared\\books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{254C74B4-A695-4CF4-9EE3-92FDB203F52F}|LibraryShared\\LibraryApp.Shared.csproj|solutionrelative:libraryshared\\books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{694A2E56-60B5-4DC8-B068-42ADEC6AFEB0}|LibraryUI\\LibraryApp.UI.csproj|d:\\c#\\libraryapp\\libraryui\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{694A2E56-60B5-4DC8-B068-42ADEC6AFEB0}|LibraryUI\\LibraryApp.UI.csproj|solutionrelative:libraryui\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{277C495A-B8AA-4ADE-97DF-2C56EB3EAA37}|LibraryApp.UI\\LibraryApp.UI.csproj|d:\\c#\\libraryapp\\libraryapp.ui\\components\\booksform.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{277C495A-B8AA-4ADE-97DF-2C56EB3EAA37}|LibraryApp.UI\\LibraryApp.UI.csproj|solutionrelative:libraryapp.ui\\components\\booksform.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{694A2E56-60B5-4DC8-B068-42ADEC6AFEB0}|LibraryUI\\LibraryApp.UI.csproj|d:\\c#\\libraryapp\\libraryui\\services\\readersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{694A2E56-60B5-4DC8-B068-42ADEC6AFEB0}|LibraryUI\\LibraryApp.UI.csproj|solutionrelative:libraryui\\services\\readersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{277C495A-B8AA-4ADE-97DF-2C56EB3EAA37}|LibraryApp.UI\\LibraryApp.UI.csproj|d:\\c#\\libraryapp\\libraryapp.ui\\pages\\bookslist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{277C495A-B8AA-4ADE-97DF-2C56EB3EAA37}|LibraryApp.UI\\LibraryApp.UI.csproj|solutionrelative:libraryapp.ui\\pages\\bookslist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{694A2E56-60B5-4DC8-B068-42ADEC6AFEB0}|LibraryUI\\LibraryApp.UI.csproj|d:\\c#\\libraryapp\\libraryui\\services\\ireaderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{694A2E56-60B5-4DC8-B068-42ADEC6AFEB0}|LibraryUI\\LibraryApp.UI.csproj|solutionrelative:libraryui\\services\\ireaderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{277C495A-B8AA-4ADE-97DF-2C56EB3EAA37}|LibraryApp.UI\\LibraryApp.UI.csproj|d:\\c#\\libraryapp\\libraryapp.ui\\pages\\bookadd.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{277C495A-B8AA-4ADE-97DF-2C56EB3EAA37}|LibraryApp.UI\\LibraryApp.UI.csproj|solutionrelative:libraryapp.ui\\pages\\bookadd.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{694A2E56-60B5-4DC8-B068-42ADEC6AFEB0}|LibraryUI\\LibraryApp.UI.csproj|d:\\c#\\libraryapp\\libraryui\\services\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{694A2E56-60B5-4DC8-B068-42ADEC6AFEB0}|LibraryUI\\LibraryApp.UI.csproj|solutionrelative:libraryui\\services\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{277C495A-B8AA-4ADE-97DF-2C56EB3EAA37}|LibraryApp.UI\\LibraryApp.UI.csproj|d:\\c#\\libraryapp\\libraryapp.ui\\services\\booksservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{277C495A-B8AA-4ADE-97DF-2C56EB3EAA37}|LibraryApp.UI\\LibraryApp.UI.csproj|solutionrelative:libraryapp.ui\\services\\booksservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,21 +30,8 @@
       "DocumentGroups": [
         {
           "DockedHeight": 102,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BookAdd.razor",
-              "DocumentMoniker": "D:\\C#\\LibraryApp\\LibraryUI\\Pages\\BookAdd.razor",
-              "RelativeDocumentMoniker": "LibraryUI\\Pages\\BookAdd.razor",
-              "ToolTip": "D:\\C#\\LibraryApp\\LibraryUI\\Pages\\BookAdd.razor",
-              "RelativeToolTip": "LibraryUI\\Pages\\BookAdd.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-26T19:58:15.179Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
@@ -68,53 +55,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ReadersService.cs",
-              "DocumentMoniker": "D:\\C#\\LibraryApp\\LibraryUI\\Services\\ReadersService.cs",
-              "RelativeDocumentMoniker": "LibraryUI\\Services\\ReadersService.cs",
-              "ToolTip": "D:\\C#\\LibraryApp\\LibraryUI\\Services\\ReadersService.cs",
-              "RelativeToolTip": "LibraryUI\\Services\\ReadersService.cs",
-              "ViewState": "AQIAADwAAAAAAAAAAAAowE4AAAA8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T19:44:35.377Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IReaderService.cs",
-              "DocumentMoniker": "D:\\C#\\LibraryApp\\LibraryUI\\Services\\IReaderService.cs",
-              "RelativeDocumentMoniker": "LibraryUI\\Services\\IReaderService.cs",
-              "ToolTip": "D:\\C#\\LibraryApp\\LibraryUI\\Services\\IReaderService.cs",
-              "RelativeToolTip": "LibraryUI\\Services\\IReaderService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T17:36:18.401Z",
+              "Title": "BooksList.razor",
+              "DocumentMoniker": "D:\\C#\\LibraryApp\\LibraryApp.UI\\Pages\\BooksList.razor",
+              "RelativeDocumentMoniker": "LibraryApp.UI\\Pages\\BooksList.razor",
+              "ToolTip": "D:\\C#\\LibraryApp\\LibraryApp.UI\\Pages\\BooksList.razor",
+              "RelativeToolTip": "LibraryApp.UI\\Pages\\BooksList.razor",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAA4AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T11:46:09.059Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "IBookService.cs",
-              "DocumentMoniker": "D:\\C#\\LibraryApp\\LibraryUI\\Services\\IBookService.cs",
-              "RelativeDocumentMoniker": "LibraryUI\\Services\\IBookService.cs",
-              "ToolTip": "D:\\C#\\LibraryApp\\LibraryUI\\Services\\IBookService.cs",
-              "RelativeToolTip": "LibraryUI\\Services\\IBookService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAmAAAA",
+              "Title": "BooksService.cs",
+              "DocumentMoniker": "D:\\C#\\LibraryApp\\LibraryApp.UI\\Services\\BooksService.cs",
+              "RelativeDocumentMoniker": "LibraryApp.UI\\Services\\BooksService.cs",
+              "ToolTip": "D:\\C#\\LibraryApp\\LibraryApp.UI\\Services\\BooksService.cs",
+              "RelativeToolTip": "LibraryApp.UI\\Services\\BooksService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T17:30:33.42Z",
+              "WhenOpened": "2024-05-27T11:45:56.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BookAdd.razor",
+              "DocumentMoniker": "D:\\C#\\LibraryApp\\LibraryApp.UI\\Pages\\BookAdd.razor",
+              "RelativeDocumentMoniker": "LibraryApp.UI\\Pages\\BookAdd.razor",
+              "ToolTip": "D:\\C#\\LibraryApp\\LibraryApp.UI\\Pages\\BookAdd.razor",
+              "RelativeToolTip": "LibraryApp.UI\\Pages\\BookAdd.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T11:45:47.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Books.cs",
+              "DocumentMoniker": "D:\\C#\\LibraryApp\\LibraryShared\\Books.cs",
+              "RelativeDocumentMoniker": "LibraryShared\\Books.cs",
+              "ToolTip": "D:\\C#\\LibraryApp\\LibraryShared\\Books.cs",
+              "RelativeToolTip": "LibraryShared\\Books.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwBkAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T11:42:34.799Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "BookService.cs",
-              "DocumentMoniker": "D:\\C#\\LibraryApp\\LibraryUI\\Services\\BookService.cs",
-              "RelativeDocumentMoniker": "LibraryUI\\Services\\BookService.cs",
-              "ToolTip": "D:\\C#\\LibraryApp\\LibraryUI\\Services\\BookService.cs",
-              "RelativeToolTip": "LibraryUI\\Services\\BookService.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAxwA4AAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T17:26:02.645Z",
+              "Title": "BooksForm.razor",
+              "DocumentMoniker": "D:\\C#\\LibraryApp\\LibraryApp.UI\\Components\\BooksForm.razor",
+              "RelativeDocumentMoniker": "LibraryApp.UI\\Components\\BooksForm.razor",
+              "ToolTip": "D:\\C#\\LibraryApp\\LibraryApp.UI\\Components\\BooksForm.razor",
+              "RelativeToolTip": "LibraryApp.UI\\Components\\BooksForm.razor",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T11:36:44.761Z",
               "EditorCaption": ""
             }
           ]

@@ -1,0 +1,41 @@
+﻿@page "/books/{InventoryNumber:guid}"
+@using LibraryApp.Shared
+@using LibraryApp.UI.Components
+@using LibraryApp.UI.Services
+@inject IBooksService BookService
+@inject NavigationManager NavigationManager
+
+@if (Books is null)
+{
+    <p>Loading..</p>
+}
+else
+{
+    <BooksForm Books="Books" OnValidSubmit="UpdateAsync" ButtonText="Update Book" />
+    <button class="btn btn-warning" @onclick="DeleteAsync">Delete</button>
+}
+
+@code {
+    
+    [Parameter]
+    public Guid BookId { get; set; }
+    
+    private Books? Books { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        Books = await BookService.GetBooksAsync(BookId);
+    }
+
+    private async Task DeleteAsync()
+    {
+        await BookService.DeleteBooksAsync(BookId);
+        NavigationManager.NavigateTo("/books/list");
+    }
+
+    private async Task UpdateAsync()
+    {
+        await BookService.UpdateBooksAsync(BookId, Books);
+        NavigationManager.NavigateTo("/books/list");
+    }
+}

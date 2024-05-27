@@ -68,7 +68,7 @@ namespace LibraryApp
            return await _context.Books.ToListAsync();
         }
 
-        public async Task Update(Guid id,Books newBooks)
+        public async Task Update(Books newBooks)
         {
             try
             {

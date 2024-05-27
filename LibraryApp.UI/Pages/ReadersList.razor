@@ -1,0 +1,44 @@
+﻿@page "/readers/list"
+@using LibraryApp.Shared
+@using LibraryApp.UI.Services
+@inject IReadersService ReaderService
+
+<h3>Readers List</h3>
+
+@if (Readers is null)
+{
+    <p>Loading..</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Birth Date</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            @foreach (var reader in Readers)
+            {
+                <tr>
+                    <td>@reader.Name</td>
+                    <td>@reader.Address</td>
+                    <td>@reader.BirthDate</td>
+                    <td><a href="/readers/@reader.ReaderId" class="btn btn-primary">Details</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private IEnumerable<Readers>? Readers { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        Readers = await ReaderService.GetReadersAsync();
+    }
+}

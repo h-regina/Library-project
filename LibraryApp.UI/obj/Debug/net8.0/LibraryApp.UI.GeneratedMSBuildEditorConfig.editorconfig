@@ -1,0 +1,75 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = LibraryApp.UI
+build_property.RootNamespace = LibraryApp.UI
+build_property.ProjectDir = D:\C#\LibraryApp\LibraryApp.UI\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = false
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\C#\LibraryApp\LibraryApp.UI
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/C\#/LibraryApp/LibraryApp.UI/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#/LibraryApp/LibraryApp.UI/Components/BooksForm.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xCb29rc0Zvcm0ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#/LibraryApp/LibraryApp.UI/Components/ReadersForm.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSZWFkZXJzRm9ybS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#/LibraryApp/LibraryApp.UI/Pages/BookAdd.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9va0FkZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#/LibraryApp/LibraryApp.UI/Pages/BookDetails.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9va0RldGFpbHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#/LibraryApp/LibraryApp.UI/Pages/BooksList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9va3NMaXN0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#/LibraryApp/LibraryApp.UI/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#/LibraryApp/LibraryApp.UI/Pages/ReaderAdd.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVhZGVyQWRkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#/LibraryApp/LibraryApp.UI/Pages/ReaderDetails.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVhZGVyRGV0YWlscy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#/LibraryApp/LibraryApp.UI/Pages/ReadersList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVhZGVyc0xpc3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#/LibraryApp/LibraryApp.UI/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#/LibraryApp/LibraryApp.UI/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-gckeusshrb
+
+[D:/C\#/LibraryApp/LibraryApp.UI/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-3f7vug31xv

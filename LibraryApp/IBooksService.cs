@@ -8,11 +8,11 @@ namespace LibraryApp
 
         Task <Books> Get(Guid id);
 
-        Task Update(Guid id,Books books);
+        Task Update(Books books);
 
         Task Delete(Guid id);
 
-        Task<List<Books>> GetAll(); 
-
+        Task<List<Books>> GetAll();
+        
     }
 }

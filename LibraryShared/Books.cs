@@ -11,16 +11,19 @@ namespace LibraryApp.Shared
         public Guid InventoryNumber { get; set; }
 
         [Required]
+        [RegularExpression(@".*\S.*")]
         public string BookTitle { get; set; }
 
         [Required]
+        [RegularExpression(@".*\S.*")]
         public string Author { get; set; }
 
         [Required]
+        [RegularExpression(@".*\S.*")]
         public string Publisher { get; set; }
 
         [Required]
-        [RangeDateTime]
-        public DateTime PublicationYear { get; set; }
+        [Range(0, 2024)]
+        public int PublicationYear { get; set; }
     }
 }
